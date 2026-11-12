@@ -1,0 +1,6 @@
+-r requirements-review.txt
+segmentation-models-pytorch==0.5.0
+timm==1.0.31
+huggingface-hub==0.34.4
+safetensors==0.8.0
+# Install torch==2.6.0 and torchvision==0.21.0 from the official CPU index separately.

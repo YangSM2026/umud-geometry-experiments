@@ -1,0 +1,13 @@
+{
+  "scope": "Later authorized generation of a concrete experimental competition CSV from the existing private inference cache",
+  "status": "experimental_rejected_for_promotion",
+  "relation_to_protocol_v2": "The earlier protocol_v2.json governed the benchmark-only ablation. This separate later build authorization permits saved-cache competition geometry extraction only; it does not alter the earlier results or authorize promotion/submission.",
+  "candidate": "Insertion geometry v2 with the exact original scales, content-group assignments, cached texture angles, output ranges, and target fusion rules",
+  "ensemble": "Original 0.5 public-pair and 0.1 per-fold weights; exclude each whole head when its new ok flag is False and renormalize per image with identical weights for all three targets",
+  "all_invalid_rule": "If all new heads fail, preserve the corresponding previous failure-aware triplet and explicitly flag the fallback. Abort if that fallback source is unavailable.",
+  "frozen_inputs": "Six cached probability-map pairs per image, original audit scale_calibration.csv, original per-head run and pa_tex columns, prior failure-aware submission and receipt",
+  "provenance": "Record source code, source identity, prior submission, prior receipt, scale and head-table SHA256; record observed per-map SHA256 and inherited checkpoint hashes with their limitations",
+  "prohibited_in_this_build": ["new model training", "new neural inference", "competition target labels", "automatic upload", "replacement of the recommended candidate", "accuracy or generalization improvement claims"],
+  "decision": "Overall static development comparisons failed; small v2 dynamic gain on one reused dependent sequence is insufficient for promotion",
+  "physical_scale_limitation": "The original anisotropy assumptions remain inconsistent with the organizer's aspect-preservation statement and are retained only to isolate the geometry modification"
+}

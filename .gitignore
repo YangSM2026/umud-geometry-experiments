@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+research_inputs/
+*.pt
+*.npz
+*.zip
+*.partial
+*.tif
+*.png
+*.jpg
+geometry_diagnostics.json

@@ -1,0 +1,430 @@
+{
+  "analysis_status": "POSTHOC SENSITIVITY ONLY; primary mean reference unchanged",
+  "trigger": "Discovered im_19 R7 MT80.13125 after inspecting model residuals",
+  "method": "Median of the same six complete raters R1,R2,R3,R4,R6,R7 for every image and each PA/FL/MT endpoint",
+  "source_workbook_sha256": "19839ef9a5dc34dd2e1c3fdc167a5904946d4641942aca7ae1cbfb7bd747c804",
+  "source_primary_reference_sha256": "a811c443a8a75002c4068465c1007b5477854a0ecef74e9fe176b2a613aa706c",
+  "primary_target_replaced": false,
+  "rows": [
+    {
+      "image_id": "im_01_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 28.03333333333333,
+        "FL": 35.456709956709936,
+        "MT": 14.814783549783549
+      },
+      "pa_deg": 28.03333333333333,
+      "fl_mm": 35.456709956709936,
+      "mt_mm": 14.814783549783549
+    },
+    {
+      "image_id": "im_02_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 16.415499999999998,
+        "FL": 72.85175324675325,
+        "MT": 21.58844155844158
+      },
+      "pa_deg": 16.415499999999998,
+      "fl_mm": 72.85175324675325,
+      "mt_mm": 21.58844155844158
+    },
+    {
+      "image_id": "im_03_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 24.4,
+        "FL": 44.240259742077924,
+        "MT": 16.869740258181814
+      },
+      "pa_deg": 24.4,
+      "fl_mm": 44.240259742077924,
+      "mt_mm": 16.869740258181814
+    },
+    {
+      "image_id": "im_04_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 19.657666666666664,
+        "FL": 60.952380950714286,
+        "MT": 16.55727513227513
+      },
+      "pa_deg": 19.657666666666664,
+      "fl_mm": 60.952380950714286,
+      "mt_mm": 16.55727513227513
+    },
+    {
+      "image_id": "im_05_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 24.144,
+        "FL": 63.019480519480524,
+        "MT": 20.844155844155853
+      },
+      "pa_deg": 24.144,
+      "fl_mm": 63.019480519480524,
+      "mt_mm": 20.844155844155853
+    },
+    {
+      "image_id": "im_06_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 14.398,
+        "FL": 78.39342342274773,
+        "MT": 18.663671171171192
+      },
+      "pa_deg": 14.398,
+      "fl_mm": 78.39342342274773,
+      "mt_mm": 18.663671171171192
+    },
+    {
+      "image_id": "im_07_arch.tif",
+      "eligible_for_development_evaluation": false,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 17.2795,
+        "FL": 44.553235294117655,
+        "MT": 13.41211764705885
+      },
+      "pa_deg": 17.2795,
+      "fl_mm": 44.553235294117655,
+      "mt_mm": 13.41211764705885
+    },
+    {
+      "image_id": "im_08_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 23.465833333333332,
+        "FL": 63.434943820224724,
+        "MT": 24.327640449438206
+      },
+      "pa_deg": 23.465833333333332,
+      "fl_mm": 63.434943820224724,
+      "mt_mm": 24.327640449438206
+    },
+    {
+      "image_id": "im_09_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 14.708166666666667,
+        "FL": 55.0125,
+        "MT": 15.436702127659558
+      },
+      "pa_deg": 14.708166666666667,
+      "fl_mm": 55.0125,
+      "mt_mm": 15.436702127659558
+    },
+    {
+      "image_id": "im_10_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 23.8955,
+        "FL": 50.38839285714285,
+        "MT": 20.105654761904763
+      },
+      "pa_deg": 23.8955,
+      "fl_mm": 50.38839285714285,
+      "mt_mm": 20.105654761904763
+    },
+    {
+      "image_id": "im_11_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 14.532,
+        "FL": 49.43376623396105,
+        "MT": 12.3666233766234
+      },
+      "pa_deg": 14.532,
+      "fl_mm": 49.43376623396105,
+      "mt_mm": 12.3666233766234
+    },
+    {
+      "image_id": "im_12_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 17.910333333333334,
+        "FL": 62.068033707865155,
+        "MT": 16.404494381011247
+      },
+      "pa_deg": 17.910333333333334,
+      "fl_mm": 62.068033707865155,
+      "mt_mm": 16.404494381011247
+    },
+    {
+      "image_id": "im_13_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 13.025833333333335,
+        "FL": 67.73494382022474,
+        "MT": 17.74421348376405
+      },
+      "pa_deg": 13.025833333333335,
+      "fl_mm": 67.73494382022474,
+      "mt_mm": 17.74421348376405
+    },
+    {
+      "image_id": "im_14_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 24.066333333333333,
+        "FL": 53.44629870129873,
+        "MT": 21.437229437943728
+      },
+      "pa_deg": 24.066333333333333,
+      "fl_mm": 53.44629870129873,
+      "mt_mm": 21.437229437943728
+    },
+    {
+      "image_id": "im_15_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 16.766,
+        "FL": 59.79761904960315,
+        "MT": 16.099126984127
+      },
+      "pa_deg": 16.766,
+      "fl_mm": 59.79761904960315,
+      "mt_mm": 16.099126984127
+    },
+    {
+      "image_id": "im_16_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 14.612666666666666,
+        "FL": 46.584415584415595,
+        "MT": 12.142857142857139
+      },
+      "pa_deg": 14.612666666666666,
+      "fl_mm": 46.584415584415595,
+      "mt_mm": 12.142857142857139
+    },
+    {
+      "image_id": "im_17_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 17.06666666666667,
+        "FL": 69.15805194805195,
+        "MT": 20.11116883116885
+      },
+      "pa_deg": 17.06666666666667,
+      "fl_mm": 69.15805194805195,
+      "mt_mm": 20.11116883116885
+    },
+    {
+      "image_id": "im_18_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 19.439,
+        "FL": 68.27423280423281,
+        "MT": 21.44047619047619
+      },
+      "pa_deg": 19.439,
+      "fl_mm": 68.27423280423281,
+      "mt_mm": 21.44047619047619
+    },
+    {
+      "image_id": "im_19_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 15.7085,
+        "FL": 69.6765625,
+        "MT": 20.0078125
+      },
+      "pa_deg": 15.7085,
+      "fl_mm": 69.6765625,
+      "mt_mm": 20.0078125
+    },
+    {
+      "image_id": "im_20_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 18.185000000000002,
+        "FL": 66.767012987013,
+        "MT": 21.642662338506497
+      },
+      "pa_deg": 18.185000000000002,
+      "fl_mm": 66.767012987013,
+      "mt_mm": 21.642662338506497
+    },
+    {
+      "image_id": "im_21_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 15.958166666666667,
+        "FL": 70.54668831136365,
+        "MT": 16.428571426753248
+      },
+      "pa_deg": 15.958166666666667,
+      "fl_mm": 70.54668831136365,
+      "mt_mm": 16.428571426753248
+    },
+    {
+      "image_id": "im_22_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 16.840833333333332,
+        "FL": 72.81606741573032,
+        "MT": 20.1123595502809
+      },
+      "pa_deg": 16.840833333333332,
+      "fl_mm": 72.81606741573032,
+      "mt_mm": 20.1123595502809
+    },
+    {
+      "image_id": "im_23_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 17.2,
+        "FL": 56.29051948051945,
+        "MT": 14.78138528138528
+      },
+      "pa_deg": 17.2,
+      "fl_mm": 56.29051948051945,
+      "mt_mm": 14.78138528138528
+    },
+    {
+      "image_id": "im_24_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 16.58866666666667,
+        "FL": 56.46748917748917,
+        "MT": 14.867683982683982
+      },
+      "pa_deg": 16.58866666666667,
+      "fl_mm": 56.46748917748917,
+      "mt_mm": 14.867683982683982
+    },
+    {
+      "image_id": "im_25_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 18.118499999999997,
+        "FL": 59.24445692883895,
+        "MT": 19.56131086142321
+      },
+      "pa_deg": 18.118499999999997,
+      "fl_mm": 59.24445692883895,
+      "mt_mm": 19.56131086142321
+    },
+    {
+      "image_id": "im_26_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 18.362166666666667,
+        "FL": 68.29759831460674,
+        "MT": 22.844550561797774
+      },
+      "pa_deg": 18.362166666666667,
+      "fl_mm": 68.29759831460674,
+      "mt_mm": 22.844550561797774
+    },
+    {
+      "image_id": "im_27_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 17.43,
+        "FL": 65.15508658008656,
+        "MT": 16.302575755757577
+      },
+      "pa_deg": 17.43,
+      "fl_mm": 65.15508658008656,
+      "mt_mm": 16.302575755757577
+    },
+    {
+      "image_id": "im_28_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 14.249666666666666,
+        "FL": 66.11415178571428,
+        "MT": 17.73809523809524
+      },
+      "pa_deg": 14.249666666666666,
+      "fl_mm": 66.11415178571428,
+      "mt_mm": 17.73809523809524
+    },
+    {
+      "image_id": "im_29_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 20.8,
+        "FL": 75.40175324675326,
+        "MT": 20.5412987012987
+      },
+      "pa_deg": 20.8,
+      "fl_mm": 75.40175324675326,
+      "mt_mm": 20.5412987012987
+    },
+    {
+      "image_id": "im_30_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 21.017,
+        "FL": 56.3988764058989,
+        "MT": 19.923426966292155
+      },
+      "pa_deg": 21.017,
+      "fl_mm": 56.3988764058989,
+      "mt_mm": 19.923426966292155
+    },
+    {
+      "image_id": "im_31_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 15.6625,
+        "FL": 58.508073593073576,
+        "MT": 14.54545454772725
+      },
+      "pa_deg": 15.6625,
+      "fl_mm": 58.508073593073576,
+      "mt_mm": 14.54545454772725
+    },
+    {
+      "image_id": "im_32_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 15.0475,
+        "FL": 60.275436507936504,
+        "MT": 14.8376984120635
+      },
+      "pa_deg": 15.0475,
+      "fl_mm": 60.275436507936504,
+      "mt_mm": 14.8376984120635
+    },
+    {
+      "image_id": "im_33_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 15.315000000000001,
+        "FL": 50.986493506493524,
+        "MT": 12.7727272740909
+      },
+      "pa_deg": 15.315000000000001,
+      "fl_mm": 50.986493506493524,
+      "mt_mm": 12.7727272740909
+    },
+    {
+      "image_id": "im_34_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 23.774333333333335,
+        "FL": 46.9872077922078,
+        "MT": 17.145303030303033
+      },
+      "pa_deg": 23.774333333333335,
+      "fl_mm": 46.9872077922078,
+      "mt_mm": 17.145303030303033
+    },
+    {
+      "image_id": "im_35_arch.tif",
+      "eligible_for_development_evaluation": true,
+      "median_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 19.410166666666665,
+        "FL": 59.63636363636364,
+        "MT": 17.935259740259752
+      },
+      "pa_deg": 19.410166666666665,
+      "fl_mm": 59.63636363636364,
+      "mt_mm": 17.935259740259752
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "status": "postprocess_completed_not_yet_scored",
+  "method": "validity-weighted supported-depth ensemble",
+  "rows": 309,
+  "columns": [
+    "image_id",
+    "pa_deg",
+    "fl_mm",
+    "mt_mm"
+  ],
+  "parent_candidate_sha256": "f351ba181d96b710ef1fe6203653343f1556502408bf714df81c7387329ae82e",
+  "candidate_sha256": "953344cd42cb9b358a1572faade92f3c11ef2d710578ff1db9827afd338fb403",
+  "input_sha256": {
+    "audit/supported_test_measurements.csv": "d26dd0352dc33e47e1b6211eb1947b62d3c689f3fcc2e136e09f640273b882e1",
+    "audit/supported_ens_f0_measurements.csv": "a26c4ec02256ec962df60a457450c8fe7374078ab516deac56630d2ebf85aa5a",
+    "audit/supported_ens_f1_measurements.csv": "8189dda29df2a2ee24f083c1f3dbeb3fcde3d801fcc4e24da8efceabfdeb30b5",
+    "audit/supported_ens_f2_measurements.csv": "c2c1543da28600a5c12745c10774e3f3872a2460a1d275d91c8a08968c6dfec0",
+    "audit/supported_ens_f3_measurements.csv": "7ada70439c4e92749309ba7979a602a6594449ee77dc4b2a0d6a574188ec29ed",
+    "audit/supported_ens_f4_measurements.csv": "26d325c8def38a56079c152e58b30005333a06508589a035da504ec6a3b90754",
+    "submission.csv": "f351ba181d96b710ef1fe6203653343f1556502408bf714df81c7387329ae82e",
+    "run_receipt.json": "ecbf33cb113feea35175fbfa8c65246daabbf29f0f378273735290dfa431b76f"
+  },
+  "output_sha256": {
+    "submission.csv": "953344cd42cb9b358a1572faade92f3c11ef2d710578ff1db9827afd338fb403",
+    "head_weight_audit.csv": "1de0643feda0b8b33a641b1d9efed6f87fcfc74f4acef3bccec0117115c4109a",
+    "changed_rows.csv": "ef909a25c9e9eb4e16ee4f259272a8d4a756b1f76ef29156d65714512d67b5f4"
+  },
+  "validity_rule": "A model head is usable only when its existing ok flag is explicitly True. False receives zero weight for all three targets; remaining base weights are renormalized per image. All-invalid images abort.",
+  "base_weights": {
+    "test": 0.5,
+    "ens_f0": 0.1,
+    "ens_f1": 0.1,
+    "ens_f2": 0.1,
+    "ens_f3": 0.1,
+    "ens_f4": 0.1
+  },
+  "same_weights_for_all_targets": true,
+  "affected_images": 7,
+  "changed_rows": 7,
+  "unchanged_rows": 302,
+  "one_valid_head_images": 5,
+  "invalid_heads_by_model": {
+    "test": 0,
+    "ens_f0": 6,
+    "ens_f1": 5,
+    "ens_f2": 6,
+    "ens_f3": 7,
+    "ens_f4": 6
+  },
+  "parent_exactly_reconstructed": true,
+  "all_valid_rows_unchanged": true,
+  "output_order_matches_parent": true,
+  "ground_truth_used": false,
+  "new_model_inference": false,
+  "accuracy_claim": "No local accuracy or leaderboard improvement is claimed; no target ground truth was used.",
+  "inherited_limits": "Retains parent geometry, calibration assumptions and public-leaderboard-tuned constants; validity correction does not independently validate them. Images supported by only one valid head have no ensemble agreement evidence and must not be treated as confident predictions.",
+  "receipt_hash_note": "Receipt is the final completion marker; its own hash is not recursively included."
+}

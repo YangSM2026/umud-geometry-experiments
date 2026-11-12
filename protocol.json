@@ -1,0 +1,29 @@
+{
+  "protocol_version": "2026-11-13-endpoint-v1",
+  "intent": "Development experiment; no world-first novelty or leaderboard improvement claim.",
+  "training": "None; original frozen watehell checkpoint pair with hashes verified against previous competition inference.",
+  "static_reference": "Mean of six complete raters R1,R2,R3,R4,R6,R7; im_07 excluded because of exact historical training overlap. Available-rater mean is a sensitivity analysis.",
+  "static_independence": "Development only: upstream explicitly used OSF benchmark; unknown participant IDs and incompletely audited upstream training.",
+  "dynamic_reference": "84 even-numbered manually annotated frames from one GM video. PA and ruler-calibrated FL only; no MT. No frame-level inferential CI.",
+  "comparators": [
+    "public single-pair per-image decoder: original scalar settings, texture weight0.5, FL factor0.9, sine mixture0.25, inherited range clips; known physical benchmark scale; no temporal pooling",
+    "endpoint geometry with unmodified public boundary fits",
+    "endpoint geometry with Huber inner-boundary refits"
+  ],
+  "new_geometry": {
+    "fascicle_probability_threshold": 0.5,
+    "minimum_component_pixels": 6,
+    "minimum_visible_length_mm": 4.0,
+    "minimum_pca_elongation": 3.0,
+    "boundary_fit": "Huber IRLS 1.345, max30 iterations; quadratic if width>15mm else linear",
+    "boundary_extrapolation_limit": "one shared observed horizontal field of view",
+    "thickness_positions": [0.2,0.5,0.8],
+    "fascicle_selection": "up to3 valid lines; insertion separation>=5% shared span; maximize count then minimize total extrapolation",
+    "aggregation": "arithmetic mean of selected endpoint PA/FL; vertical thickness mean",
+    "empirical_length_multiplier": null,
+    "thickness_sine_mixture": null,
+    "prediction_range_clipping": false
+  },
+  "evaluation": "Report coverage, all-case baseline fallback deployment behavior and matched-case errors; failures may not be silently dropped. Static bootstrap is descriptive image-level only because participant IDs are unknown. Dynamic frames are one dependent sequence, not independent observations.",
+  "promotion_gate": "Do not replace the previous candidate automatically. A new experimental CSV can be retained with validity/fallback audit; competition score remains unknown until a separately authorized submission. No tuning against test predictions or public leaderboard."
+}

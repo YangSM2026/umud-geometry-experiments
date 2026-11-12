@@ -1,0 +1,375 @@
+{
+  "protocol": {
+    "protocol_version": "2026-11-13-endpoint-v1",
+    "intent": "Development experiment; no world-first novelty or leaderboard improvement claim.",
+    "training": "None; original frozen watehell checkpoint pair with hashes verified against previous competition inference.",
+    "static_reference": "Mean of six complete raters R1,R2,R3,R4,R6,R7; im_07 excluded because of exact historical training overlap. Available-rater mean is a sensitivity analysis.",
+    "static_independence": "Development only: upstream explicitly used OSF benchmark; unknown participant IDs and incompletely audited upstream training.",
+    "dynamic_reference": "84 even-numbered manually annotated frames from one GM video. PA and ruler-calibrated FL only; no MT. No frame-level inferential CI.",
+    "comparators": [
+      "public single-pair per-image decoder: original scalar settings, texture weight0.5, FL factor0.9, sine mixture0.25, inherited range clips; known physical benchmark scale; no temporal pooling",
+      "endpoint geometry with unmodified public boundary fits",
+      "endpoint geometry with Huber inner-boundary refits"
+    ],
+    "new_geometry": {
+      "fascicle_probability_threshold": 0.5,
+      "minimum_component_pixels": 6,
+      "minimum_visible_length_mm": 4.0,
+      "minimum_pca_elongation": 3.0,
+      "boundary_fit": "Huber IRLS 1.345, max30 iterations; quadratic if width>15mm else linear",
+      "boundary_extrapolation_limit": "one shared observed horizontal field of view",
+      "thickness_positions": [
+        0.2,
+        0.5,
+        0.8
+      ],
+      "fascicle_selection": "up to3 valid lines; insertion separation>=5% shared span; maximize count then minimize total extrapolation",
+      "aggregation": "arithmetic mean of selected endpoint PA/FL; vertical thickness mean",
+      "empirical_length_multiplier": null,
+      "thickness_sine_mixture": null,
+      "prediction_range_clipping": false
+    },
+    "evaluation": "Report coverage, all-case baseline fallback deployment behavior and matched-case errors; failures may not be silently dropped. Static bootstrap is descriptive image-level only because participant IDs are unknown. Dynamic frames are one dependent sequence, not independent observations.",
+    "promotion_gate": "Do not replace the previous candidate automatically. A new experimental CSV can be retained with validity/fallback audit; competition score remains unknown until a separately authorized submission. No tuning against test predictions or public leaderboard."
+  },
+  "results": {
+    "dynamic/endpoint": {
+      "n": 84,
+      "valid_candidates": 84,
+      "fallback_count": 0,
+      "baseline_valid": 84,
+      "metrics": {
+        "pa_deg": {
+          "baseline_MAE": 0.7382497977103146,
+          "candidate_MAE": 1.6460051220014318
+        },
+        "fl_mm": {
+          "baseline_MAE": 2.4066891716995578,
+          "candidate_MAE": 2.5177706543767044
+        }
+      },
+      "independent_groups": 1,
+      "confidence_interval": null
+    },
+    "dynamic/endpoint_huber": {
+      "n": 84,
+      "valid_candidates": 84,
+      "fallback_count": 0,
+      "baseline_valid": 84,
+      "metrics": {
+        "pa_deg": {
+          "baseline_MAE": 0.7382497977103146,
+          "candidate_MAE": 1.8435715436962918
+        },
+        "fl_mm": {
+          "baseline_MAE": 2.4066891716995578,
+          "candidate_MAE": 2.432501516422778
+        }
+      },
+      "independent_groups": 1,
+      "confidence_interval": null
+    },
+    "static/endpoint": {
+      "n": 34,
+      "valid_candidates": 34,
+      "fallback_count": 0,
+      "baseline_valid": 34,
+      "baseline": {
+        "n": 34,
+        "MAE": {
+          "pa_deg": 1.2261569670492696,
+          "fl_mm": 2.992534233458126,
+          "mt_mm": 0.5109496236684468
+        },
+        "RMSE": {
+          "pa_deg": 1.726759128926068,
+          "fl_mm": 3.749965953745533,
+          "mt_mm": 1.7877805091501089
+        },
+        "bias": {
+          "pa_deg": 0.16570864126299778,
+          "fl_mm": -0.040237437033987494,
+          "mt_mm": -0.49099905684929074
+        },
+        "primary_score": 0.2080179628397348,
+        "score_with_tiebreakers": 0.20801809226561704
+      },
+      "candidate_with_explicit_fallback": {
+        "n": 34,
+        "MAE": {
+          "pa_deg": 1.9727536185743935,
+          "fl_mm": 4.004861904940377,
+          "mt_mm": 0.5226052092723535
+        },
+        "RMSE": {
+          "pa_deg": 2.593672633812574,
+          "fl_mm": 5.08080873413867,
+          "mt_mm": 1.7983264525860123
+        },
+        "bias": {
+          "pa_deg": -1.0948174727864677,
+          "fl_mm": 0.2577906295033491,
+          "mt_mm": -0.5060472818385924
+        },
+        "primary_score": 0.2789108327549605,
+        "score_with_tiebreakers": 0.27891104991872273
+      },
+      "available_rater_sensitivity": {
+        "baseline": {
+          "n": 34,
+          "MAE": {
+            "pa_deg": 1.2122703444105747,
+            "fl_mm": 2.8591901091021685,
+            "mt_mm": 0.5069055404522452
+          },
+          "RMSE": {
+            "pa_deg": 1.714473230495986,
+            "fl_mm": 3.7621629707090376,
+            "mt_mm": 1.7871544291267987
+          },
+          "bias": {
+            "pa_deg": 0.22765145172051393,
+            "fl_mm": -0.37676993036194306,
+            "mt_mm": -0.48471988014533485
+          },
+          "primary_score": 0.20309313777034163,
+          "score_with_tiebreakers": 0.20309326054038923
+        },
+        "candidate": {
+          "n": 34,
+          "MAE": {
+            "pa_deg": 1.948444795044982,
+            "fl_mm": 4.006048904802697,
+            "mt_mm": 0.5103090807640424
+          },
+          "RMSE": {
+            "pa_deg": 2.5650405611366245,
+            "fl_mm": 5.138558463737958,
+            "mt_mm": 1.797479690830067
+          },
+          "bias": {
+            "pa_deg": -1.0328746623289513,
+            "fl_mm": -0.07874186382460652,
+            "mt_mm": -0.49976810513463643
+          },
+          "primary_score": 0.2762270782763564,
+          "score_with_tiebreakers": 0.27622728697119897
+        }
+      },
+      "matched_valid_cases": {
+        "baseline": {
+          "n": 34,
+          "MAE": {
+            "pa_deg": 1.2261569670492691,
+            "fl_mm": 2.9925342334581266,
+            "mt_mm": 0.5109496236684469
+          },
+          "RMSE": {
+            "pa_deg": 1.7267591289260675,
+            "fl_mm": 3.749965953745534,
+            "mt_mm": 1.787780509150109
+          },
+          "bias": {
+            "pa_deg": 0.16570864126299778,
+            "fl_mm": -0.040237437033987494,
+            "mt_mm": -0.49099905684929074
+          },
+          "primary_score": 0.2080179628397348,
+          "score_with_tiebreakers": 0.20801809226561704
+        },
+        "candidate": {
+          "n": 34,
+          "MAE": {
+            "pa_deg": 1.9727536185743935,
+            "fl_mm": 4.004861904940377,
+            "mt_mm": 0.5226052092723535
+          },
+          "RMSE": {
+            "pa_deg": 2.593672633812574,
+            "fl_mm": 5.080808734138671,
+            "mt_mm": 1.798326452586012
+          },
+          "bias": {
+            "pa_deg": -1.0948174727864677,
+            "fl_mm": 0.2577906295033491,
+            "mt_mm": -0.5060472818385924
+          },
+          "primary_score": 0.2789108327549605,
+          "score_with_tiebreakers": 0.27891104991872273
+        }
+      },
+      "paired_primary_delta_candidate_minus_baseline": {
+        "mean": 0.0708928699152257,
+        "descriptive_image_bootstrap_97_5pct_interval": [
+          0.012766844958535924,
+          0.1325578456570834
+        ],
+        "replicates": 10000,
+        "caveat": "Bonferroni2-comparison percentile interval, image-level; unknown subject dependence and upstream benchmark reuse make it unsuitable as independent confirmatory inference."
+      }
+    },
+    "static/endpoint_huber": {
+      "n": 34,
+      "valid_candidates": 34,
+      "fallback_count": 0,
+      "baseline_valid": 34,
+      "baseline": {
+        "n": 34,
+        "MAE": {
+          "pa_deg": 1.2261569670492696,
+          "fl_mm": 2.992534233458126,
+          "mt_mm": 0.5109496236684468
+        },
+        "RMSE": {
+          "pa_deg": 1.726759128926068,
+          "fl_mm": 3.749965953745533,
+          "mt_mm": 1.7877805091501089
+        },
+        "bias": {
+          "pa_deg": 0.16570864126299778,
+          "fl_mm": -0.040237437033987494,
+          "mt_mm": -0.49099905684929074
+        },
+        "primary_score": 0.2080179628397348,
+        "score_with_tiebreakers": 0.20801809226561704
+      },
+      "candidate_with_explicit_fallback": {
+        "n": 34,
+        "MAE": {
+          "pa_deg": 1.9544676305401836,
+          "fl_mm": 3.8414504740877327,
+          "mt_mm": 0.5190038861986938
+        },
+        "RMSE": {
+          "pa_deg": 2.554206457425398,
+          "fl_mm": 4.839352704452368,
+          "mt_mm": 1.796618137964039
+        },
+        "bias": {
+          "pa_deg": -1.0317159488776806,
+          "fl_mm": -0.13829848305431997,
+          "mt_mm": -0.5023070630292987
+        },
+        "primary_score": 0.27295559111007983,
+        "score_with_tiebreakers": 0.2729558121253682
+      },
+      "available_rater_sensitivity": {
+        "baseline": {
+          "n": 34,
+          "MAE": {
+            "pa_deg": 1.2122703444105747,
+            "fl_mm": 2.8591901091021685,
+            "mt_mm": 0.5069055404522452
+          },
+          "RMSE": {
+            "pa_deg": 1.714473230495986,
+            "fl_mm": 3.7621629707090376,
+            "mt_mm": 1.7871544291267987
+          },
+          "bias": {
+            "pa_deg": 0.22765145172051393,
+            "fl_mm": -0.37676993036194306,
+            "mt_mm": -0.48471988014533485
+          },
+          "primary_score": 0.20309313777034163,
+          "score_with_tiebreakers": 0.20309326054038923
+        },
+        "candidate": {
+          "n": 34,
+          "MAE": {
+            "pa_deg": 1.9301588070107716,
+            "fl_mm": 3.8452215783908743,
+            "mt_mm": 0.5085892440119847
+          },
+          "RMSE": {
+            "pa_deg": 2.526752577894455,
+            "fl_mm": 5.052678351803008,
+            "mt_mm": 1.7958163505401197
+          },
+          "bias": {
+            "pa_deg": -0.9697731384201643,
+            "fl_mm": -0.47483097638227556,
+            "mt_mm": -0.4960278863253427
+          },
+          "primary_score": 0.270552671346121,
+          "score_with_tiebreakers": 0.2705528789194106
+        }
+      },
+      "matched_valid_cases": {
+        "baseline": {
+          "n": 34,
+          "MAE": {
+            "pa_deg": 1.2261569670492691,
+            "fl_mm": 2.9925342334581266,
+            "mt_mm": 0.5109496236684469
+          },
+          "RMSE": {
+            "pa_deg": 1.7267591289260675,
+            "fl_mm": 3.749965953745534,
+            "mt_mm": 1.787780509150109
+          },
+          "bias": {
+            "pa_deg": 0.16570864126299778,
+            "fl_mm": -0.040237437033987494,
+            "mt_mm": -0.49099905684929074
+          },
+          "primary_score": 0.2080179628397348,
+          "score_with_tiebreakers": 0.20801809226561704
+        },
+        "candidate": {
+          "n": 34,
+          "MAE": {
+            "pa_deg": 1.9544676305401836,
+            "fl_mm": 3.8414504740877313,
+            "mt_mm": 0.5190038861986939
+          },
+          "RMSE": {
+            "pa_deg": 2.5542064574253986,
+            "fl_mm": 4.839352704452368,
+            "mt_mm": 1.7966181379640394
+          },
+          "bias": {
+            "pa_deg": -1.0317159488776806,
+            "fl_mm": -0.13829848305431997,
+            "mt_mm": -0.5023070630292987
+          },
+          "primary_score": 0.2729555911100799,
+          "score_with_tiebreakers": 0.27295581212536824
+        }
+      },
+      "paired_primary_delta_candidate_minus_baseline": {
+        "mean": 0.06493762827034502,
+        "descriptive_image_bootstrap_97_5pct_interval": [
+          0.007971939799107777,
+          0.12830880219652308
+        ],
+        "replicates": 10000,
+        "caveat": "Bonferroni2-comparison percentile interval, image-level; unknown subject dependence and upstream benchmark reuse make it unsuitable as independent confirmatory inference."
+      }
+    }
+  },
+  "training": false,
+  "label_warning": "Static is development-only with incomplete donor/source independence; dynamic is one dependent video. No competition score was measured.",
+  "source_sha256": {
+    "evaluate_insertion_correction.py": "5dcca6dab9d6fddd03c4c9c6e360ebf0e5a017d717af57eeee66917bd32fff4c",
+    "test_decoder.py": "5a2c36b71dc58d1fd744041d36dee06f7026502d6e17eb8e9bb1aece301409f4",
+    "insertion_correction.py": "26a041aa4602034a8888b8be7937c7e211d29bbd5ae3ecebcafc9e8c33933a3c",
+    "evaluate_benchmarks.py": "e20a085a835ead8b8e6c1f2c08afc7177e2d89280c24f67b3eb3af9f824a75f0",
+    "reliability.py": "2ac53f1da56ea4dc677ff06dea027d48c1c49adfae81e043ac8492b07d242173",
+    "test_reliability.py": "8296fddeef7f26dad5826b2967530b08a6d15d0936444e0d97ddda878d21bb70",
+    "test_insertion_correction.py": "3df7f2f5f100ee6b5185a82b0abfa94137f0feae6d58a7336af63dbc660619d6",
+    "endpoint_geometry.py": "a0eb440f4c5d7bb994645d40671ad0b11d6930045beb00b26af65abf354b633f",
+    "vendor_geometry.py": "a12d8ac372c9e30714bdfcc30e7fcb04e10ab5781771fb41a86c40a2b6944254",
+    "cache_benchmark_maps.py": "190862613ab7ecee5bcb8ec9c7a2fac48eecb5cf7526741cbb65021ad03735b7",
+    "vendor_texture.py": "207003c6cde21c3af8d7ec9f4f258a58c263ecb652c597c37c265985e4970900",
+    "decoder.py": "20ceaaf4af9ab01ad5159667ba0000cd64cf2143ecacb0c833d30fb689135096",
+    "test_endpoint_geometry.py": "ee4c3594daf6a28e47e7814c85b302149a56485aeffbb4dc0b753558051d2c26"
+  },
+  "protocol_sha256": "a155ea30ba8b38c722ff1e57fc2134f19706bbe3b80b91b8f1599ee93af1a976",
+  "input_sha256": {
+    "static_references.json": "a811c443a8a75002c4068465c1007b5477854a0ecef74e9fe176b2a613aa706c",
+    "dynamic_references.json": "688d2fb8d2e270fd774e1407a71849767bfacf45a22f562b3bec6fe46066d3c4",
+    "maps_verified/inference_receipt.json": "95d002e4af50264dc2374a1a3df8623d2b0c638f5397a1ca2b4c4384a965ce75"
+  },
+  "baseline_description": "supported-depth original public pair; per-image, no temporal pooling; not exact original V12 or six-head competition pipeline"
+}

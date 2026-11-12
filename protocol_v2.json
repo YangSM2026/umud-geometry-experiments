@@ -1,0 +1,24 @@
+{
+  "protocol_version": "2026-11-13-insertion-geometry-v2-exploratory",
+  "status": "Exploratory follow-up specified after the two v1 endpoint variants underperformed; not confirmatory validation.",
+  "training": "None; the same frozen original public checkpoint pair and verified inference cache as v1.",
+  "comparison": "Supported-depth per-image single-pair baseline versus insertion geometry correction with all legacy calibration retained; neither is the six-head competition pipeline.",
+  "changes": [
+    "Convert original boundary polynomials to physical parameterized line intersections.",
+    "Use deep insertion tangent for each segment PA instead of the component-midpoint tangent.",
+    "Reject root pairs that do not enclose the assumed visible span or remain inside ordered muscle boundaries.",
+    "Allow endpoint extrapolation by at most one actual shared boundary-support span."
+  ],
+  "unchanged": [
+    "Public aponeurosis component grouping, original polynomial fits, and unweighted fascicle component PCA.",
+    "Centre-minus-half-width vertical MT; centerline FL endpoints.",
+    "Public segment acceptance PA2..60degrees and FL10..300mm filters, depth regression at0.9 clipped to observed depth support, length-weighted segment median.",
+    "FL factor0.9, texture PA weight0.5, final FL thickness/sine mixture0.25 and original prediction ranges."
+  ],
+  "legacy_support_limitation": "The public extractor discards actual min/max projections. This ablation uses its unchanged centroid and length with symmetric +/-L/2 support, avoiding the weighted-PCA angle change introduced in v1.",
+  "static_reference": "Mean of six complete raters R1,R2,R3,R4,R6,R7; exact historical training overlap im_07 excluded. Mean of all available raters remains sensitivity only. No reference is silently corrected or excluded because of unusual values.",
+  "dynamic_reference": "84 directly manually annotated even-numbered frames of one dependent video; PA and ruler-calibrated FL only.",
+  "evaluation": "All cases with whole-triplet baseline fallback when new geometry is invalid; separately report matched-valid cases, coverage, and every failure. Reuse maps_verified only after receipt/image/map contract checks. Retain v1 results and protocol.",
+  "uncertainty": "Any static image bootstrap is descriptive only: participant dependence, upstream reuse, and outcome-informed follow-up preclude confirmatory inference. Dynamic confidence intervals are not calculated because there is one sequence.",
+  "promotion": "No threshold tuning, training, competition309 inference, submission, or replacement of prior candidate is authorized by this exploratory ablation."
+}

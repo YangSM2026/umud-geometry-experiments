@@ -1,0 +1,143 @@
+{
+  "status": "experimental_rejected_for_promotion",
+  "promotion_allowed": false,
+  "automatically_submitted": false,
+  "method": "insertion_geometry_v2_with_frozen_upstream_calibration_texture_and_grouping",
+  "rows": 309,
+  "columns": [
+    "image_id",
+    "pa_deg",
+    "fl_mm",
+    "mt_mm"
+  ],
+  "candidate_sha256": "91884e84dd84aa632a226c3938be1fcc1e5147e061c3d26ca75893a76c99bc76",
+  "prior_candidate_sha256": "953344cd42cb9b358a1572faade92f3c11ef2d710578ff1db9827afd338fb403",
+  "input_sha256": {
+    "cache_identity.json": "bd8bdf9b334e29c11bc5aaeb29ca9befbc27ffdf8cc89f596a6ef0c0e8e4b17a",
+    "failure_aware/submission.csv": "953344cd42cb9b358a1572faade92f3c11ef2d710578ff1db9827afd338fb403",
+    "failure_aware/receipt.json": "d6059d60008014ec1fbf9f153385bfa72d524a04838c9f6c2a15b832e1841ff9",
+    "audit/scale_calibration.csv": "b613d0f153b6304af8a99ad3a65b9d1f3ba5c1eb6295d78110d6de4a768e5f79",
+    "audit/supported_test_measurements.csv": "d26dd0352dc33e47e1b6211eb1947b62d3c689f3fcc2e136e09f640273b882e1",
+    "audit/supported_ens_f0_measurements.csv": "a26c4ec02256ec962df60a457450c8fe7374078ab516deac56630d2ebf85aa5a",
+    "audit/supported_ens_f1_measurements.csv": "8189dda29df2a2ee24f083c1f3dbeb3fcde3d801fcc4e24da8efceabfdeb30b5",
+    "audit/supported_ens_f2_measurements.csv": "c2c1543da28600a5c12745c10774e3f3872a2460a1d275d91c8a08968c6dfec0",
+    "audit/supported_ens_f3_measurements.csv": "7ada70439c4e92749309ba7979a602a6594449ee77dc4b2a0d6a574188ec29ed",
+    "audit/supported_ens_f4_measurements.csv": "26d325c8def38a56079c152e58b30005333a06508589a035da504ec6a3b90754"
+  },
+  "source_sha256": {
+    "build_competition_candidate.py": "ce1003f127834d3f7f117095c5593d3d2199a8e26a6abc4202b52362545c0bce",
+    "insertion_correction.py": "26a041aa4602034a8888b8be7937c7e211d29bbd5ae3ecebcafc9e8c33933a3c",
+    "endpoint_geometry.py": "a0eb440f4c5d7bb994645d40671ad0b11d6930045beb00b26af65abf354b633f",
+    "vendor_geometry.py": "a12d8ac372c9e30714bdfcc30e7fcb04e10ab5781771fb41a86c40a2b6944254",
+    "vendor_texture.py": "207003c6cde21c3af8d7ec9f4f258a58c263ecb652c597c37c265985e4970900",
+    "competition_build_protocol.json": "7474291cb098f485ff7b52c0b219e45cb8059635738a645bfe9bf9da05bf8fc9"
+  },
+  "sources_and_inputs_unchanged_at_completion": true,
+  "prior_head_tables_bound_to_failure_aware_receipt": true,
+  "checkpoint_sha256": {
+    "apo_resnet34_384x576_f0.pt": "59bd01b25a3fcdfd160d82fc1532bbd59ca47a70b5b128cd2dde9dc0a1ee5a19",
+    "fasc_resnet34_384x576_f0.pt": "726aedc0914d15f9a60d2e2d319af8fa07cb857ecdeca0b2dcc3bc27d463b97c",
+    "apo_r34_f0.pt": "de270ef650a57ab0fd01fbd3c19a58a064c016eccb8aaef22f1105de0389e04e",
+    "apo_r34_f1.pt": "d6dd441dbbd32b4441da0a533ca88d6629e380c8bfa1e892fe4fc4b67d036960",
+    "apo_r34_f2.pt": "69713b5a03d2a7cb4e1f0d498d1161414ebf3b16d5cd7cd1698b7333b49af6e0",
+    "apo_r34_f3.pt": "5dfb0196d857ad45504a18829003b422a7e3782eb4d534db919fe09f1c7a8627",
+    "apo_r34_f4.pt": "c76872cc5740260700f8c899b30a1881c96247ce362233522c064f6e9c400536",
+    "fasc_r34_f0.pt": "9842e2be8bf815de29822c0ff406ce08979822d2805683dae442353e8886256a",
+    "fasc_r34_f1.pt": "d2a30df2136fc5015c39f5214ef7fd9e68e6d1d1dfffa8b433b780ece753d104",
+    "fasc_r34_f2.pt": "eca288f3746dc673d2b26c130ab68fb0b33ed24a2ecb1b5445b6a46758336a4c",
+    "fasc_r34_f3.pt": "799a0b214b88d06bb34aa6efc8116c89d38ee6e985b6192f41e2e395548f372a",
+    "fasc_r34_f4.pt": "9a1faaf535c43fff2efa8155409aa30b1155403a71aa7db3424941fc2cc7c934"
+  },
+  "checkpoint_hash_provenance": "Copied from original inference cache identity; checkpoints are not loaded or rehashed in this geometry-only run.",
+  "map_hash_manifest_sha256": "f0313dccef9061fb58ad6ef4c0c27cfa9a6c5ad438c18668c47be1ba6b0ffcef",
+  "map_files_read_checked_and_hashed": 1854,
+  "map_hash_provenance": "Observed file SHA256 recorded during this run, with finite/range/shape checks; no previously recorded map checksum was available for comparison.",
+  "valid_heads_by_model": {
+    "test": 295,
+    "ens_f0": 292,
+    "ens_f1": 290,
+    "ens_f2": 290,
+    "ens_f3": 290,
+    "ens_f4": 289
+  },
+  "all_new_heads_failed_images": [
+    "IMG_00186.tif",
+    "IMG_00187.tif",
+    "IMG_00188.tif",
+    "IMG_00189.tif",
+    "IMG_00190.tif",
+    "IMG_00253.png",
+    "IMG_00277.png",
+    "IMG_00283.png",
+    "IMG_00300.png",
+    "IMG_00307.png"
+  ],
+  "one_valid_head_images": 3,
+  "changed_rows": 299,
+  "mean_absolute_change": {
+    "pa_deg": 0.8504174757281553,
+    "fl_mm": 3.347216828478964,
+    "mt_mm": 0.005673139158576075
+  },
+  "geometry_statuses": {
+    "test": {
+      "measured": 295,
+      "no_consistent_segments": 14
+    },
+    "ens_f0": {
+      "measured": 292,
+      "aponeuroses_not_identified": 6,
+      "no_consistent_segments": 11
+    },
+    "ens_f1": {
+      "measured": 290,
+      "no_consistent_segments": 14,
+      "aponeuroses_not_identified": 5
+    },
+    "ens_f2": {
+      "measured": 290,
+      "aponeuroses_not_identified": 6,
+      "no_consistent_segments": 13
+    },
+    "ens_f3": {
+      "measured": 290,
+      "no_consistent_segments": 12,
+      "aponeuroses_not_identified": 7
+    },
+    "ens_f4": {
+      "measured": 289,
+      "no_consistent_segments": 14,
+      "aponeuroses_not_identified": 6
+    }
+  },
+  "same_weights_for_all_targets": true,
+  "base_weights": {
+    "test": 0.5,
+    "ens_f0": 0.1,
+    "ens_f1": 0.1,
+    "ens_f2": 0.1,
+    "ens_f3": 0.1,
+    "ens_f4": 0.1
+  },
+  "ground_truth_used": false,
+  "new_model_training": false,
+  "new_model_inference": false,
+  "texture_rule": "Reuse each prior head pa_tex, pool by exact original run median, blend PA 0.5; preserve FL sine blend 0.25 and original clips.",
+  "physical_scale_limit": "Original sx/sy retained for isolated ablation. Upstream anisotropy conflicts with organizer aspect-ratio-preservation statement; not established protocol fidelity.",
+  "development_decision": "All new geometry variants failed the overall static development comparison. V2 had a small dynamic-sequence gain, insufficient for promotion; references were reused, not independent validation.",
+  "accuracy_claim": "Experimental output only. No competition score, generalization gain or accuracy improvement is claimed.",
+  "fallback_rule": "If all new heads fail, retain the prior failure-aware whole triplet and flag it. One-valid-head cases have no ensemble agreement evidence.",
+  "elapsed_seconds": 190.59095605799985,
+  "output_sha256": {
+    "audit/experimental_ens_f0_measurements.csv": "76420504020cfc5ed0135aa4db3bd183ed25c9e9a1e9b197423e725c5c7bc4d8",
+    "audit/experimental_ens_f1_measurements.csv": "c06eaf6cf9cc6633a6a4dc13cbca0cf9f687209ec3b809307ff616ce37e93bab",
+    "audit/experimental_ens_f2_measurements.csv": "ac48c1b0d1dd2e50d0c356c6f902136bc16b3d2cd3e36af3cee5f2e5758be3a2",
+    "audit/experimental_ens_f3_measurements.csv": "8af90d89392182b23995c9a817952b90493289000e1f9464a713e7e2c2af08b3",
+    "audit/experimental_ens_f4_measurements.csv": "16ee4d3a5086eff07debc0766c2b9896251eb6d19f66967f8fda22c5ead8d6bc",
+    "audit/experimental_test_measurements.csv": "89a583bd745e1e8ba98163c0715f9ac081b02cebf2538e18251dc8b063be2357",
+    "changes_vs_prior.csv": "448ba69eec5a9c12a8c945f7b012281570a04058b69fcf848f77aaf499e97fd2",
+    "experimental_submission.csv": "91884e84dd84aa632a226c3938be1fcc1e5147e061c3d26ca75893a76c99bc76",
+    "head_weight_audit.csv": "e02ed9e573cd91d3f416c5cf5c04cb222465a7d57f8ef7324b1bc1e26f8d7b9f",
+    "map_sha256.csv": "f0313dccef9061fb58ad6ef4c0c27cfa9a6c5ad438c18668c47be1ba6b0ffcef"
+  }
+}

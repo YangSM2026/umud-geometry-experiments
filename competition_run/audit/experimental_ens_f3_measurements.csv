@@ -1,0 +1,310 @@
+image_id,pa_deg,fl_mm,mt_mm,ok,prior_ok,layout,geometry_status,extracted_segments,retained_segments,rejection_reasons,run,pa_tex
+IMG_00001.tif,19.642441443982776,82.45458294054168,25.075151191146535,True,True,siemens,measured,16,11,"{""no_supported_consistent_root_pair"": 5}",0,21.71731023024364
+IMG_00002.tif,11.716904053058999,84.09031368677047,17.82769837906036,True,True,siemens,measured,13,10,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 2}",1,11.680985190359692
+IMG_00003.tif,14.449965039528742,83.37698917379379,22.99317139559623,True,True,siemens,measured,11,9,"{""no_supported_consistent_root_pair"": 2}",2,14.837348428356194
+IMG_00004.tif,17.600460049822026,93.67907795741598,26.3687550998478,True,True,siemens,measured,13,5,"{""missing_boundary_intersection"": 6, ""no_supported_consistent_root_pair"": 2}",3,14.926531397015012
+IMG_00005.tif,19.917095630015602,72.19950084630972,27.922791353316597,True,True,siemens,measured,15,9,"{""no_supported_consistent_root_pair"": 6}",4,22.57280257078814
+IMG_00006.tif,22.95172974460661,79.53231763834475,33.83211367892488,True,True,siemens,measured,12,10,"{""no_supported_consistent_root_pair"": 2}",5,24.482170478304667
+IMG_00007.tif,25.323595780596087,70.4771123389076,28.304787344088084,True,True,siemens,measured,12,10,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 1}",6,23.78037884561149
+IMG_00008.tif,21.90141531487766,71.15556553805696,29.242413857271288,True,True,siemens,measured,17,15,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 1}",7,23.152595038485742
+IMG_00009.tif,11.682211686685303,70.63460107689087,17.95474979630467,True,True,siemens,measured,19,7,"{""missing_boundary_intersection"": 6, ""no_supported_consistent_root_pair"": 6}",8,11.06313291442322
+IMG_00010.tif,15.02859159469245,69.59261606374722,19.164639711758046,True,True,siemens,measured,17,16,"{""no_supported_consistent_root_pair"": 1}",9,12.959446461165795
+IMG_00011.tif,16.15239990463245,64.47555911350234,17.608792909172717,True,True,siemens,measured,24,20,"{""missing_boundary_intersection"": 2, ""no_supported_consistent_root_pair"": 2}",10,17.02356887089148
+IMG_00012.tif,13.064427568355562,73.76073602750145,19.746063275397315,True,True,siemens,measured,22,19,"{""missing_boundary_intersection"": 2, ""no_supported_consistent_root_pair"": 1}",11,14.47656095096788
+IMG_00013.tif,11.752772442294514,99.60352766778267,21.998171622655054,True,True,siemens,measured,15,11,"{""no_supported_consistent_root_pair"": 4}",12,10.68105441838422
+IMG_00014.tif,13.937605596847344,77.16518053064934,25.30256682671978,True,True,siemens,measured,15,6,"{""missing_boundary_intersection"": 7, ""no_supported_consistent_root_pair"": 2}",13,13.419900602901691
+IMG_00015.tif,16.14694703658791,78.08235903655574,23.19964666831824,True,True,siemens,measured,12,7,"{""missing_boundary_intersection"": 5}",14,18.18876299194108
+IMG_00016.tif,19.299892762455787,74.96555189238089,26.082194592341608,True,True,siemens,measured,19,17,"{""no_supported_consistent_root_pair"": 2}",15,19.35960274362749
+IMG_00017.tif,18.102122794019653,73.0382600963293,22.118630359184653,True,True,siemens,measured,15,11,"{""no_supported_consistent_root_pair"": 4}",16,18.438626205431746
+IMG_00018.tif,15.570931168647807,82.5789111628819,25.04729962805402,True,True,siemens,measured,16,10,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 1}",17,15.648256478815457
+IMG_00019.tif,15.696082623089719,92.57874669000452,26.215113530922405,True,True,siemens,measured,14,5,"{""no_supported_consistent_root_pair"": 9}",18,15.87562986438833
+IMG_00020.tif,12.682560812368052,74.90620371492108,18.543789465986137,True,True,siemens,measured,15,9,"{""no_supported_consistent_root_pair"": 6}",19,12.889378062611286
+IMG_00021.tif,11.005325141149285,80.49609997737484,17.516381078156762,True,True,siemens,measured,14,9,"{""no_supported_consistent_root_pair"": 5}",20,9.09117364591441
+IMG_00022.tif,21.359364460589305,73.67151616504302,23.186567403156484,True,True,siemens,measured,15,10,"{""missing_boundary_intersection"": 5}",21,21.474104075571034
+IMG_00023.tif,19.904379127343837,67.0639109262554,22.38682851052828,True,True,siemens,measured,16,5,"{""missing_boundary_intersection"": 9, ""no_supported_consistent_root_pair"": 2}",22,18.281899619505023
+IMG_00024.tif,18.546407570129183,84.09440772391602,26.70050343397671,True,True,siemens,measured,28,20,"{""no_supported_consistent_root_pair"": 8}",23,18.711797873211424
+IMG_00025.tif,13.57795436126532,87.36995295148523,24.285813658398766,True,True,siemens,measured,12,9,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 2}",24,14.443993946081264
+IMG_00026.tif,15.820729680943176,88.7794707667684,25.91752433059968,True,True,siemens,measured,19,16,"{""no_supported_consistent_root_pair"": 3}",25,17.495422425150807
+IMG_00027.tif,18.704905345108536,70.64529261644329,21.74654320608198,True,True,siemens,measured,16,14,"{""no_supported_consistent_root_pair"": 2}",26,20.09132142654309
+IMG_00028.tif,13.933330465116548,73.96887628118682,21.954553779436875,True,True,siemens,measured,22,22,{},27,14.380735181057958
+IMG_00029.tif,15.275518754203745,75.51823668936797,22.759169920332397,True,True,siemens,measured,22,14,"{""missing_boundary_intersection"": 4, ""no_supported_consistent_root_pair"": 4}",28,15.655933090380527
+IMG_00030.tif,13.270918511412717,85.93847336894457,16.951041238416128,True,True,siemens,measured,12,8,"{""no_supported_consistent_root_pair"": 4}",29,13.111008700491196
+IMG_00031.tif,14.844770543428929,64.9128908897674,16.727503139602543,True,True,siemens,measured,13,10,"{""no_supported_consistent_root_pair"": 3}",30,15.535714905796482
+IMG_00032.tif,19.200926352279374,84.96613129582913,27.011681976094522,True,True,siemens,measured,25,16,"{""no_supported_consistent_root_pair"": 9}",31,18.79145056017057
+IMG_00033.tif,15.089380655663517,82.21757881414437,22.492652348321712,True,True,siemens,measured,16,13,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 2}",32,16.265201062668822
+IMG_00034.tif,18.582193929053126,96.79377779080035,30.60355644982468,True,True,siemens,measured,20,5,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 14}",33,18.970090084219407
+IMG_00035.tif,15.53136205440877,67.21089303078381,18.030022886125852,True,True,siemens,measured,14,4,"{""missing_boundary_intersection"": 9, ""no_supported_consistent_root_pair"": 1}",34,20.38790883067638
+IMG_00036.tif,21.997113015786795,75.72010469626316,23.49836112391714,True,True,crop,measured,12,8,"{""legacy_centroid_outside_band"": 3, ""no_supported_consistent_root_pair"": 1}",35,22.476714676465576
+IMG_00037.tif,15.063663395336647,67.8210619133584,15.927295492641486,False,True,crop,no_consistent_segments,7,0,"{""no_supported_consistent_root_pair"": 7}",36,15.127326790673294
+IMG_00038.tif,22.012801494895974,52.421069341650366,15.068667901279577,True,True,crop,measured,12,10,"{""legacy_centroid_outside_band"": 1, ""no_supported_consistent_root_pair"": 1}",37,21.58922608525077
+IMG_00039.tif,17.96250666890401,67.40597053312054,17.656583855188597,True,True,crop,measured,14,14,{},38,17.038528277416674
+IMG_00040.tif,21.193539770966925,61.08208814734351,18.16145202266394,True,True,crop,measured,4,3,"{""missing_boundary_intersection"": 1}",39,30.41958682082364
+IMG_00041.tif,22.343886494082057,60.63144307889894,21.587075156210403,True,True,crop,measured,4,4,{},40,26.14333841304412
+IMG_00042.tif,21.218380194118694,63.67928896028384,21.24321405030898,True,True,crop,measured,19,19,{},41,22.77114781710935
+IMG_00043.tif,22.184661469543947,50.93590772497479,17.196318461264877,True,True,crop,measured,15,14,"{""no_supported_consistent_root_pair"": 1}",42,22.35484610653336
+IMG_00044.tif,19.140356112210856,67.23314634775402,17.819209851661284,True,True,crop,measured,16,16,{},43,18.43499878051334
+IMG_00045.tif,15.178460417845814,73.32594017087268,17.306704214635058,True,True,crop,measured,7,6,"{""missing_boundary_intersection"": 1}",44,14.929448547134598
+IMG_00046.tif,14.249627437197113,54.516514327735834,12.836881690008239,True,True,crop,measured,15,11,"{""legacy_pa_acceptance_filter"": 1, ""missing_boundary_intersection"": 3}",45,14.789189477369106
+IMG_00047.tif,14.7665870208488,74.55388456495399,14.598547099230046,True,True,crop,measured,10,7,"{""missing_boundary_intersection"": 2, ""no_supported_consistent_root_pair"": 1}",46,15.120107894603194
+IMG_00048.tif,14.390320433900952,55.857953110779505,12.441052471442196,True,True,crop,measured,12,12,{},47,14.614259704719728
+IMG_00049.tif,19.22477767212883,55.50107994240126,15.634345496487834,True,True,crop,measured,7,7,{},48,19.455694019716415
+IMG_00050.tif,19.521576013470813,67.87432307450732,20.43167069935736,True,True,crop,measured,12,11,"{""no_supported_consistent_root_pair"": 1}",49,21.74880117790944
+IMG_00051.tif,14.696710746424948,62.66448272785537,14.33011993941524,True,True,crop,measured,6,5,"{""no_supported_consistent_root_pair"": 1}",50,13.058486187245292
+IMG_00052.tif,20.401355368717326,58.39244520766095,18.101887206191893,True,True,crop,measured,11,11,{},51,20.13070410447918
+IMG_00053.tif,18.605549438391748,50.1728107717977,15.612766132592293,True,True,crop,measured,11,7,"{""legacy_centroid_outside_band"": 4}",52,18.181382212920425
+IMG_00054.tif,12.61024622813354,62.76161410551767,14.472397016701299,True,True,crop,measured,6,6,{},53,11.85347609939545
+IMG_00055.tif,17.899256498370526,53.98317453022572,16.0290023507776,True,True,crop,measured,14,12,"{""legacy_centroid_outside_band"": 1, ""no_supported_consistent_root_pair"": 1}",54,20.488483652917225
+IMG_00056.tif,9.082820785191227,134.9516871603376,27.860641464265786,True,True,telemed,measured,24,5,"{""missing_boundary_intersection"": 12, ""no_supported_consistent_root_pair"": 7}",55,10.037690675763898
+IMG_00057.tif,9.082820785191227,134.42970274784918,27.860148775720386,True,True,telemed,measured,24,5,"{""missing_boundary_intersection"": 12, ""no_supported_consistent_root_pair"": 7}",55,10.042548003591122
+IMG_00058.tif,9.082820785191227,134.45807168947596,27.856318128677728,True,True,telemed,measured,23,5,"{""missing_boundary_intersection"": 11, ""no_supported_consistent_root_pair"": 7}",55,10.043575074693408
+IMG_00059.tif,9.082820785191227,136.59382018677906,27.84831093802967,True,True,telemed,measured,21,4,"{""missing_boundary_intersection"": 11, ""no_supported_consistent_root_pair"": 6}",55,10.056261680129708
+IMG_00060.tif,9.082820785191227,136.11532845618427,27.84361171458634,True,True,telemed,measured,21,5,"{""missing_boundary_intersection"": 10, ""no_supported_consistent_root_pair"": 6}",55,10.053905017843649
+IMG_00061.tif,10.404859561641274,104.34087167096423,26.839467265498048,True,True,telemed,measured,8,2,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 1}",60,12.007125566721072
+IMG_00062.tif,10.192120658391426,105.71795199798663,26.86484147152538,True,True,telemed,measured,9,2,"{""missing_boundary_intersection"": 7}",60,11.974151547392552
+IMG_00063.tif,10.346976132033662,104.49189740805377,26.86180993831042,True,True,telemed,measured,9,2,"{""missing_boundary_intersection"": 6, ""no_supported_consistent_root_pair"": 1}",60,12.035646034040212
+IMG_00064.tif,10.201489971315432,105.43396488705594,26.86957397572861,True,True,telemed,measured,9,2,"{""missing_boundary_intersection"": 6, ""no_supported_consistent_root_pair"": 1}",60,11.986935656645583
+IMG_00065.tif,9.89162975691816,107.56752201582171,26.893745629129526,True,True,telemed,measured,9,2,"{""missing_boundary_intersection"": 7}",60,11.8876973747156
+IMG_00066.tif,12.313549417178134,78.51911047241435,19.114971302744404,True,True,telemed,measured,17,14,"{""no_supported_consistent_root_pair"": 3}",65,14.22345965063677
+IMG_00067.tif,12.313549417178134,79.03103426440106,19.12772538993556,True,True,telemed,measured,18,15,"{""no_supported_consistent_root_pair"": 3}",65,12.692611861632956
+IMG_00068.tif,12.313549417178134,77.86059007420118,19.14287169383549,True,True,telemed,measured,18,14,"{""no_supported_consistent_root_pair"": 4}",65,11.14438126853699
+IMG_00069.tif,12.313549417178134,78.0667517499617,19.149944249151417,True,True,telemed,measured,20,15,"{""no_supported_consistent_root_pair"": 5}",65,10.664189329502108
+IMG_00070.tif,12.313549417178134,82.00666398471596,19.149995855570662,True,True,telemed,measured,19,16,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 2}",65,10.694888028807156
+IMG_00071.tif,9.53726966757225,99.46049815485569,17.12496410568991,True,True,telemed,measured,13,3,"{""missing_boundary_intersection"": 10}",70,9.567391161201584
+IMG_00072.tif,9.53726966757225,86.6981100376851,17.125638746291486,True,True,telemed,measured,13,2,"{""missing_boundary_intersection"": 9, ""no_supported_consistent_root_pair"": 2}",70,9.58060297395012
+IMG_00073.tif,9.53726966757225,86.10484949800806,17.12287072316616,True,True,telemed,measured,10,2,"{""missing_boundary_intersection"": 7, ""no_supported_consistent_root_pair"": 1}",70,9.609479104023094
+IMG_00074.tif,9.53726966757225,104.14121042111307,17.122370015145272,True,True,telemed,measured,10,3,"{""missing_boundary_intersection"": 7}",70,9.65010610604105
+IMG_00075.tif,9.53726966757225,86.48104878635367,17.11941338550577,True,True,telemed,measured,10,1,"{""missing_boundary_intersection"": 8, ""no_supported_consistent_root_pair"": 1}",70,9.661195515943618
+IMG_00076.tif,8.499984876197573,84.52196436296762,18.317428286533616,True,True,telemed,measured,16,4,"{""missing_boundary_intersection"": 12}",75,9.910728443624862
+IMG_00077.tif,8.499984876197573,84.28977769263878,18.33843458509494,True,True,telemed,measured,19,5,"{""missing_boundary_intersection"": 14}",75,9.923217072488969
+IMG_00078.tif,8.499984876197573,84.47795386405245,18.34014159833404,True,True,telemed,measured,19,5,"{""legacy_pa_acceptance_filter"": 1, ""missing_boundary_intersection"": 13}",75,9.93374545652472
+IMG_00079.tif,8.499984876197573,85.33779288636413,18.3382129502628,True,True,telemed,measured,21,7,"{""legacy_pa_acceptance_filter"": 1, ""missing_boundary_intersection"": 13}",75,9.93917284714179
+IMG_00080.tif,8.499984876197573,85.00342969610887,18.327899403925226,True,True,telemed,measured,21,8,"{""legacy_pa_acceptance_filter"": 1, ""missing_boundary_intersection"": 12}",75,9.948777200332556
+IMG_00081.tif,10.542860095857831,88.38462435163402,18.60933725558969,True,True,telemed,measured,17,6,"{""missing_boundary_intersection"": 11}",80,10.010960593323476
+IMG_00082.tif,10.542860095857831,88.21650992531839,18.618232626150107,True,True,telemed,measured,15,5,"{""missing_boundary_intersection"": 9, ""no_supported_consistent_root_pair"": 1}",80,10.011679191080075
+IMG_00083.tif,10.542860095857831,88.29102589280068,18.610585799643754,True,True,telemed,measured,16,6,"{""missing_boundary_intersection"": 9, ""no_supported_consistent_root_pair"": 1}",80,10.013635801993004
+IMG_00084.tif,10.542860095857831,88.2513432262989,18.54018228313876,True,True,telemed,measured,19,7,"{""missing_boundary_intersection"": 11, ""no_supported_consistent_root_pair"": 1}",80,10.008757237468744
+IMG_00085.tif,10.542860095857831,97.10712924634502,18.62074774094076,True,True,telemed,measured,20,8,"{""missing_boundary_intersection"": 12}",80,9.96928280725561
+IMG_00086.tif,13.472366293921723,84.9496157111129,25.083546363345704,True,True,telemed,measured,11,3,"{""missing_boundary_intersection"": 8}",85,13.363419733332163
+IMG_00087.tif,13.472366293921723,100.34406995523022,25.051400065571244,True,True,telemed,measured,12,4,"{""missing_boundary_intersection"": 8}",85,13.435389351209366
+IMG_00088.tif,13.472366293921723,99.68931772468534,25.041357105867263,True,True,telemed,measured,12,4,"{""missing_boundary_intersection"": 8}",85,13.459461108966408
+IMG_00089.tif,13.472366293921723,86.52454569539638,25.05226166779251,True,True,telemed,measured,11,3,"{""legacy_pa_acceptance_filter"": 1, ""missing_boundary_intersection"": 7}",85,13.427396275776246
+IMG_00090.tif,13.472366293921723,86.53776660974933,25.066654074540068,True,True,telemed,measured,13,3,"{""missing_boundary_intersection"": 10}",85,13.419589990320516
+IMG_00091.tif,14.678287159346784,97.0167672485361,25.807220990925796,True,True,telemed,measured,25,11,"{""missing_boundary_intersection"": 12, ""no_supported_consistent_root_pair"": 2}",90,16.679887174661715
+IMG_00092.tif,14.678287159346784,96.42195259707236,25.803423445623142,True,True,telemed,measured,24,11,"{""missing_boundary_intersection"": 11, ""no_supported_consistent_root_pair"": 2}",90,16.679179721834146
+IMG_00093.tif,14.678287159346784,97.54058102394724,25.801108871198227,True,True,telemed,measured,23,11,"{""missing_boundary_intersection"": 11, ""no_supported_consistent_root_pair"": 1}",90,16.688659395477856
+IMG_00094.tif,14.678287159346784,96.03886240599648,25.800470405431344,True,True,telemed,measured,23,10,"{""missing_boundary_intersection"": 11, ""no_supported_consistent_root_pair"": 2}",90,16.66485843984711
+IMG_00095.tif,14.678287159346784,96.60205267991196,25.727811141409543,True,True,telemed,measured,24,11,"{""missing_boundary_intersection"": 10, ""no_supported_consistent_root_pair"": 3}",90,16.671775367491392
+IMG_00096.tif,15.002372279074127,78.36365749663108,23.285025748725943,True,True,telemed,measured,7,4,"{""missing_boundary_intersection"": 3}",95,15.659799081223014
+IMG_00097.tif,15.002372279074127,78.66042180852044,23.284010048524184,True,True,telemed,measured,7,4,"{""missing_boundary_intersection"": 3}",95,15.678445193778174
+IMG_00098.tif,15.002372279074127,78.56736317941933,23.276757848583657,True,True,telemed,measured,8,5,"{""missing_boundary_intersection"": 3}",95,15.690773476946376
+IMG_00099.tif,15.002372279074127,78.08997275260054,23.273124718562386,True,True,telemed,measured,9,5,"{""missing_boundary_intersection"": 4}",95,15.719418311834204
+IMG_00100.tif,15.002372279074127,77.80363475604071,23.273881204789575,True,True,telemed,measured,9,5,"{""missing_boundary_intersection"": 4}",95,15.744798590155014
+IMG_00101.tif,8.032676523980829,163.1655886310378,26.90151106024746,True,True,telemed,measured,14,2,"{""missing_boundary_intersection"": 7, ""no_supported_consistent_root_pair"": 5}",100,12.46032277420096
+IMG_00102.tif,8.032676523980829,163.08288095785917,26.89450626964953,True,True,telemed,measured,15,2,"{""missing_boundary_intersection"": 8, ""no_supported_consistent_root_pair"": 5}",100,12.473701572569254
+IMG_00103.tif,8.032676523980829,161.81371778018055,26.89460667802827,True,True,telemed,measured,16,2,"{""missing_boundary_intersection"": 8, ""no_supported_consistent_root_pair"": 6}",100,12.485267540115686
+IMG_00104.tif,8.032676523980829,161.4162452626698,26.89136458667053,True,True,telemed,measured,14,2,"{""missing_boundary_intersection"": 8, ""no_supported_consistent_root_pair"": 4}",100,12.503895764242472
+IMG_00105.tif,8.032676523980829,155.63321930058984,26.891635827692724,True,True,telemed,measured,18,3,"{""missing_boundary_intersection"": 10, ""no_supported_consistent_root_pair"": 5}",100,12.513764642402704
+IMG_00106.tif,11.901059956636026,122.05795109715976,28.144524692659363,True,True,telemed,measured,19,9,"{""no_supported_consistent_root_pair"": 10}",105,13.70258765447987
+IMG_00107.tif,11.901059956636026,121.80323161335377,28.1444847141513,True,True,telemed,measured,19,9,"{""no_supported_consistent_root_pair"": 10}",105,13.707611109424237
+IMG_00108.tif,11.901059956636026,121.69394578007342,28.145679600274978,True,True,telemed,measured,19,9,"{""no_supported_consistent_root_pair"": 10}",105,13.704703332946664
+IMG_00109.tif,11.901059956636026,121.78381890173142,28.143818304812154,True,True,telemed,measured,19,9,"{""no_supported_consistent_root_pair"": 10}",105,13.70226518055678
+IMG_00110.tif,11.901059956636026,121.58390600765898,28.137519746386555,True,True,telemed,measured,19,9,"{""no_supported_consistent_root_pair"": 10}",105,13.693686140033094
+IMG_00111.tif,12.84875320801585,96.53904816835272,23.433890363681485,True,True,telemed,measured,12,5,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 2}",110,13.745443194158824
+IMG_00112.tif,12.84875320801585,96.97831237289192,23.425825732294346,True,True,telemed,measured,11,4,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 2}",110,13.799268651849404
+IMG_00113.tif,12.84875320801585,96.75032073521044,23.44245695126122,True,True,telemed,measured,9,4,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 2}",110,13.812155762233402
+IMG_00114.tif,12.84875320801585,96.82474544047722,23.439083456001757,True,True,telemed,measured,9,4,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 2}",110,13.797424165261065
+IMG_00115.tif,12.84875320801585,96.54807855367595,23.44513361421221,True,True,telemed,measured,9,4,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 2}",110,13.762887647296438
+IMG_00116.tif,12.85037176421275,87.27058080419043,19.805425402563,True,True,telemed,measured,9,9,{},115,14.338315785846476
+IMG_00117.tif,12.85037176421275,87.06128585021104,19.754249393780054,True,True,telemed,measured,10,10,{},115,14.405716980342191
+IMG_00118.tif,13.009265446856448,87.41486817592268,19.7478756115767,True,True,telemed,measured,8,8,{},117,14.400515574579984
+IMG_00119.tif,13.009265446856448,89.19238226773938,19.837800999963935,True,True,telemed,measured,10,9,"{""no_supported_consistent_root_pair"": 1}",117,14.284394722513724
+IMG_00120.tif,13.009265446856448,86.11366049149305,19.73126662750286,True,True,telemed,measured,7,6,"{""no_supported_consistent_root_pair"": 1}",117,14.79780114845343
+IMG_00121.tif,11.79225143728065,110.85167110684073,24.257443749337487,True,True,telemed,measured,25,9,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 15}",120,11.122838013743518
+IMG_00122.tif,11.79225143728065,110.91469425628617,24.256145891008504,True,True,telemed,measured,27,9,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 17}",120,11.140358708548533
+IMG_00123.tif,11.79225143728065,110.76743566049609,24.265514597201246,True,True,telemed,measured,26,9,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 16}",120,11.108339649473209
+IMG_00124.tif,11.79225143728065,111.14967710042632,24.269426029969452,True,True,telemed,measured,26,9,"{""missing_boundary_intersection"": 2, ""no_supported_consistent_root_pair"": 15}",120,11.099018727868582
+IMG_00125.tif,11.79225143728065,108.23411678243633,24.276560815908994,True,True,telemed,measured,25,9,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 15}",120,11.099531852259249
+IMG_00126.tif,11.856131065260826,91.0998825903828,19.72559492849994,True,True,telemed,measured,9,6,"{""missing_boundary_intersection"": 2, ""no_supported_consistent_root_pair"": 1}",125,11.94918221565787
+IMG_00127.tif,11.856131065260826,91.29200890582524,19.736209799793745,True,True,telemed,measured,9,6,"{""missing_boundary_intersection"": 2, ""no_supported_consistent_root_pair"": 1}",125,11.940733933216748
+IMG_00128.tif,11.856131065260826,93.415773484639,19.737572468321247,True,True,telemed,measured,9,6,"{""missing_boundary_intersection"": 2, ""no_supported_consistent_root_pair"": 1}",125,11.939603954924806
+IMG_00129.tif,11.856131065260826,91.76668801504806,19.729347785250376,True,True,telemed,measured,10,6,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 1}",125,11.940002755258234
+IMG_00130.tif,11.856131065260826,91.47038257578637,19.71709636592416,True,True,telemed,measured,10,6,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 1}",125,11.951664125672965
+IMG_00131.tif,15.15299874582027,102.87804973839219,27.796909699795563,True,True,telemed,measured,15,9,"{""no_supported_consistent_root_pair"": 6}",130,15.29962667202838
+IMG_00132.tif,15.15299874582027,100.87615528212777,27.79535194244176,True,True,telemed,measured,15,9,"{""no_supported_consistent_root_pair"": 6}",130,15.30096535583408
+IMG_00133.tif,15.15299874582027,102.5706839243613,27.79495072632693,True,True,telemed,measured,15,9,"{""no_supported_consistent_root_pair"": 6}",130,15.301446052668467
+IMG_00134.tif,15.15299874582027,100.85810544684904,27.79680766289171,True,True,telemed,measured,14,8,"{""no_supported_consistent_root_pair"": 6}",130,15.307836860014987
+IMG_00135.tif,15.15299874582027,102.21372268998863,27.793643710339975,True,True,telemed,measured,15,9,"{""no_supported_consistent_root_pair"": 6}",130,15.304716843040495
+IMG_00136.tif,17.48096596206141,88.67230449530945,24.804499041450438,True,True,telemed,measured,13,8,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 2}",135,19.3595274314016
+IMG_00137.tif,17.48096596206141,89.39247988348278,24.82323250776327,True,True,telemed,measured,15,9,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 1}",135,20.31308968550572
+IMG_00138.tif,17.48096596206141,89.87251989210978,24.81085295051561,True,True,telemed,measured,14,8,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 1}",135,19.305561114784155
+IMG_00139.tif,17.48096596206141,90.10990101650509,24.7791704567277,True,True,telemed,measured,14,7,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 2}",135,19.308173346102706
+IMG_00140.tif,17.48096596206141,88.4846685108335,24.759053387664135,True,True,telemed,measured,13,8,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 2}",135,19.337355503849334
+IMG_00141.tif,15.830332557584967,99.43857330953965,28.279508566095483,True,True,telemed,measured,24,17,"{""no_supported_consistent_root_pair"": 7}",140,14.705244793292463
+IMG_00142.tif,15.830332557584967,98.82424312574987,28.278365624416477,True,True,telemed,measured,28,21,"{""no_supported_consistent_root_pair"": 7}",140,14.690743943725607
+IMG_00143.tif,15.830332557584967,102.26540396608108,28.315063893086435,True,True,telemed,measured,28,22,"{""no_supported_consistent_root_pair"": 6}",140,14.702638330082763
+IMG_00144.tif,15.830332557584967,101.80699274617298,28.317566517292345,True,True,telemed,measured,27,23,"{""no_supported_consistent_root_pair"": 4}",140,14.765551607485037
+IMG_00145.tif,15.830332557584967,102.48092803407573,28.3262715922961,True,True,telemed,measured,29,22,"{""no_supported_consistent_root_pair"": 7}",140,14.709146823201609
+IMG_00146.tif,11.737964958379887,93.04993308631069,19.027201209356917,True,True,telemed,measured,9,6,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 2}",145,11.778319065951806
+IMG_00147.tif,11.737964958379887,92.42742484511666,19.101841786255044,True,True,telemed,measured,10,8,"{""no_supported_consistent_root_pair"": 2}",145,11.8611275780042
+IMG_00148.tif,12.21696953542384,92.71534464165678,19.032932759522367,True,True,telemed,measured,11,7,"{""no_supported_consistent_root_pair"": 4}",147,11.72316111905394
+IMG_00149.tif,11.34143379123477,101.92725249047398,19.03971151608306,True,True,telemed,measured,11,8,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 2}",148,12.057809123798163
+IMG_00150.tif,11.008693304354967,98.60784853710511,18.970608564436514,True,True,telemed,measured,12,7,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 2}",149,11.952498355172182
+IMG_00151.tif,11.237465749615698,90.83489156348416,16.7196960640167,True,True,telemed,measured,13,1,"{""missing_boundary_intersection"": 10, ""no_supported_consistent_root_pair"": 2}",150,12.77421401655144
+IMG_00152.tif,11.221271480186068,90.93206423402358,16.717982602082134,True,True,telemed,measured,13,1,"{""missing_boundary_intersection"": 10, ""no_supported_consistent_root_pair"": 2}",150,12.774983394226354
+IMG_00153.tif,11.232996160034272,90.81406273162759,16.72137399179185,True,True,telemed,measured,13,2,"{""missing_boundary_intersection"": 10, ""no_supported_consistent_root_pair"": 1}",150,12.776139439067537
+IMG_00154.tif,11.217820390107303,90.9562125299397,16.718770396846637,True,True,telemed,measured,13,2,"{""legacy_pa_acceptance_filter"": 1, ""missing_boundary_intersection"": 9, ""no_supported_consistent_root_pair"": 1}",150,12.778909394199118
+IMG_00155.tif,11.203553946552294,91.16347372941595,16.719834955022733,True,True,telemed,measured,12,2,"{""legacy_pa_acceptance_filter"": 1, ""missing_boundary_intersection"": 8, ""no_supported_consistent_root_pair"": 1}",150,12.768544696612068
+IMG_00156.tif,13.260101450669438,86.56027736282843,18.556432843520927,True,True,telemed,measured,6,3,"{""legacy_centroid_outside_band"": 1, ""no_supported_consistent_root_pair"": 2}",155,13.325116590234517
+IMG_00157.tif,13.260101450669438,87.06775906783541,18.556475146848914,True,True,telemed,measured,5,3,"{""no_supported_consistent_root_pair"": 2}",155,12.803294052970813
+IMG_00158.tif,13.260101450669438,87.11882037728284,18.558584058083312,True,True,telemed,measured,6,4,"{""no_supported_consistent_root_pair"": 2}",155,12.789093449367527
+IMG_00159.tif,13.260101450669438,87.11636629725655,18.551631549214147,True,True,telemed,measured,7,4,"{""legacy_centroid_outside_band"": 1, ""no_supported_consistent_root_pair"": 2}",155,12.777578076557916
+IMG_00160.tif,13.260101450669438,86.96260532425808,18.553917859259702,True,True,telemed,measured,8,4,"{""legacy_centroid_outside_band"": 2, ""no_supported_consistent_root_pair"": 2}",155,13.26473887241238
+IMG_00161.tif,13.283984320279334,86.62799562732096,16.419718527372016,True,True,telemed,measured,9,4,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 2}",160,12.765246090939383
+IMG_00162.tif,13.283984320279334,87.17329539846202,16.426638694067123,True,True,telemed,measured,9,4,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 2}",160,12.716368696758153
+IMG_00163.tif,13.283984320279334,86.24508719170538,16.43040699351825,True,True,telemed,measured,9,4,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 2}",160,12.754669912717318
+IMG_00164.tif,13.283984320279334,86.4727991892865,16.43103304208886,True,True,telemed,measured,9,4,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 2}",160,12.755056130511676
+IMG_00165.tif,13.283984320279334,87.78833536680285,16.439962858738596,True,True,telemed,measured,10,4,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 3}",160,12.709192823624363
+IMG_00166.tif,15.980941770814361,72.85785228066544,22.208959230823012,True,True,telemed,measured,17,4,"{""missing_boundary_intersection"": 13}",165,14.607609529856518
+IMG_00167.tif,15.980941770814361,72.31363582513403,22.164251641156586,True,True,telemed,measured,15,4,"{""legacy_pa_acceptance_filter"": 1, ""missing_boundary_intersection"": 10}",165,14.649530110626143
+IMG_00168.tif,15.980941770814361,72.892453517311,22.119294026835338,True,True,telemed,measured,16,4,"{""missing_boundary_intersection"": 12}",165,14.637998861342552
+IMG_00169.tif,15.980941770814361,64.51150212579464,22.07962461756544,True,True,telemed,measured,19,5,"{""missing_boundary_intersection"": 14}",165,14.629578145085702
+IMG_00170.tif,15.980941770814361,74.95517621325642,22.045291366596686,True,True,telemed,measured,17,6,"{""missing_boundary_intersection"": 11}",165,14.597563519031183
+IMG_00171.tif,14.535181541717385,100.50245281082212,25.3724430330862,True,True,telemed,measured,19,10,"{""missing_boundary_intersection"": 8, ""no_supported_consistent_root_pair"": 1}",170,15.418012979116584
+IMG_00172.tif,14.535181541717385,100.14917269459076,25.375125434891554,True,True,telemed,measured,18,9,"{""missing_boundary_intersection"": 8, ""no_supported_consistent_root_pair"": 1}",170,15.416441713877203
+IMG_00173.tif,14.535181541717385,99.49144860724516,25.378517443154312,True,True,telemed,measured,19,10,"{""missing_boundary_intersection"": 8, ""no_supported_consistent_root_pair"": 1}",170,15.417512233794357
+IMG_00174.tif,14.535181541717385,100.44568711203745,25.381529327419273,True,True,telemed,measured,18,9,"{""missing_boundary_intersection"": 8, ""no_supported_consistent_root_pair"": 1}",170,15.421629254989895
+IMG_00175.tif,14.535181541717385,100.158444456716,25.38501728991167,True,True,telemed,measured,19,10,"{""missing_boundary_intersection"": 8, ""no_supported_consistent_root_pair"": 1}",170,15.41913619031989
+IMG_00176.tif,8.898632146337446,113.81604863313689,22.259069785724705,True,True,telemed,measured,8,2,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 1}",175,12.297985857953435
+IMG_00177.tif,8.92743502792834,113.3683683717197,22.259701535665993,True,True,telemed,measured,8,2,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 1}",175,12.296219145511444
+IMG_00178.tif,8.64785770688783,116.86126415405849,22.26019151882615,True,True,telemed,measured,8,2,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 1}",175,12.287683452812558
+IMG_00179.tif,8.707041093390146,116.11434594362582,22.261711336272935,True,True,telemed,measured,8,2,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 1}",175,12.286545676313407
+IMG_00180.tif,8.900689910237318,113.67488198990661,22.266386650875138,True,True,telemed,measured,8,2,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 1}",175,12.294113655098585
+IMG_00181.tif,9.601975883883622,126.55942099433146,26.858172749668995,True,True,telemed,measured,13,4,"{""missing_boundary_intersection"": 7, ""no_supported_consistent_root_pair"": 2}",180,14.442776656689489
+IMG_00182.tif,9.601975883883622,122.73603282349995,26.853307318199114,True,True,telemed,measured,13,4,"{""missing_boundary_intersection"": 7, ""no_supported_consistent_root_pair"": 2}",180,14.435432318987026
+IMG_00183.tif,9.601975883883622,123.89336687532001,26.855094298444843,True,True,telemed,measured,12,4,"{""missing_boundary_intersection"": 6, ""no_supported_consistent_root_pair"": 2}",180,14.40826266720056
+IMG_00184.tif,9.601975883883622,126.75487220275093,26.847835416771556,True,True,telemed,measured,11,4,"{""missing_boundary_intersection"": 6, ""no_supported_consistent_root_pair"": 1}",180,14.40086448712546
+IMG_00185.tif,9.601975883883622,124.18405642848813,26.84195645514969,True,True,telemed,measured,11,5,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 1}",180,14.38944116077721
+IMG_00186.tif,15.0,71.81851652578136,20.0,False,False,telemed,aponeuroses_not_identified,0,0,{},185,
+IMG_00187.tif,15.0,71.81851652578136,20.0,False,False,telemed,aponeuroses_not_identified,0,0,{},185,
+IMG_00188.tif,15.0,71.81851652578136,20.0,False,False,telemed,aponeuroses_not_identified,0,0,{},185,
+IMG_00189.tif,15.0,71.81851652578136,20.0,False,False,telemed,aponeuroses_not_identified,0,0,{},185,
+IMG_00190.tif,15.0,71.81851652578136,20.0,False,False,telemed,aponeuroses_not_identified,0,0,{},185,
+IMG_00191.tif,16.23368434666634,86.1858110418112,26.50327371570661,True,True,telemed,measured,24,2,"{""missing_boundary_intersection"": 10, ""no_supported_consistent_root_pair"": 12}",190,13.876096814106262
+IMG_00192.tif,16.23368434666634,87.02123886792208,26.50172052068412,True,True,telemed,measured,24,2,"{""missing_boundary_intersection"": 8, ""no_supported_consistent_root_pair"": 14}",190,14.402082952302408
+IMG_00193.tif,16.23368434666634,86.96781246105819,26.493772536152886,True,True,telemed,measured,24,2,"{""missing_boundary_intersection"": 6, ""no_supported_consistent_root_pair"": 16}",190,16.436601494416408
+IMG_00194.tif,16.23368434666634,83.78097329491834,26.29836487684705,True,True,telemed,measured,25,21,"{""no_supported_consistent_root_pair"": 4}",190,14.750605483492436
+IMG_00195.tif,16.23368434666634,83.64375501365667,26.268788471988263,True,True,telemed,measured,25,22,"{""no_supported_consistent_root_pair"": 3}",190,14.838604193480007
+IMG_00196.tif,18.420058165981935,56.65649037099676,18.593940289525346,True,True,siemens,measured,13,13,{},195,18.131338240074783
+IMG_00197.tif,16.161130479296325,72.26261857769194,21.779978577233866,True,True,siemens,measured,12,8,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 3}",196,15.711738527613406
+IMG_00198.tif,14.25006382123787,68.35605944440783,17.80355601901014,True,True,siemens,measured,20,6,"{""missing_boundary_intersection"": 11, ""no_supported_consistent_root_pair"": 3}",197,17.023212857064465
+IMG_00199.tif,20.209643282068015,59.58253187707632,16.29299795546432,True,True,siemens,measured,9,8,"{""missing_boundary_intersection"": 1}",198,21.62973763174115
+IMG_00200.tif,20.10037334249779,54.72513203028328,18.2724954857409,True,True,siemens,measured,10,10,{},199,19.91833648339424
+IMG_00201.tif,14.148542721278261,79.10253124712357,18.68671727753103,True,True,siemens,measured,32,23,"{""missing_boundary_intersection"": 2, ""no_supported_consistent_root_pair"": 7}",200,15.064547498051413
+IMG_00202.tif,15.973849396459412,88.84100377920328,21.581556081150893,True,True,siemens,measured,22,5,"{""missing_boundary_intersection"": 4, ""no_supported_consistent_root_pair"": 13}",201,19.562472186592046
+IMG_00203.tif,17.75312708817953,68.94736961024309,19.39825827379272,True,True,siemens,measured,21,20,"{""no_supported_consistent_root_pair"": 1}",202,17.41954373352992
+IMG_00204.tif,25.454090789845296,69.29237183004163,20.598665245133336,True,True,siemens,measured,14,12,"{""no_supported_consistent_root_pair"": 2}",203,25.832235870021307
+IMG_00205.tif,15.111813796935987,72.52285588030678,21.330912749160028,True,True,siemens,measured,14,12,"{""no_supported_consistent_root_pair"": 2}",204,16.027084288497605
+IMG_00206.tif,17.54160790129884,80.12634028629986,19.375439319914708,True,True,siemens,measured,13,7,"{""no_supported_consistent_root_pair"": 6}",205,16.325933112698067
+IMG_00207.tif,18.221474961028875,54.020172408610335,15.147100739920143,True,True,siemens,measured,11,11,{},206,17.79288481494757
+IMG_00208.tif,16.465436473322598,69.56041583265208,20.717914738807185,True,True,siemens,measured,14,10,"{""no_supported_consistent_root_pair"": 4}",207,16.797629693966996
+IMG_00209.tif,17.498777667948275,53.15802881994952,17.659872461782218,True,True,siemens,measured,12,12,{},208,18.44572834831942
+IMG_00210.tif,13.080694252527303,68.61190250463778,16.31161651080453,True,True,siemens,measured,7,6,"{""no_supported_consistent_root_pair"": 1}",209,11.787784537335966
+IMG_00211.tif,19.909289326160653,68.02510801513775,27.018440934297857,True,True,siemens,measured,20,8,"{""missing_boundary_intersection"": 11, ""no_supported_consistent_root_pair"": 1}",210,21.775601389581908
+IMG_00212.tif,26.8361919074799,49.380485233447835,20.780889116048318,True,True,siemens,measured,8,7,"{""no_supported_consistent_root_pair"": 1}",211,26.296522904131947
+IMG_00213.tif,15.015630122403223,87.50538439923476,24.755452486344655,True,True,siemens,measured,10,4,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 1}",212,19.031486402994915
+IMG_00214.tif,14.617518837281258,70.08015728539057,18.53526937809339,True,True,siemens,measured,14,12,"{""no_supported_consistent_root_pair"": 2}",213,13.896906537807624
+IMG_00215.tif,23.616072552489445,64.74339083412252,23.154030764788317,True,True,siemens,measured,10,9,"{""no_supported_consistent_root_pair"": 1}",214,24.44143541078472
+IMG_00216.tif,18.974234166184473,65.60508909828694,20.123747112420045,True,True,siemens,measured,13,13,{},215,19.84452303169445
+IMG_00217.tif,20.887207448953497,67.14623363455266,20.838938389957402,True,True,siemens,measured,22,15,"{""missing_boundary_intersection"": 4, ""no_supported_consistent_root_pair"": 3}",216,20.21883514239116
+IMG_00218.tif,14.67063707559264,87.62024776492652,18.63228451880926,True,True,siemens,measured,15,6,"{""no_supported_consistent_root_pair"": 9}",217,13.422733306769716
+IMG_00219.tif,24.0566700677045,51.76615434348759,20.57962558956677,True,True,siemens,measured,13,11,"{""no_supported_consistent_root_pair"": 2}",218,25.78771646387648
+IMG_00220.tif,18.37031057486272,63.20759952036451,21.178408313468722,True,True,siemens,measured,24,24,{},219,19.915971849518726
+IMG_00221.tif,14.105753506688416,75.35147350059188,19.586578479884977,True,True,siemens,measured,26,21,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 4}",220,14.300797281540213
+IMG_00222.tif,20.02079921014117,57.73100500607428,18.84624793950442,True,True,siemens,measured,19,19,{},221,20.046375382742184
+IMG_00223.tif,15.555639597845856,73.96977957013668,17.108848498921585,True,True,siemens,measured,10,6,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 1}",222,11.638910177525972
+IMG_00224.tif,18.216370369108585,52.15926865151533,16.458033987114124,True,True,siemens,measured,13,10,"{""missing_boundary_intersection"": 3}",223,22.121533753225165
+IMG_00225.tif,12.47717217344147,70.91865915594235,20.80445453509522,True,True,siemens,measured,17,7,"{""missing_boundary_intersection"": 10}",224,15.19474526830463
+IMG_00226.tif,20.951014260705325,70.4630474404351,23.082473590823316,True,True,siemens,measured,13,11,"{""no_supported_consistent_root_pair"": 2}",225,20.108763932901724
+IMG_00227.tif,25.12260960167837,59.77860209345917,23.16735080296128,True,True,siemens,measured,10,9,"{""missing_boundary_intersection"": 1}",226,25.613755335985843
+IMG_00228.tif,11.779516097983098,76.00045187373362,18.550637946754094,True,True,siemens,measured,20,19,"{""no_supported_consistent_root_pair"": 1}",227,11.885666981731376
+IMG_00229.tif,14.0986856831706,80.67295050496023,22.406121055070646,True,True,siemens,measured,21,10,"{""no_supported_consistent_root_pair"": 11}",228,13.363822941108324
+IMG_00230.tif,20.217609460671945,56.66224900991309,19.480473953489355,True,True,siemens,measured,16,11,"{""no_supported_consistent_root_pair"": 5}",229,21.91546498149665
+IMG_00231.tif,13.24812042176728,74.17175860814474,21.251052502121855,True,True,siemens,measured,16,10,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 1}",230,15.143192295578558
+IMG_00232.tif,17.031055846731668,55.36893062287962,16.617772667067744,True,True,siemens,measured,13,12,"{""no_supported_consistent_root_pair"": 1}",231,17.228133952459956
+IMG_00233.tif,20.31584027041389,53.7286508280459,17.80205478138102,True,True,siemens,measured,8,7,"{""no_supported_consistent_root_pair"": 1}",232,21.23751089395462
+IMG_00234.tif,21.21701519163578,39.718995804695844,13.704016681811604,True,True,siemens,measured,7,6,"{""missing_boundary_intersection"": 1}",233,20.68631593207056
+IMG_00235.tif,23.645039197898498,42.420574265896136,16.877238890258827,True,True,siemens,measured,7,7,{},234,25.91783784501355
+IMG_00236.tif,16.946485780201602,72.76922634844632,21.509450951840467,True,True,siemens,measured,17,9,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 5}",235,14.012505648625163
+IMG_00237.tif,27.469289255836514,65.5456624531161,27.633571984610466,True,True,siemens,measured,13,12,"{""no_supported_consistent_root_pair"": 1}",236,30.90150524761189
+IMG_00238.tif,16.08327150830709,77.89673621859103,22.985476411095352,True,True,siemens,measured,24,13,"{""no_supported_consistent_root_pair"": 11}",237,15.055475678690698
+IMG_00239.tif,14.78161684499515,78.68309279681057,18.510898963439374,True,True,siemens,measured,16,5,"{""missing_boundary_intersection"": 9, ""no_supported_consistent_root_pair"": 2}",238,14.061801558690178
+IMG_00240.tif,20.49835629093888,58.029703683098994,20.263632751272883,True,True,siemens,measured,9,8,"{""no_supported_consistent_root_pair"": 1}",239,21.369853255231263
+IMG_00241.tif,14.69043394489789,73.97741470172856,20.30629272291031,True,True,siemens,measured,18,8,"{""missing_boundary_intersection"": 6, ""no_supported_consistent_root_pair"": 4}",240,15.10896424758002
+IMG_00242.tif,28.910206275076796,48.3719295837066,22.004273556073183,True,True,siemens,measured,11,10,"{""no_supported_consistent_root_pair"": 1}",241,29.819861033373684
+IMG_00243.tif,24.283596141495853,48.37137694078178,19.740545135760083,True,True,siemens,measured,12,12,{},242,26.542506616468003
+IMG_00244.tif,11.324151783281962,93.8058738430871,20.80970125538334,True,True,siemens,measured,22,9,"{""missing_boundary_intersection"": 9, ""no_supported_consistent_root_pair"": 4}",243,9.53040185187757
+IMG_00245.tif,15.76253930958243,109.86116027366477,23.39103738814651,True,True,siemens,measured,19,2,"{""missing_boundary_intersection"": 2, ""no_supported_consistent_root_pair"": 15}",244,15.34141332141131
+IMG_00246.tif,23.017770645673217,52.064421038470286,19.48667768763515,True,True,siemens,measured,13,12,"{""no_supported_consistent_root_pair"": 1}",245,23.379052810565383
+IMG_00247.tif,18.423827998507,55.72264076626852,15.648597599258048,True,True,siemens,measured,10,9,"{""no_supported_consistent_root_pair"": 1}",246,19.44037336876619
+IMG_00248.tif,16.80132996330278,68.09170764002931,18.915913508880152,True,True,siemens,measured,6,5,"{""no_supported_consistent_root_pair"": 1}",247,15.069578865280548
+IMG_00249.tif,21.323792035557545,44.90954573763088,16.435683489591504,True,True,siemens,measured,12,12,{},248,22.689050066819675
+IMG_00250.tif,19.923741815774658,65.07571781595973,19.337235558567,True,True,siemens,measured,15,15,{},249,19.7153494077386
+IMG_00251.tif,27.94123990662556,32.017143746902086,13.062825772663468,True,True,siemens,measured,6,6,{},250,29.32179318781689
+IMG_00252.png,15.384135465081833,62.20323144204514,18.61550785495268,True,True,lumify,measured,10,2,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 7}",251,16.41255314594197
+IMG_00253.png,15.533514113726824,74.14452967670599,23.18579232959263,False,True,lumify,no_consistent_segments,10,0,"{""no_supported_consistent_root_pair"": 10}",252,16.067028227453648
+IMG_00254.png,18.699777940439166,58.330365003492076,18.473087259826144,True,True,lumify,measured,7,1,"{""no_supported_consistent_root_pair"": 6}",253,14.20037885762379
+IMG_00255.png,16.021573008874505,75.40808943809279,25.29046389908204,False,True,lumify,no_consistent_segments,9,0,"{""no_supported_consistent_root_pair"": 9}",254,17.04314601774901
+IMG_00256.png,15.488301064503128,69.65324619264,20.125406185787465,True,True,lumify,measured,8,1,"{""missing_boundary_intersection"": 3, ""no_supported_consistent_root_pair"": 4}",255,12.984579212914824
+IMG_00257.png,18.954057547753187,60.79703594159494,18.8665121173318,True,True,lumify,measured,10,5,"{""missing_boundary_intersection"": 2, ""no_supported_consistent_root_pair"": 3}",256,21.481918863751478
+IMG_00258.png,29.264608078068317,71.32441090055549,27.256051407566314,True,True,lumify,measured,11,7,"{""no_supported_consistent_root_pair"": 4}",257,28.9055346956132
+IMG_00259.png,21.75174924021966,52.25052867963202,16.3452908051061,True,True,lumify,measured,4,4,{},258,21.68890672595265
+IMG_00260.png,14.438449478292858,71.22793845423875,20.271151653867467,True,True,lumify,measured,8,2,"{""missing_boundary_intersection"": 4, ""no_supported_consistent_root_pair"": 2}",259,16.651192963099575
+IMG_00261.png,17.883472291737917,71.25735360654113,21.47250436889369,True,True,lumify,measured,12,2,"{""no_supported_consistent_root_pair"": 10}",260,15.410465312742588
+IMG_00262.png,16.52186621201468,63.59742093318823,19.48816980116115,True,True,lumify,measured,12,6,"{""no_supported_consistent_root_pair"": 6}",261,14.769795819857478
+IMG_00263.png,15.92384768277204,54.79636205448506,13.559225532700571,True,True,lumify,measured,9,9,{},262,14.222917288442574
+IMG_00264.png,22.85358503318465,50.61818679606267,19.46245129065328,True,True,lumify,measured,6,6,{},263,25.10668583373399
+IMG_00265.png,22.346372467118826,49.617355672059304,16.892171574575872,True,True,lumify,measured,9,8,"{""no_supported_consistent_root_pair"": 1}",264,22.200820388111996
+IMG_00266.png,20.44077950436374,43.763998280760546,15.021789630855311,True,True,lumify,measured,9,8,"{""no_supported_consistent_root_pair"": 1}",265,19.481794985281116
+IMG_00267.png,16.719802600258056,62.6622807467795,21.108467747415528,True,True,lumify,measured,15,2,"{""no_supported_consistent_root_pair"": 13}",266,13.62212919904455
+IMG_00268.png,13.69878459603158,75.41884796639944,21.710340480753228,False,True,lumify,no_consistent_segments,11,0,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 6}",267,12.39756919206316
+IMG_00269.png,15.26337056859457,67.988597568739,22.426161435736798,True,True,lumify,measured,13,4,"{""no_supported_consistent_root_pair"": 9}",268,16.014661575230903
+IMG_00270.png,18.31879583005287,57.02820843584426,19.172421509994603,True,True,lumify,measured,12,6,"{""no_supported_consistent_root_pair"": 6}",269,17.517337520114012
+IMG_00271.png,14.142940751112263,68.52953451513267,18.53876460211698,True,True,lumify,measured,6,4,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 1}",270,14.543789219065827
+IMG_00272.png,15.0,71.81851652578136,20.0,False,False,lumify,aponeuroses_not_identified,0,0,{},271,
+IMG_00273.png,25.8125521735375,44.01690489051652,15.824551801393236,True,True,lumify,measured,13,12,"{""no_supported_consistent_root_pair"": 1}",272,30.83594664405909
+IMG_00274.png,14.12740811923618,74.20324103857823,21.1892157253213,False,True,lumify,no_consistent_segments,13,0,"{""missing_boundary_intersection"": 2, ""no_supported_consistent_root_pair"": 11}",273,13.254816238472358
+IMG_00275.png,25.21408927085097,58.387750955644634,24.72777466599219,True,True,lumify,measured,5,3,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 1}",274,22.952132201565988
+IMG_00276.png,14.322338551248617,67.69912369073047,21.777841201086535,True,True,lumify,measured,12,1,"{""missing_boundary_intersection"": 2, ""no_supported_consistent_root_pair"": 9}",275,12.088871192221449
+IMG_00277.png,13.244669476870506,76.0668699534447,21.59760640820457,False,True,lumify,no_consistent_segments,9,0,"{""missing_boundary_intersection"": 5, ""no_supported_consistent_root_pair"": 4}",276,11.489338953741012
+IMG_00278.png,22.751289299654186,48.31298416088195,19.49445326378164,True,True,lumify,measured,9,8,"{""no_supported_consistent_root_pair"": 1}",277,21.718973044985304
+IMG_00279.png,16.169959000069838,67.9304548677473,15.67376943762549,True,True,lumify,measured,8,1,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 6}",278,13.470586787215964
+IMG_00280.png,15.376473262313727,60.897347647321666,15.066811843383784,True,True,lumify,measured,10,6,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 3}",279,10.734004222899742
+IMG_00281.png,20.771857592706823,50.76722067952822,17.577026534800236,True,True,lumify,measured,9,9,{},280,19.766163949082483
+IMG_00282.png,15.40593259014469,74.17941433715703,19.25756348101009,True,True,lumify,measured,16,5,"{""no_supported_consistent_root_pair"": 11}",281,14.037431664373912
+IMG_00283.png,15.41685701142923,74.16911740197862,23.042051257371654,False,True,lumify,no_consistent_segments,12,0,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 11}",282,15.83371402285846
+IMG_00284.png,22.40582591529401,52.72405399465011,18.561966953144182,True,True,lumify,measured,7,3,"{""no_supported_consistent_root_pair"": 4}",283,21.385723897494785
+IMG_00285.png,18.709211334014846,66.25878380508493,19.778748786341772,True,True,lumify,measured,12,5,"{""no_supported_consistent_root_pair"": 7}",284,17.517776661266055
+IMG_00286.png,15.0,71.81851652578136,20.0,False,False,lumify,aponeuroses_not_identified,0,0,{},285,
+IMG_00287.png,33.12088298753966,30.0,15.09489169368232,True,True,lumify,measured,5,5,{},286,36.146464578250935
+IMG_00288.png,20.565221942484666,69.78526948624415,24.340674661118943,True,True,lumify,measured,6,5,"{""no_supported_consistent_root_pair"": 1}",287,19.41221170475356
+IMG_00289.png,18.13958747911233,55.78130391845703,17.584436950385733,True,True,lumify,measured,8,7,"{""no_supported_consistent_root_pair"": 1}",288,17.77428923615298
+IMG_00290.png,17.23549181531581,54.62466803625714,16.145745099351597,True,True,lumify,measured,6,5,"{""no_supported_consistent_root_pair"": 1}",289,15.87235456600034
+IMG_00291.png,16.898787350604884,75.70397539124248,19.034040457471576,True,True,lumify,measured,11,2,"{""no_supported_consistent_root_pair"": 9}",290,19.46164224181201
+IMG_00292.png,23.042716994758845,43.46973707104843,17.37670732285711,True,True,lumify,measured,8,8,{},291,22.499333233053814
+IMG_00293.png,11.985115773401475,77.10417449661115,20.436973515912857,False,True,lumify,no_consistent_segments,13,0,"{""missing_boundary_intersection"": 10, ""no_supported_consistent_root_pair"": 3}",292,8.97023154680295
+IMG_00294.png,21.538453577664267,74.2906748230003,23.24148050915366,True,True,lumify,measured,9,2,"{""no_supported_consistent_root_pair"": 7}",293,20.13601848793793
+IMG_00295.png,19.406487006392396,69.11865917919387,22.08738934547309,False,True,lumify,no_consistent_segments,5,0,"{""missing_boundary_intersection"": 1, ""no_supported_consistent_root_pair"": 4}",294,23.812974012784792
+IMG_00296.png,9.660851238566847,82.07576299100256,19.700344702226513,True,True,lumify,measured,8,3,"{""no_supported_consistent_root_pair"": 5}",295,9.307912088881324
+IMG_00297.png,14.352739345420893,73.41988719884286,20.743395560494076,False,True,lumify,no_consistent_segments,9,0,"{""no_supported_consistent_root_pair"": 9}",296,13.705478690841788
+IMG_00298.png,18.383086406126786,74.52118296176673,22.7191776159389,True,True,lumify,measured,10,4,"{""no_supported_consistent_root_pair"": 6}",297,16.563313780617307
+IMG_00299.png,25.197085494207798,48.164123753553355,19.54733708455001,True,True,lumify,measured,9,5,"{""no_supported_consistent_root_pair"": 4}",298,25.72078463765996
+IMG_00300.png,12.278455501065885,71.36926968855694,16.051180501660934,False,True,lumify,no_consistent_segments,7,0,"{""missing_boundary_intersection"": 4, ""no_supported_consistent_root_pair"": 3}",299,9.55691100213177
+IMG_00301.png,17.852529952908167,62.35679271094822,19.293329311761696,True,True,lumify,measured,11,3,"{""no_supported_consistent_root_pair"": 8}",300,18.337942718413487
+IMG_00302.png,16.66137235466195,66.02597090249226,20.630638628937728,True,True,lumify,measured,11,7,"{""no_supported_consistent_root_pair"": 4}",301,15.3604032085249
+IMG_00303.png,10.170547711570368,81.65424849817909,19.05850606356809,True,True,lumify,measured,14,1,"{""missing_boundary_intersection"": 10, ""no_supported_consistent_root_pair"": 3}",302,12.48169779814762
+IMG_00304.png,20.256543454340218,77.47516867195162,27.934624682358105,True,True,lumify,measured,10,3,"{""no_supported_consistent_root_pair"": 7}",303,18.986967492215967
+IMG_00305.png,20.334399030895245,47.68101618448771,15.787030243022178,True,True,lumify,measured,6,6,{},304,21.653894258365995
+IMG_00306.png,18.31250016708266,54.38031588224898,17.878406181117658,True,True,lumify,measured,8,7,"{""no_supported_consistent_root_pair"": 1}",305,18.860706709213247
+IMG_00307.png,13.245713179015382,85.06548595303838,29.846601721864886,False,True,lumify,no_consistent_segments,8,0,"{""missing_boundary_intersection"": 6, ""no_supported_consistent_root_pair"": 2}",306,11.491426358030765
+IMG_00308.png,28.436676187270805,46.9847148914391,20.395575162381803,True,True,lumify,measured,8,5,"{""missing_boundary_intersection"": 2, ""no_supported_consistent_root_pair"": 1}",307,29.20138583309867
+IMG_00309.png,24.01274622597112,34.108524305588304,13.028925697290342,True,True,lumify,measured,8,8,{},308,23.87212556977632

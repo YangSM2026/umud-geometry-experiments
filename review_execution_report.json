@@ -1,0 +1,87 @@
+{
+  "status": "executed_without_errors",
+  "execution_engine": "inprocess",
+  "execution_environment_note": "Actual in-process IPython execution; this host rejects TCP and Unix kernel socket binding.",
+  "notebook": "UMUD_Innovation_Review_20261113.ipynb",
+  "notebook_sha256": "cbcce2a13824a5dbd11f243cdb81731db9b152538ffb2de4bf634c96f24b0064",
+  "code_cells": 10,
+  "markdown_cells": 13,
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "image_outputs": 0,
+  "validation_scope": "Executed tests, independent metric recomputation, frozen-summary reconciliation, exact input hash checks; table presentation inspected separately.",
+  "tests_passed": 57,
+  "tests_by_module": {
+    "test_competition_candidate": 5,
+    "test_decoder": 9,
+    "test_endpoint_geometry": 18,
+    "test_insertion_correction": 5,
+    "test_reliability": 20
+  },
+  "output_inspection": {
+    "method": "Saved HTML table-output inspection; no screenshot rendering claim",
+    "tables": [
+      {
+        "rows": 6,
+        "columns": 2
+      },
+      {
+        "rows": 5,
+        "columns": 3
+      },
+      {
+        "rows": 4,
+        "columns": 8
+      },
+      {
+        "rows": 6,
+        "columns": 6
+      },
+      {
+        "rows": 3,
+        "columns": 9
+      },
+      {
+        "rows": 6,
+        "columns": 4
+      },
+      {
+        "rows": 2,
+        "columns": 4
+      },
+      {
+        "rows": 6,
+        "columns": 6
+      },
+      {
+        "rows": 3,
+        "columns": 6
+      },
+      {
+        "rows": 8,
+        "columns": 2
+      }
+    ],
+    "table_count": 10,
+    "truncation_absent": true,
+    "units_and_headers_checked": true
+  },
+  "staging_checks": {
+    "all_manifest_hashes_match": true,
+    "benchmark_numeric_artifacts_unchanged": true,
+    "competition_output_and_source_hashes_match": true,
+    "exact_previous_receipt_present": true,
+    "prior_candidate_hash_matches": true,
+    "evidence_screenshot_retained": true
+  }
+}

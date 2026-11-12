@@ -1,0 +1,752 @@
+{
+  "checkpoint_sha256": {
+    "apo": "59bd01b25a3fcdfd160d82fc1532bbd59ca47a70b5b128cd2dde9dc0a1ee5a19",
+    "fasc": "726aedc0914d15f9a60d2e2d319af8fa07cb857ecdeca0b2dcc3bc27d463b97c"
+  },
+  "images": [
+    {
+      "dataset": "static",
+      "image_id": "im_01_arch.tif",
+      "image_sha256": "df464cb8fad7ba00244f92242a0311d3490e5d7fa8341ded2b465dfedeb1704c",
+      "map_sha256": "f1e1415e7054c2f909962f8dc52a161f9024cca63375c8664a2e920487d154bd"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_02_arch.tif",
+      "image_sha256": "5c09bfd55fd418e411896845e4d176f92f8bc6978a0c023e842e608e958c974a",
+      "map_sha256": "6a7b74285ae6295cfc0e84f0730c29c2674cc07bd631c0f381aedc555b9083d8"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_03_arch.tif",
+      "image_sha256": "cc8e20397a9dddceff68125f84a5fe0d8167c2bc772cca0d2bc33b94b8064467",
+      "map_sha256": "dfca7c59b5665e1be51ec76d0fe18881f2c74e012f92554ddfcfee0e9f0f376d"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_04_arch.tif",
+      "image_sha256": "04645524654b39702ad43c4a3bef6a622560c07bdff258a5018e7a0a924c19b1",
+      "map_sha256": "711c345ca0b12d5cbf2ec86fd4482bb409dcfe003a53cf7309cf200ec47f8b66"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_05_arch.tif",
+      "image_sha256": "93bde6c95bc7ac0d0b4387ab8dad6aea007c5b9b42d8cea49c98e45cc51bf515",
+      "map_sha256": "9bad9e0428ffa7a209caa3f00b2e392a84372f335c02931d6ca56e74c0eeed82"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_06_arch.tif",
+      "image_sha256": "e5e5293fc92d3af5879238ab12737ccaaaee42f7b35c13164bd6b0aeff73e935",
+      "map_sha256": "e1c3704c6009d0f1a20e9e028060ab93c77483e5ffc2402bd0637e5914c74f60"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_07_arch.tif",
+      "image_sha256": "003482e1694963fc163da9c236f07c610728bfb1cce1b19ef0fdcbda7af12ee9",
+      "map_sha256": "d2a7b617f0e66c8babddeed24d344c25289ed780d5c2d4717a9c3a2e518ead58"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_08_arch.tif",
+      "image_sha256": "2243024c7fd0d0b0c4daad1bc2d3755491c969e247317998c10439e6934af38d",
+      "map_sha256": "ef0bdf06f4a5fd4d7782116b1fc3493aed25a5a0efd2b8706034b32ce8ddc9f5"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_09_arch.tif",
+      "image_sha256": "5c88bb6662f332c703fe42def213b708ac2543ba575a8b1298e4f73619fefa67",
+      "map_sha256": "4e7160c8bb32258d1510cdc4ac3aef85cf46c4d3cd4301cfbddf638a104d0c8b"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_10_arch.tif",
+      "image_sha256": "6ad79d63178e51985e138b6c5b2f0a4bc4cd2ba00fc1104fcb3f8fea87f5c35c",
+      "map_sha256": "4844e2d1c3a6fdc706f51d485b0b5dcf287b6d6a0fecaff821fa2110c772270b"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_11_arch.tif",
+      "image_sha256": "37f1b9b356bd3908b1523ccf924deba585eecafdf023283075b38e5248a4fcef",
+      "map_sha256": "229e29a07a294ebad61920ffd8d98b2975cd69c4c06cfc221d14c74e4e40fc58"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_12_arch.tif",
+      "image_sha256": "8f3160b529ae9237d66c310f49e7ffe2c864a7efa87c133054afdc059d22506d",
+      "map_sha256": "1d33ffb61a7de0bee52525f62dce03df46f90223f8f003dbf644e00a21454723"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_13_arch.tif",
+      "image_sha256": "edf7c3c81b63f1a8d051f8835a643beee43a673930e8e13eeb84a806f7748f61",
+      "map_sha256": "ab63e6e783f5100453fbaae0a4c0e741866bfdd8b772ae089b2e7fa0cba9b6d3"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_14_arch.tif",
+      "image_sha256": "d549789fd8a8363a63b89f973b4678f93ee20a28b7907377ef56e0dbb6238c3b",
+      "map_sha256": "14bf809456d2f13135120d5f7b2a36b1ac026284bafffc51bda27a7770f95cdd"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_15_arch.tif",
+      "image_sha256": "a7eb604223fc0431f00df93708750f7247dc0c98ba0e986c74223cfc733c466d",
+      "map_sha256": "fbcc385c962e04aea25afb3288eef64a2a505d7fabc8f5aedf893acdf297e63d"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_16_arch.tif",
+      "image_sha256": "4d07b7a717d577286e900c6ed91adf6251cf1c3cff78623399c7d843c24340eb",
+      "map_sha256": "f6311e811ff7af0c082a40f735eab2c3c25ece855e29dc1c42dd8a51093a3cf7"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_17_arch.tif",
+      "image_sha256": "39d2ee76c9cff83323552f5e382cb136fba386bca737177f069ac249233ade73",
+      "map_sha256": "7ac537aa96c5ca05da9c8bf22660deab5bfe84d4d0d431cfca4fd2b2627c2e42"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_18_arch.tif",
+      "image_sha256": "f0217749159772c264062de14d0427a21600a326a21f073fa93eab78dcbbb743",
+      "map_sha256": "44fa3c8b63638df43eaafe2c7cf568892742057c4aef09a6388c5f1d4bb9d4fc"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_19_arch.tif",
+      "image_sha256": "03d0bcd7308f618eaee32ac4113065e9b7a9942ec453f07db1077e04b00dbece",
+      "map_sha256": "0d5830fd20c5f3f226c4367751acfb8edb239dc88fbc069c7de9c693f0b7d951"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_20_arch.tif",
+      "image_sha256": "65156a980cc17fc74f95a7da48a74e25f7f75cd3a85a0fd0eb2a521f86817fb4",
+      "map_sha256": "761333ee06b77ba63044e87701c850e9a54461a62288e92adbe46e5feeff291b"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_21_arch.tif",
+      "image_sha256": "fb4d734979ae7879524944ef7848c2a939408f03360e5f01780c492fb383528e",
+      "map_sha256": "8075f6f6a5a0e6e956a819786f3743a35d0ce111f55c40e7f6f65b45ab3d3532"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_22_arch.tif",
+      "image_sha256": "767a179f4542b3618831d1c3dd3284a7fc1af077ce1e4a3b26a22c60fb64ba7b",
+      "map_sha256": "bf160a71da71f8696625627a3b58bb532694d1a3c40b0f6557adf8204d40fdad"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_23_arch.tif",
+      "image_sha256": "5466832472cd9b99a4e1ba2956fd4315ea6119561daa8a9a31d79d4f93aaa585",
+      "map_sha256": "1ff98b46c370d671b8f8989b50a223c3e5273bf1f67ad648e1ce4ed674754a3b"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_24_arch.tif",
+      "image_sha256": "79d661994cda469a3e051ee113fad0b5ae54019f908fcb9f65e8402b16d33353",
+      "map_sha256": "f5c90a982ee6fbbbefd964e5e83b72d36aae437ff62c308e3efe2c9d744d34ac"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_25_arch.tif",
+      "image_sha256": "0082ce1dde8fad32192ba470a6bbde85178b3e445039285bff65afedb1ee9384",
+      "map_sha256": "1195404980cf999f417a87e073af15574534f2ef0ab85c29db85e7fc7427571e"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_26_arch.tif",
+      "image_sha256": "0b4e24f10f36cdab10475deba4496fb6843927dca7f58a98ad52d88e934c386e",
+      "map_sha256": "0a764268831b0636498b5f5db8425855a4a7628e9850eb84ea8c582a9192579d"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_27_arch.tif",
+      "image_sha256": "0704f7a6bc1755f0d7b58c27f794a748795e9cf5800285621a6e52d291014ebc",
+      "map_sha256": "c1e45a0ca775db2d9bb43a9342500bf487cfb7b3279b2de69daff49955a41de7"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_28_arch.tif",
+      "image_sha256": "40c7ce712dea7759a44092dd4bad579cdd7cd84fbb2b942a1707dadb67a0ea3b",
+      "map_sha256": "e73f722a422cdd0575450da4d7f7cb08791bc6e92a2c9c9c255def0fe2b57e57"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_29_arch.tif",
+      "image_sha256": "6584dbee11ac0f54c56332a167325bcaf6ef13ca83e23f26f806af46e1e50892",
+      "map_sha256": "857886fcd054d7fab2e878750b70a0577ce66306b16cda01a03976d759897375"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_30_arch.tif",
+      "image_sha256": "2191a00b3431e91bf57738805d8fd109cae9460f3168b805469d856492a5b02c",
+      "map_sha256": "e57794bb907a5e9089611fc2c8d29907a17013ecc300ed09d5a143c2ea22628f"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_31_arch.tif",
+      "image_sha256": "9371bda52f883b9eeb103431979cd5c8aba37944f7fd83dd4e6d9c111fe29c40",
+      "map_sha256": "c4d302f2583ac801d0d6910a29d84958ae0cd4077695db7c5ecbeb9235966c8a"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_32_arch.tif",
+      "image_sha256": "1d2f0b603e0447daeca9b44d08ea014e2af6b97c9e2c1a57b2dd51a413d5ec6b",
+      "map_sha256": "62dd679ef7afe0dd3d7a267be6d7cd79bf8087df56b0412dce7acc990cceee26"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_33_arch.tif",
+      "image_sha256": "88d423beeb898518cc5df4f65a78b82d96adb988081de5c5ddaabd9fb965cf0e",
+      "map_sha256": "7fd77d9e1b4ebe66cd3dc3f11c0dca4881b6c244a81cf5fd19c3ba9934b9b079"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_34_arch.tif",
+      "image_sha256": "0c32cc9cbdb02dbd37ab619f3b18f3e9c1fd079b9a4041cb42188fa58e278a84",
+      "map_sha256": "1d0247bb8cd6f4426664bfb5bf8cfee4d1117bc6e19c90b22d067217c71ae336"
+    },
+    {
+      "dataset": "static",
+      "image_id": "im_35_arch.tif",
+      "image_sha256": "5e489468a4d2d51705d7c92fa8dc1222f51d88175301dc7e5432c6b12d1bae85",
+      "map_sha256": "f59015999827f3a50cac8b3bf8d84dce1fa1f13a054a9cf070eaa62e7a08b574"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00000.png",
+      "image_sha256": "9807287543db252b2595061b836a407f5abde1244f3008be54114f95f1ec1239",
+      "map_sha256": "a39ded7ecaafe1c198410c77d809fe6e2bb65ffb868fc2df3a70fbde444765ce"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00002.png",
+      "image_sha256": "800a10e178a98afddcd3333022cdd43ea2434970d221bd78f003f3414e12c1d2",
+      "map_sha256": "c594645ea2a80b5e588ea5d45bc2667f1816ff7756badb27d54c9d33b6a31fb8"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00004.png",
+      "image_sha256": "3e6c8f8a510d31bfcec789eb4e8dce76b6539b0692b8ee4342363dbd2f931367",
+      "map_sha256": "a89590e7535964ed1260f3912e7729214ac85cad3b5b50abb6bd3be8c6b240c5"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00006.png",
+      "image_sha256": "b416f17fde881f0c6ef1123fa6f04cee9fd0e6ab6d4a291ef48b26b753a7ab5e",
+      "map_sha256": "4de04178ad7eb0e70b05ec213e05145e243214ae0c47df207ee9e1afe9d58c2e"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00008.png",
+      "image_sha256": "f4cd974ebb1491249b04fb152701fe5ee0ae5fb069c0033612cdf95cb5df58d9",
+      "map_sha256": "b0429e60e1a1409d1b36baca615f800d6efb71e14d0595948ffed4fb8b497b19"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00010.png",
+      "image_sha256": "5ec694a7d97c591b673d4f2e04a5046db91ff303323bfa2e89b83c4d8269908e",
+      "map_sha256": "9f242b841ddae73e4a78e14eb266525cf1a5ff66fb4b4c513391a7f2601e8276"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00012.png",
+      "image_sha256": "beeb2e0d81221777b9bb193102eaba368aed6d2961b8197a5dd541047a033aec",
+      "map_sha256": "7c35dbe92b31158c389dfca378ec816127ec9cc56e16e20196be638db3123d49"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00014.png",
+      "image_sha256": "0bb9006fe875fbce7d614717b7b9f2a0be86ac33237e3c787e4f695c3ec11a51",
+      "map_sha256": "fad6bb943be7931b7a68fad987d645a5551a886d7d8ac18c84b8ed5fe2d3ec26"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00016.png",
+      "image_sha256": "ae86eb6377ca4ca693b2e86cd75505bb5bbba10a8f4cf3c5edd73f1529ded58d",
+      "map_sha256": "43b84daad497483f45def1478758b282e277642d1516f69cf629ac28ceabd5ea"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00018.png",
+      "image_sha256": "e205c194cd5db27f841311976b056adf1291766e6a0036be58ceb5a1a805ab9b",
+      "map_sha256": "4e8121acef2f885ccdc3871b73c7ed0f924a48e420eda61f6d871415ceeceba6"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00020.png",
+      "image_sha256": "e9a0b53af3e0a5d086533f75ebedd656abc7f4cf35e25ad8446ec8c1f045c039",
+      "map_sha256": "b755e54b2cc127b96c8cac9de437d4827e4e7a72a2854dda85d5acf179875ab6"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00022.png",
+      "image_sha256": "b7f7eff28864583472497010fac9b2b13dd0e5104c8ad35ad6e07e3d87df5a5d",
+      "map_sha256": "aa7895415d6b652ae9babb68b0434fdbc67b8be95abd2bee0b3b108ee13136af"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00024.png",
+      "image_sha256": "3917412c7d0261e73d8c01ce8c1ec48f50f702608b5f1f6e63ee93a5eb89be43",
+      "map_sha256": "47aff0bb020e7741cf05dc04784fef5e0fd2d6e113130882d5cae74e8e3be3f2"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00026.png",
+      "image_sha256": "6cf2a37b780289185170232d36a9e48bafc0f57417bdfb7f15609ba0967c5d87",
+      "map_sha256": "1cd39185e009139814d5ddb1ead80e2cfdd5da302e04879cab858d0b77c18b83"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00028.png",
+      "image_sha256": "4b9c495a9ca1fd4f6a2b57d1731905e670730acbf368c0a54d62772088c9eee7",
+      "map_sha256": "2094020d416d5760f53f4b37885b60adb5643baef77d15b2b37608c96547b03f"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00030.png",
+      "image_sha256": "3a083a6cd13a6d409c0e1e712d41900b8b2428ea157f9f799e84884383424954",
+      "map_sha256": "02a05a642dcb49dd87ad4d5a6aca6e526051315f579bd20c8f7b2f1fe34a74b1"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00032.png",
+      "image_sha256": "e087f4daca35154c1d0ad549702bdd3325854337263411fc728ec4b9c941024c",
+      "map_sha256": "bccd7f17f06a3d278704f7f055d71051a17bfbbc3ceaacc06d6469668c12e68c"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00034.png",
+      "image_sha256": "e06c995b2d0d8b5035ddd576a333993f4f830a96e30efc7012212eb64f85497d",
+      "map_sha256": "584e62173a082d03935f5563abf0ca1c2d1520c6048a37881fea583c47c0d853"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00036.png",
+      "image_sha256": "7e7f5e8e27bf9411a6484fd6c502c9f6d45a9a13e256939f731379a2c781f5b7",
+      "map_sha256": "76ca3d145541e3923e4c55d35c8aa45ea668b4feda6aad55239ffd78177289c1"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00038.png",
+      "image_sha256": "137a5d1dcf57e9b630e95ef2ffd2e4c1d7eabef66ec7834077ed820ad18c5388",
+      "map_sha256": "740610210161f73f69b060a4feea362fceb0b19d4b14e2a27c66f63236d0b484"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00040.png",
+      "image_sha256": "8fcd29aa39366b31ee115f7bdd6d8a6a1ea7361a5a30d610366b56dbcc290176",
+      "map_sha256": "6b247da507752bde2b48e2bb6d2d75462a7c3f4c7df4b5ad8b597db6997e2c2f"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00042.png",
+      "image_sha256": "78970ed5aac4a384715bc879c16c080073904daa3ef9ca4ffabff6906c3c3003",
+      "map_sha256": "8311caaf6728609f02fabf6d1e922c13825824006e957699f6dac724bf278906"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00044.png",
+      "image_sha256": "28dbffab0fcf6935ef04ae02955bbd4c3c01626acd048b30a529f2470643446d",
+      "map_sha256": "da9b326a36ea449623a470871a4dc075a684b9f481e8ec50e98362feb24a7053"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00046.png",
+      "image_sha256": "fd29300dc4f3089f2c3bfe521046c4d6b0e804fb3ec484549dbc569d15122e7f",
+      "map_sha256": "7d374ca2a018b0324e986fed0dbc2be076bc2ab9653541134071711979065eb8"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00048.png",
+      "image_sha256": "4d5fd2059bf3c31d6c6c3a0a505f85cb5eba7e01f7ca3e78d5a6de9b1150942e",
+      "map_sha256": "50ebd877709f53589508cd2e2a19983faf8e445d745d422a174801f0428e2a3e"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00050.png",
+      "image_sha256": "49f90270b03d3ba1951ab075f94eb232d94c8d48e8ff0c31daa61dad953b45b7",
+      "map_sha256": "0b095cb2bec043c2550db610d1148c73528c3e64661b6bf91ce61f7bc314ada2"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00052.png",
+      "image_sha256": "f2d5fd9a3a5992d58c1250d7e3d886661d6cfa95e9773ffa1b4c7d4ff1eb9331",
+      "map_sha256": "677b07365d4b44edda53b0c1f15028d70d760b15836c6cfa2a9332cee13fe1f9"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00054.png",
+      "image_sha256": "64b1eead873a41cd868b5bb43bd4db1742f9ec53daa8e6a11f7273c749cc8979",
+      "map_sha256": "b8f2dc30de9f7f37dfb58a2e7399b8c8ace310cf0d20e6bd3a71d609d757fb78"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00056.png",
+      "image_sha256": "2a907acb98e35e3a56cbc9d2832308dfa906dbbfe9df5e8d0b9028e47817ccd8",
+      "map_sha256": "654f3dd3771e72870498124081e6ad677267a722d19c667bdb28a914c0d3df9c"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00058.png",
+      "image_sha256": "0bea3db23f17f34fb9065d6881f1f1b800f556ad2a2c71cd29415dbadc903f07",
+      "map_sha256": "ddcbf5936c0e61b00d83638a331b6a2db72057f3f21cb3115c1ca6155cd15478"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00060.png",
+      "image_sha256": "e59cf2556d3eb85803ff14305900232c0ca3a423be89edf84d97ce1693c3435f",
+      "map_sha256": "b5d351a08f5da548278b4e46f244cbe463e6d0a8f1fe3d3c783213c74f2b90ff"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00062.png",
+      "image_sha256": "c0def022fb367a8e466e3da60aa68c83f4ea265535c0ebcd97073666b54c65c2",
+      "map_sha256": "bb8bbf00c5e6b8c304db0a41846709569f1bb4e9d396690994970c53e268b1a3"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00064.png",
+      "image_sha256": "7aa07254858c008160d4a384fd49f907d073060f6353061339566e96670d6f73",
+      "map_sha256": "277e6d4bd2880beccf636baa5fc79ac66808d5e2690fdcb6f51a26c31d4f6038"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00066.png",
+      "image_sha256": "23202a7bd782a6275b679b1e6a1e126d731b51ffd02ce66d4961480307a0b5b9",
+      "map_sha256": "a34b6bce182832fc8bfbc2de6a3c476437e7a94b597cd5479dd44a0fb9e3ce62"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00068.png",
+      "image_sha256": "b628c621fca8cc4ed36e9aff83ac272fb2e11defbaa12276e643bb264a6bc681",
+      "map_sha256": "fd03b39dc5c5f1acf5e0d2eea705dd695839967b2c5732688d27c8cc4b6c26ed"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00070.png",
+      "image_sha256": "2dff1b42b7634fb8dad30b09e22721314981a70f35ddc2cddfd212ed988f70b1",
+      "map_sha256": "cb79455e187784f02f491cd735720ddcef089498f0ffd0661e09a243624a3812"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00072.png",
+      "image_sha256": "998fbd838ea1f9b7219fb3d115dd3bc982c0203f20195e5111b3c42bcd4eb996",
+      "map_sha256": "0f5e55998cfe91a68e67b32c5afaaffaec228827f47ac6d1ac24e0ba059364c6"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00074.png",
+      "image_sha256": "61d172adbe8cae161a795e1eae6449a73298e56e723bdd9038ccbb42020b17da",
+      "map_sha256": "fbecd122f58bfd7a4c1d0dc5997eacc0d849a80ec0b954fe83db6ec25d2dc6d6"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00076.png",
+      "image_sha256": "81ace93eff3a5614309613183a4a049ece34769c1d7861047480b82444321ea0",
+      "map_sha256": "c6322d91775aeea067177d2179163aae346f8a370ea9b1dbb9665b34405bb642"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00078.png",
+      "image_sha256": "31225855cee06956abdcdba079f04edf898b661670e8814c58cf7435e7517bc2",
+      "map_sha256": "e280824b3d97a57fcc4724ac11c787ed2c014beeda20acbc8ebe0074a084dc17"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00080.png",
+      "image_sha256": "a053001fb25db06301df64bf95091b67036e3095e242c65f2f24262c3f1eb256",
+      "map_sha256": "998f2511e7c2a9983512746c6bcf5d34302e23b0fa15b315401a7205359a4039"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00082.png",
+      "image_sha256": "876d0fecf9f9fd0444cf784b401ea2014765d0df6ff6455b92908c636344e9af",
+      "map_sha256": "5a48f5f4fd1a667792372083b6589d76e21302bd28297178045f42921466e1dc"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00084.png",
+      "image_sha256": "555a0f77230b1c4a32a82496560550453883064a8e000a77aa1d38e185fb75fa",
+      "map_sha256": "1b3d655f90b626f3421fce00834d7ef1feaabd4693aa02828b2e12f3cdcc50b0"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00086.png",
+      "image_sha256": "3df31952ae872da2203e7a5cee5fe31da3acea860904d14192a29bf2803157fc",
+      "map_sha256": "f0be3bc7cac11f96be8f0be9959b730f556c0be849640ec39ef37757ad23d972"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00088.png",
+      "image_sha256": "70bf9db2ad2504631262621a18dfaececabdcb5c8af6498dea0bb510c88fd630",
+      "map_sha256": "ce42dca4d57e58b7894d8e7d0beae8a8005af6d64b4a2beb61527d4eafceeb27"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00090.png",
+      "image_sha256": "6645a99532fe6c46c250a9dffaba061c5c826d79410770a3054665064e5766a7",
+      "map_sha256": "7fdc0965bd77e8c11d3e4dd139334014e2cec68f4230acdeacedff7040529711"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00092.png",
+      "image_sha256": "e88c9f7fa39c9e89cd88d1122038c2540752a8e0bcbca9a0bd03ffaa7688513f",
+      "map_sha256": "646c0208d16c6d87aee24c9fdff53b48dd27e581e8969c4c9bc1e108eb8417a2"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00094.png",
+      "image_sha256": "39433a1612d5ace04ffbcc35d368e95c6593b7ff977815495cf00b1602e4d210",
+      "map_sha256": "346b25cb9c71d64333fd8acb26e3bdb35d4a8f2b85341b9e5d995afe9c40b4c2"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00096.png",
+      "image_sha256": "35672605817b67577a7a632451e705ce9733ad98c6079c954aba99c0434b1fce",
+      "map_sha256": "372dcb67156dc836a8c1912ccaf5218335728dd581d6b52865c0ce2104e75f52"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00098.png",
+      "image_sha256": "b7223adb2785d363e2b89ec1a3e9513c0f9e15f353d62a6f12c0a9cf5ae96ed7",
+      "map_sha256": "8c57841dd1fb24216b269e52560807867ba703aab86d2149564995c6de7b1467"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00100.png",
+      "image_sha256": "bfe607095b53edc982b10aeea16e82fb23d04e65103eb14c9826390c6786f7ba",
+      "map_sha256": "4f08a887f7bca5512466949cd1c0d6a9af2f5eb6327317f738455267c99a3865"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00102.png",
+      "image_sha256": "3658250f886d46163eb1d03b486fcc8875c1bc0eab33bb221bfdca571709acad",
+      "map_sha256": "cf646aabd618f92148fa3781ddba8a1350b26104d03e9fa01928aec9531c92e2"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00104.png",
+      "image_sha256": "b90dcc41084903fc50642693b03a5b42c8b8bf2b501eccb6db768ad2c48a9637",
+      "map_sha256": "beea5fc9189213a7e9a2d20cdebc0f0cb85bce115d81b1bb714e4a08839e84b8"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00106.png",
+      "image_sha256": "c1185aaaa1c3405e2054ddb2f5e5595d28aa7e053574014a3c0f08dc2f6e1bcf",
+      "map_sha256": "d8e34d0da0ebc2af7c86b3dd7459d9664a02c232994c32e5e6e1e694a6577dbd"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00108.png",
+      "image_sha256": "1bc5b811d85e53a3a23d83cb34716e3091ff0e1c08195943dd82c2d9c3055ed0",
+      "map_sha256": "3495268774b6fc5bb1f0799527d40cc9b30eb036086575666c8d618736193915"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00110.png",
+      "image_sha256": "96832f34d4cff80473e1a8bc51dde3c73f5ea58c3e75abc99d690da946a4d11c",
+      "map_sha256": "9f588c5228847ac79afacfdbed5b97516833b6e6b851a20e641fc4641b9ae6c5"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00112.png",
+      "image_sha256": "1f5ec67b8cc2a371dfa29d897fecfa67a4808f916010e787d7c0efa0bf1c7179",
+      "map_sha256": "35265cc67a7aae8e9e282664584374ac3daf552dc352873514d2fed60b8ed23e"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00114.png",
+      "image_sha256": "169fa64fc72581059cb17e4ab08749383f9dde6f72780f462a645201fa5695d9",
+      "map_sha256": "09f2bcce2cd52681fe97f50e285053d800b023a5147a2dbcec6fdc9a289bf062"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00116.png",
+      "image_sha256": "4a54a34bbf309be0b81a2ecc528a0124fc13a6846d7a349dd4be3f37195d924f",
+      "map_sha256": "dad52c68f36dd5c7718dcc6f3f268a1f4cccd4b8130beb89e368339f59144e5c"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00118.png",
+      "image_sha256": "9e0e270b093c59cef5f356e0313388d7c37b1d731de6b752788cebb6b44ab3bb",
+      "map_sha256": "92d986c4548d7d36a7b2635e8367dec394860d30abcf9bf950125a5d91bcc0ad"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00120.png",
+      "image_sha256": "d67c2fa01cfb16c2f4d6d3b0989bab23403412fa7f97b6cb0ecde1aa6b30cfb6",
+      "map_sha256": "ddfbe2e124a2f300a468bfe10bcdbc57b12586ed95b6110b1c1e4481e6f8d34a"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00122.png",
+      "image_sha256": "b4b88793194c0d82c983563e2ae8fd839283b1bc891bdc86b30063ecbd7de6c1",
+      "map_sha256": "1d1a4baaa8f93af75219854eea61354f2394ee50b70fd3e2abc16478f2ad3499"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00124.png",
+      "image_sha256": "3dde4e7e6f57816b2d4211d2e90fd7d10ec5feab43060ea009b704f6c43bb79c",
+      "map_sha256": "400f64d36341288cc44d0b0699c9e26253db3990e48276e44d9efdaab6793b6b"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00126.png",
+      "image_sha256": "e504396f8b67c582199bef3410f5e8532538402806739fe97b1ff5af4f0f4f3e",
+      "map_sha256": "99a7e3bab5467a460100aff6594535c2a46372876bbf25b88dd6261c27d0527b"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00128.png",
+      "image_sha256": "a004dbbdc10986fc6a903c6e389c4fd3b211b21bfd11231f7d1c632337d1f01d",
+      "map_sha256": "124165b4afce790542ee22c4b46a04c230543b7dfed5df44163b9ab2aef6ea0d"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00130.png",
+      "image_sha256": "ea12e828c0d4f3814b97ac79eee0296ef4e32f15202db1bffbeb45718edf3897",
+      "map_sha256": "d32f44da13afe714d1a599e7fa60901f2dd7f19069c7b44add6f022f1d6c7a63"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00132.png",
+      "image_sha256": "7311627881041c3df6fbfd50969c35e9ef5f3df2918665cfab41b64116ebaa8c",
+      "map_sha256": "f741b8ee75a2c0063a8eb78348950822bc8adbc792509d0fef0b70f3e3aa31d4"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00134.png",
+      "image_sha256": "68c55c24258bbd89279b874960c2c33b1af435e3c2f4e88244cfb682e7395a7c",
+      "map_sha256": "bd83a3b95384a6b21d3691e269853258adc4468967545de58c1764873d2bc043"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00136.png",
+      "image_sha256": "547ed1a02deb214a47bca8752e23539334dc183cd1a5d4290ea30b00443b6904",
+      "map_sha256": "2c1b03acaa0ab0d5c3552f67bd743b8825482649869fb3271f79c8ea196cb78e"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00138.png",
+      "image_sha256": "5d2d3a70914411513216ab6da0f55d3943ea9bac1eda7c14b53f23cc832a1efc",
+      "map_sha256": "115ee85bb8bbb8b1d6f23c71590d54812133bac041036be1b8ecdc61c3c0dee0"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00140.png",
+      "image_sha256": "706b1dab91ee5f6144e778ecbbe55ea3d1fc1670b59e0866140a552dfa8a6235",
+      "map_sha256": "ce26ed781c70016c4e2f4f72762baf59ae68558de8e6221997336a02f164955b"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00142.png",
+      "image_sha256": "0b51252793d03fb748fcb4ec7d7da7acfd6c1a3bdd383b5a8eb8b7348651ccde",
+      "map_sha256": "4e0b31a915c11d5231931a78b64665a6af55d4717c3afafea373e6a13515e10b"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00144.png",
+      "image_sha256": "68ed17afe750936e3f08b88459bfd38b263526cf1832a599b1aedc933b775044",
+      "map_sha256": "445a3c0836af719f55b4ecbd1b8dfd0b65d4e45e8a38467c1f19635d79685061"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00146.png",
+      "image_sha256": "c252daca7e6b1b6044e4523089ade2c0ef2d5790b66df4886fc0c129102186b0",
+      "map_sha256": "3a96a78452ad86c008bbbb8bee7f88d858354d8c65aba73bfc11a39774f37779"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00148.png",
+      "image_sha256": "c708916e996c4332ea6d89b1da2afa32e1a1d676b6c0c55e1fb1bd2fb3c0bf2a",
+      "map_sha256": "86381defaf90e7c6d403ed2796da9c56054e51773f0fbac0e4deda63348c6766"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00150.png",
+      "image_sha256": "82d0c872bd7a94a4c8d60c9369f2d593232c57bbaab0e81d1adbc2758d2024ea",
+      "map_sha256": "2935bc78578a0141ebb06c1328053692a6a0daa69bb6c25a4e8d77ca20dcf9d0"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00152.png",
+      "image_sha256": "302f185728fca6604b2bcfc0b711a85ebbbfd70ca4b986ac129f0652025e1f87",
+      "map_sha256": "11a75d61bb1d81f408ab875971dd42b5c4680b2db526857d71f26c8ada4f615d"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00154.png",
+      "image_sha256": "76083e214ac675fe6669e8cd17f225f32543daadd7fba16bbdbe205c3087d78f",
+      "map_sha256": "7487352c38a2cd52700ee15dbc31420933e427a6e97ca71819e85a9213c78b77"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00156.png",
+      "image_sha256": "7e04f32cd617f41398e259ed0f6c76f2dbe37a0fbdc7a1415feba4013a169610",
+      "map_sha256": "77056ffdb854014b43ac7b013fa8f44ea830da0d311ef7584e98edc15061d57c"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00158.png",
+      "image_sha256": "c6a4431a6daecd54f14a29ce50ad18656eec48229fe527016d2e02ced7458256",
+      "map_sha256": "d5e00e4ab93940e3ebb30131c5bc05b6f5610371830730fda125b94c51a2a6c9"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00160.png",
+      "image_sha256": "f60f301ab87d61b3d0ab45cb8636e532e975c82e6ba7613d7a04e2617f38ddd2",
+      "map_sha256": "3a40850d79be08f4fd3fa0495f8e2bf497c995e3b3ae31a8c4617bca6760f7d0"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00162.png",
+      "image_sha256": "4295291101b5d5baf69eb89952507da60d7272fd18b043c15d1f9335d586cfa4",
+      "map_sha256": "90d358eb82613c68bc9e4a05fb5d22aa5d205de3c1018f1bc549815083306207"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00164.png",
+      "image_sha256": "caddf4f5240ab1755e8c04658fea3115357a6f1554d636f37540d04705b413d7",
+      "map_sha256": "b00d12070c859aa57d4baf21dc9a997abf27100a83c4950dd37732872b3c339c"
+    },
+    {
+      "dataset": "dynamic",
+      "image_id": "frame_00166.png",
+      "image_sha256": "b0d46baf0d784ebbba14dc8a632f80baededfc4f0d1443098c0c740ae3b37381",
+      "map_sha256": "b5ceea1019626779827e74698a781fe1951a50afc1f1322d3ad7e0b3c7f6dd10"
+    }
+  ],
+  "method": "frozen original pair; grayscale resize; horizontal flip TTA",
+  "training": false,
+  "contract": {
+    "checkpoint_sha256": {
+      "apo": "59bd01b25a3fcdfd160d82fc1532bbd59ca47a70b5b128cd2dde9dc0a1ee5a19",
+      "fasc": "726aedc0914d15f9a60d2e2d319af8fa07cb857ecdeca0b2dcc3bc27d463b97c"
+    },
+    "source_sha256": "190862613ab7ecee5bcb8ec9c7a2fac48eecb5cf7526741cbb65021ad03735b7",
+    "sizes": [
+      [
+        384,
+        576
+      ],
+      [
+        384,
+        576
+      ]
+    ],
+    "torch": "2.6.0+cpu",
+    "smp": "0.5.0",
+    "numpy": "2.2.6",
+    "opencv": "4.11.0",
+    "method": "frozen original pair; grayscale resize; horizontal flip TTA"
+  },
+  "contract_sha256": "9d19b1fdf9a27043acfc58b2e9e88b1eec64c006379865a271fb53cec33df707",
+  "seconds": 149.4635009765625,
+  "torch": "2.6.0+cpu",
+  "smp": "0.5.0",
+  "numpy": "2.2.6",
+  "opencv": "4.11.0"
+}

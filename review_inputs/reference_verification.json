@@ -1,0 +1,42 @@
+{
+  "static": {
+    "source_workbook_sha256": "19839ef9a5dc34dd2e1c3fdc167a5904946d4641942aca7ae1cbfb7bd747c804",
+    "images": 35,
+    "eligible": 34,
+    "excluded": [
+      "im_07_arch.tif"
+    ],
+    "independent_mean_max_abs_error": {
+      "complete_six_R1_R2_R3_R4_R6_R7_PA": 3.552713678800501e-15,
+      "complete_six_R1_R2_R3_R4_R6_R7_FL": 1.4210854715202004e-14,
+      "complete_six_R1_R2_R3_R4_R6_R7_MT": 7.105427357601002e-15,
+      "available_R1_to_R7_PA": 7.105427357601002e-15,
+      "available_R1_to_R7_FL": 1.4210854715202004e-14,
+      "available_R1_to_R7_MT": 7.105427357601002e-15
+    },
+    "last_six_pixels_per_mm": {
+      "im_30_arch.tif": 8.9,
+      "im_31_arch.tif": 7.7,
+      "im_32_arch.tif": 12.6,
+      "im_33_arch.tif": 7.7,
+      "im_34_arch.tif": 7.7,
+      "im_35_arch.tif": 7.7
+    }
+  },
+  "dynamic": {
+    "source_workbook_sha256": "6c2e50fc04ce5596024647e181d8c45bceb5efc7388aba7315a37c315f4960d5",
+    "labelled_rows": 167,
+    "manual_even_frames": 84,
+    "independent_mean_verification": {
+      "FL": {
+        "copied_mean_max_abs_error": 0.0,
+        "source_rounded_ratings_vs_published_mean_max_abs_error": 0.006666666666674814
+      },
+      "PA": {
+        "copied_mean_max_abs_error": 0.0,
+        "source_rounded_ratings_vs_published_mean_max_abs_error": 0.006666666666667709
+      }
+    }
+  },
+  "test_target_labels_accessed": false
+}

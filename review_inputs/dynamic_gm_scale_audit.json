@@ -1,0 +1,2526 @@
+{
+  "method": "Fixed visible left margin ruler: gray mean over x=74:78, rows50:540, threshold140, contiguous 1-3px ticks. Fit 10,20,...60mm to six tick centers. Scale derived from pixels and printed ruler convention, no architecture reference labels used.",
+  "visual_evidence": "frame_00000.png shows depth setting65mm and regular10mm ruler ticks. Pixel scaling isotropy inferred for same image raster; not separately verified horizontally.",
+  "rows": [
+    {
+      "image_id": "frame_00000.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00001.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00002.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00003.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00004.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00005.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00006.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00007.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00008.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00009.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00010.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00011.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00012.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00013.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00014.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00015.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00016.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00017.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00018.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00019.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00020.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00021.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00022.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00023.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00024.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00025.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00026.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00027.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00028.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00029.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00030.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00031.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00032.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00033.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00034.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00035.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00036.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00037.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00038.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00039.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00040.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00041.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00042.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00043.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00044.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00045.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00046.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00047.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00048.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00049.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00050.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00051.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00052.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00053.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00054.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00055.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00056.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00057.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00058.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00059.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00060.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00061.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00062.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00063.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00064.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00065.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00066.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00067.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00068.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00069.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00070.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00071.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00072.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00073.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00074.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00075.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00076.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00077.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00078.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00079.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00080.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00081.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00082.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00083.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00084.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00085.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00086.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00087.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00088.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00089.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00090.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00091.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00092.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00093.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00094.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00095.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00096.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00097.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00098.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00099.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00100.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00101.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00102.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00103.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00104.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00105.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00106.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00107.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00108.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00109.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00110.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00111.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00112.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00113.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00114.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00115.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00116.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00117.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00118.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00119.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00120.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00121.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00122.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00123.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00124.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00125.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00126.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00127.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00128.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00129.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00130.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00131.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00132.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00133.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00134.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00135.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00136.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00137.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00138.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00139.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00140.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00141.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00142.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00143.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00144.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00145.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00146.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00147.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00148.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00149.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00150.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00151.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00152.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00153.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00154.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00155.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00156.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00157.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00158.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00159.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00160.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00161.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00162.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00163.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00164.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00165.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00166.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    },
+    {
+      "image_id": "frame_00167.png",
+      "status": "ruler_fit",
+      "pixels_per_mm": 7.7542857142857144,
+      "depth_zero_pixel": 42.10000000000012,
+      "ruler_centers_px": [
+        119.5,
+        197.5,
+        274.5,
+        352.5,
+        429.5,
+        507.5
+      ],
+      "ruler_fit_max_residual_px": 0.31428571428585883
+    }
+  ]
+}

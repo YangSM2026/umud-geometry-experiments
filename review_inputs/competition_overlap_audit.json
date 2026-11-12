@@ -1,0 +1,73 @@
+{
+  "audit_type": "exact_file_test_and_exact_decoded_grayscale_training",
+  "test_inventory": {
+    "path": "completed_run/audit/input_images.csv",
+    "sha256": "4e412cc784dcfa0734e54117a3ad6cf9bea90156e120d98fc5d92d84e0bc130d",
+    "rows": 309,
+    "valid_sha256_rows": 309,
+    "unique_file_sha256": 309,
+    "hash_definition": "SHA256(file bytes)"
+  },
+  "historical_training_inventory": {
+    "path": "recovered/UMUD_Integrated_Model_Selection_Results/run_artifacts/plan/data_bundle.json",
+    "sha256": "fba841d878dd486e39ba3090948b1139c6a0dc0fc20838fff00a788cf61741d8",
+    "rows": 3136,
+    "valid_image_sha256_rows": 3136,
+    "unique_decoded_image_sha256": 2994,
+    "rows_by_kind": {
+      "apo": 1048,
+      "fasc": 2088
+    },
+    "rows_by_split": {
+      "train": 2521,
+      "validation": 615
+    },
+    "hash_definition": "SHA256(str(shape).encode() + np.asarray(PIL.Image.open(path).convert('L')).tobytes())",
+    "hash_definition_source": "recovered/UMUD_Integrated_Model_Selection_Results/run_artifacts/source/src/train.py:29-43",
+    "grouping_limitation": "Image groups do not establish subject independence without subject IDs.",
+    "historical_audit_caveat": "Reserved from new fitting and selection; this audit pool was examined in earlier experiments and is not a pristine new confirmation set."
+  },
+  "datasets": {
+    "osf_static35": {
+      "images_checked": 35,
+      "exact_test_file_matches": 0,
+      "exact_training_decoded_matches": 1,
+      "test_matches": [],
+      "training_matches": [
+        {
+          "public_image": "static/benchmark_dataset_architecture_v0.1.0/im_07_arch.tif",
+          "decoded_shape_sha256": "eceddb50d7467f14805a274fd78473ad83d7d8d71e1bf0a765c20db08f24ae19",
+          "training_records": [
+            {
+              "image_rel": "apo_imgs_v1/apo_images_new_model_v1/image_0512.tif",
+              "kind": "apo",
+              "split": "train",
+              "group_id": "23a3bc4afa78306598a797f63dc2c77e9e2cb75a8183bdf9321ab4f86d0048f7"
+            },
+            {
+              "image_rel": "fasc_imgs_v1/fasc_images_new_model_v1/image_2135.tif",
+              "kind": "fasc",
+              "split": "train",
+              "group_id": "23a3bc4afa78306598a797f63dc2c77e9e2cb75a8183bdf9321ab4f86d0048f7"
+            }
+          ]
+        }
+      ]
+    },
+    "osf_dynamic769": {
+      "images_checked": 769,
+      "exact_test_file_matches": 0,
+      "exact_training_decoded_matches": 0,
+      "test_matches": [],
+      "training_matches": []
+    }
+  },
+  "limitations": [
+    "The training manifest covers 3136 retained annotation rows (1048 apo, 2088 fasc), not a newly enumerated complete competition directory. Unrepresented records are not audited.",
+    "Test hashes cover file bytes only; matching image pixels inside differently encoded or metadata-modified files will not be detected.",
+    "Training comparison reproduces the source grayscale+shape digest exactly. Public fingerprint JSON grayscale-only digests are not directly comparable because they omit shape.",
+    "No cropping, resizing, compression, intensity changes, near-duplicate, adjacent-frame or same-subject overlap exclusion is established by these exact hashes.",
+    "Public pretrained checkpoint training membership is not established by this user-project historical inventory.",
+    "Unknown subject identifiers prevent a claim of subject-independent validation."
+  ]
+}

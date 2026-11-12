@@ -1,0 +1,2641 @@
+{
+  "source_url": "https://osf.io/hb5xj",
+  "source_workbook_sha256": "19839ef9a5dc34dd2e1c3fdc167a5904946d4641942aca7ae1cbfb7bd747c804",
+  "reference_status": "development benchmark; upstream geometry explicitly refers to OSF benchmark",
+  "units": {
+    "PA": "degrees (conventional; not explicitly labelled in workbook)",
+    "FL": "mm (conventional; not explicitly labelled in workbook)",
+    "MT": "mm (conventional; not explicitly labelled in workbook)"
+  },
+  "rater_warning": "README/paper says six raters; source workbook contains R1 through R7. R5 is missing for im_18 through im_35. Complete-six (excluding R5) and available-rater means are retained; this is an explicit analysis choice, not an official reference definition.",
+  "subject_ids_available": false,
+  "overlap_audit_file": "competition_overlap_audit.json",
+  "eligible_images_after_known_exact_overlap_exclusion": 34,
+  "rows": [
+    {
+      "image_id": "im_01_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 25.8,
+          "FL": 37.2337662337662,
+          "MT": 15.1948051948052
+        },
+        "2": {
+          "PA": 27.5,
+          "FL": 32.77922078,
+          "MT": 14.67532468
+        },
+        "3": {
+          "PA": 31.887,
+          "FL": 31.938051948052,
+          "MT": 14.8638961038961
+        },
+        "4": {
+          "PA": 23.565,
+          "FL": 40.12987012987013,
+          "MT": 14.675324675324674
+        },
+        "5": {
+          "PA": 25.526666666666667,
+          "FL": 35.688311688311686,
+          "MT": 14.818484848484847
+        },
+        "6": {
+          "PA": 29.568,
+          "FL": 38.534891774891776,
+          "MT": 14.765670995670996
+        },
+        "7": {
+          "PA": 28.566666666666666,
+          "FL": 33.679653679653676,
+          "MT": 15.038961038961038
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 11.286,
+          "FL": 87.60558442,
+          "MT": 15.21428571
+        },
+        "DLTrack": {
+          "PA": 25.2380761549471,
+          "FL": 38.25632341125709,
+          "MT": 15.286941898949
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 27.814444444444444,
+        "FL": 35.71590909103897,
+        "MT": 14.868997114776334
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 27.487619047619045,
+        "FL": 35.711966604935064,
+        "MT": 14.861781076734692
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_01_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "df464cb8fad7ba00244f92242a0311d3490e5d7fa8341ded2b465dfedeb1704c",
+      "decoded_grayscale_sha256": "2056b4d0441bc91190cff79a87a5c989cb3264833173a8de7132e3869039dab6",
+      "dhash_256_hex": "0000a4e8b981b459932bf09a394258e26662653a6606678627120e0666260f86",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_02_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 16.9,
+          "FL": 71.1688311688312,
+          "MT": 21.5584415584416
+        },
+        "2": {
+          "PA": 13.6,
+          "FL": 69.83116883,
+          "MT": 21.2987013
+        },
+        "3": {
+          "PA": 17.463,
+          "FL": 74.5346753246753,
+          "MT": 21.2079220779221
+        },
+        "4": {
+          "PA": 15.931,
+          "FL": 85.97402597402598,
+          "MT": 22.07792207792208
+        },
+        "5": {
+          "PA": 16.28,
+          "FL": 72.93831168831169,
+          "MT": 21.373160173160176
+        },
+        "6": {
+          "PA": 15.116333333333335,
+          "FL": 81.46987012987013,
+          "MT": 21.61844155844156
+        },
+        "7": {
+          "PA": 17.266666666666666,
+          "FL": 66.99350649350647,
+          "MT": 21.63203463203463
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 13.434,
+          "FL": 81.44480519,
+          "MT": 20.51220779
+        },
+        "DLTrack": {
+          "PA": 15.7,
+          "FL": 70.66233766233766,
+          "MT": 23.714285714285715
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 16.046166666666668,
+        "FL": 74.99534632015151,
+        "MT": 21.565577200793665
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 16.07957142857143,
+        "FL": 74.70148422988868,
+        "MT": 21.538089053988877
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_02_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "5c09bfd55fd418e411896845e4d176f92f8bc6978a0c023e842e608e958c974a",
+      "decoded_grayscale_sha256": "2b0899bf2ce07a5cdf0b4f5b20e3f742dba0dc3434dc735855a443d935166099",
+      "dhash_256_hex": "0001988ab0079dc3b1bba448269868c0361039320652601278f2608668e64d2a",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_03_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 23.9,
+          "FL": 48.4155844155844,
+          "MT": 16.3636363636364
+        },
+        "2": {
+          "PA": 24.9,
+          "FL": 42.63636364,
+          "MT": 16.88311688
+        },
+        "3": {
+          "PA": 24.989,
+          "FL": 47.4351948051948,
+          "MT": 16.4523376623377
+        },
+        "4": {
+          "PA": 23.344,
+          "FL": 45.84415584415584,
+          "MT": 16.883116883116884
+        },
+        "5": {
+          "PA": 23.906666666666666,
+          "FL": 44.15974025974026,
+          "MT": 16.56017316017316
+        },
+        "6": {
+          "PA": 20.154333333333337,
+          "FL": 40.79099567099567,
+          "MT": 16.856363636363632
+        },
+        "7": {
+          "PA": 25.466666666666665,
+          "FL": 41.31601731601732,
+          "MT": 17.207792207792206
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 20.413,
+          "FL": 51.31220779,
+          "MT": 16.88246753
+        },
+        "DLTrack": {
+          "PA": 19.7063398867175,
+          "FL": 46.17700080594547,
+          "MT": 17.163910470250002
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 23.792333333333335,
+        "FL": 44.40638528199134,
+        "MT": 16.77439393887447
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 23.80866666666667,
+        "FL": 44.371150278812614,
+        "MT": 16.74379097048857
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_03_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "cc8e20397a9dddceff68125f84a5fe0d8167c2bc772cca0d2bc33b94b8064467",
+      "decoded_grayscale_sha256": "7b6c488e8b3c56535192abb0e9eee604d328673903745371d6b9bd59002cfb6a",
+      "dhash_256_hex": "00008c1ab8c7927ba447a74672384eb20da811e2163621ae2476173623664fc2",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_04_arch.tif",
+      "scale_pixels_per_cm": 126,
+      "scale_pixels_per_mm": 12.6,
+      "raters": {
+        "1": {
+          "PA": 17.8,
+          "FL": 57.9365079365079,
+          "MT": 16.5079365079365
+        },
+        "2": {
+          "PA": 20,
+          "FL": 58.33333333,
+          "MT": 16.66666667
+        },
+        "3": {
+          "PA": 18.906,
+          "FL": 65.0340476190476,
+          "MT": 16.4854761904762
+        },
+        "4": {
+          "PA": 20.276,
+          "FL": 63.57142857142857,
+          "MT": 16.507936507936506
+        },
+        "5": {
+          "PA": 18.513333333333332,
+          "FL": 63.60198412698413,
+          "MT": 16.77751322751323
+        },
+        "6": {
+          "PA": 19.31533333333333,
+          "FL": 63.918174603174606,
+          "MT": 16.606613756613758
+        },
+        "7": {
+          "PA": 20.966666666666665,
+          "FL": 56.82539682539683,
+          "MT": 16.66931216931217
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 18.335,
+          "FL": 64.45103175,
+          "MT": 16.93944444
+        },
+        "DLTrack": {
+          "PA": 18.4,
+          "FL": 70.07936507936508,
+          "MT": 19.88095238095238
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 19.544,
+        "FL": 60.93648148092591,
+        "MT": 16.57399030037919
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 19.396761904761906,
+        "FL": 61.317267573219944,
+        "MT": 16.60306500425548
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_04_arch.tif",
+      "width": 1234,
+      "height": 688,
+      "file_sha256": "04645524654b39702ad43c4a3bef6a622560c07bdff258a5018e7a0a924c19b1",
+      "decoded_grayscale_sha256": "b644bc42759b0e369587546861310b82c08659e9fe9feceaebf6f58728a0c268",
+      "dhash_256_hex": "000036f10277026f07560b07b84fa703b692b332b9d2bf06b986a7868fb28bd6",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_05_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 24,
+          "FL": 62.7922077922078,
+          "MT": 20.7792207792208
+        },
+        "2": {
+          "PA": 26.7,
+          "FL": 54.75324675,
+          "MT": 21.42857143
+        },
+        "3": {
+          "PA": 22.599,
+          "FL": 61.3890909090909,
+          "MT": 20.4007792207792
+        },
+        "4": {
+          "PA": 24.288,
+          "FL": 86.62337662337663,
+          "MT": 20.909090909090907
+        },
+        "5": {
+          "PA": 23.89,
+          "FL": 92.79532467532468,
+          "MT": 20.90562770562771
+        },
+        "6": {
+          "PA": 22.590333333333334,
+          "FL": 81.17393939393938,
+          "MT": 20.662597402597402
+        },
+        "7": {
+          "PA": 25.9,
+          "FL": 63.24675324675325,
+          "MT": 21.103896103896105
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 19.842,
+          "FL": 69.86402597,
+          "MT": 20.55103896
+        },
+        "DLTrack": {
+          "PA": 23.04388313601426,
+          "FL": 58.77360500589289,
+          "MT": 21.472352369503778
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 24.346222222222224,
+        "FL": 68.329769119228,
+        "MT": 20.880692640930736
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 24.281047619047623,
+        "FL": 71.82484848438466,
+        "MT": 20.8842547930303
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_05_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "93bde6c95bc7ac0d0b4387ab8dad6aea007c5b9b42d8cea49c98e45cc51bf515",
+      "decoded_grayscale_sha256": "9c78886b0c8136a84b1ec3c82db4f461fc65627f47a191d975b88ccd101a7a32",
+      "dhash_256_hex": "0000b9c8b127a87f88fb8cae60ce3b0266ba630e3c62758a660a34b219f6242e",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_06_arch.tif",
+      "scale_pixels_per_cm": 74,
+      "scale_pixels_per_mm": 7.4,
+      "raters": {
+        "1": {
+          "PA": 13.5,
+          "FL": 71.9864864864865,
+          "MT": 18.5135135135135
+        },
+        "2": {
+          "PA": 15.7,
+          "FL": 72.35135135,
+          "MT": 18.51351351
+        },
+        "3": {
+          "PA": 12.639,
+          "FL": 86.117027027027,
+          "MT": 18.6744594594595
+        },
+        "4": {
+          "PA": 15.598,
+          "FL": 87.02702702702703,
+          "MT": 18.783783783783782
+        },
+        "5": {
+          "PA": 13.496666666666668,
+          "FL": 101.40202702702703,
+          "MT": 18.742792792792795
+        },
+        "6": {
+          "PA": 13.796,
+          "FL": 84.43549549549547,
+          "MT": 18.652882882882885
+        },
+        "7": {
+          "PA": 15,
+          "FL": 67.70945945945945,
+          "MT": 19.103603603603606
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 12.67,
+          "FL": 78.05918919,
+          "MT": 18.40662162
+        },
+        "DLTrack": {
+          "PA": 14.34614702753538,
+          "FL": 77.37382882561155,
+          "MT": 24.13655881597169
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 14.372166666666667,
+        "FL": 78.27114114091592,
+        "MT": 18.70695945887388
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 14.24709523809524,
+        "FL": 81.57555341036036,
+        "MT": 18.712078506576578
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_06_arch.tif",
+      "width": 800,
+      "height": 600,
+      "file_sha256": "e5e5293fc92d3af5879238ab12737ccaaaee42f7b35c13164bd6b0aeff73e935",
+      "decoded_grayscale_sha256": "65e9bef3df07b3fc141a18d771aacf2abfea66e3e0a125658556002516142fb2",
+      "dhash_256_hex": "000032913a833d813a81368333863d0030c02280360030803700360820280000",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_07_arch.tif",
+      "scale_pixels_per_cm": 85,
+      "scale_pixels_per_mm": 8.5,
+      "raters": {
+        "1": {
+          "PA": 18.3,
+          "FL": 41.1294117647059,
+          "MT": 13.4117647058824
+        },
+        "2": {
+          "PA": 17.8,
+          "FL": 43.02352941,
+          "MT": 13.29411765
+        },
+        "3": {
+          "PA": 18.543,
+          "FL": 43.4594117647059,
+          "MT": 13.4124705882353
+        },
+        "4": {
+          "PA": 16.759,
+          "FL": 45.647058823529406,
+          "MT": 14.11764705882353
+        },
+        "5": {
+          "PA": 14.21,
+          "FL": 55.75764705882353,
+          "MT": 13.458039215686275
+        },
+        "6": {
+          "PA": 15.360666666666667,
+          "FL": 46.22035294117647,
+          "MT": 13.098039215686274
+        },
+        "7": {
+          "PA": 14.700000000000001,
+          "FL": 47.970588235294116,
+          "MT": 14
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 9.116,
+          "FL": 80.12352941,
+          "MT": 13.12235294
+        },
+        "DLTrack": {
+          "PA": 15.55608664488652,
+          "FL": 49.14836734234487,
+          "MT": 13.33094981681973
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 16.910444444444444,
+        "FL": 44.5750588232353,
+        "MT": 13.555673203104584
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 16.52466666666667,
+        "FL": 46.17257142831933,
+        "MT": 13.541725490616255
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_07_arch.tif",
+      "width": 512,
+      "height": 512,
+      "file_sha256": "003482e1694963fc163da9c236f07c610728bfb1cce1b19ef0fdcbda7af12ee9",
+      "decoded_grayscale_sha256": "1b7e92d6b1d340437bf1e02a9163a7fcf5d4a7e58ab3bb665df76184cecf72ad",
+      "dhash_256_hex": "b2629c5ccf686068c95cab589858b659b26c526af240fc4c53e05e4092cc5c44",
+      "confirmed_historical_training_overlap": true,
+      "eligible_for_development_evaluation": false
+    },
+    {
+      "image_id": "im_08_arch.tif",
+      "scale_pixels_per_cm": 89,
+      "scale_pixels_per_mm": 8.9,
+      "raters": {
+        "1": {
+          "PA": 24,
+          "FL": 64.0112359550562,
+          "MT": 24.2696629213483
+        },
+        "2": {
+          "PA": 20,
+          "FL": 60.91011236,
+          "MT": 24.60674157
+        },
+        "3": {
+          "PA": 23.365,
+          "FL": 65.7647191011236,
+          "MT": 24.2732584269663
+        },
+        "4": {
+          "PA": 25.59,
+          "FL": 66.74157303370787,
+          "MT": 24.382022471910112
+        },
+        "5": {
+          "PA": 23.540000000000003,
+          "FL": 60.66516853932584,
+          "MT": 24.37977528089888
+        },
+        "6": {
+          "PA": 21.142333333333333,
+          "FL": 62.858651685393255,
+          "MT": 24.06116104868914
+        },
+        "7": {
+          "PA": 23.566666666666666,
+          "FL": 61.825842696629216,
+          "MT": 24.535580524344567
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 23.545,
+          "FL": 61.69550562,
+          "MT": 24.1758427
+        },
+        "DLTrack": {
+          "PA": 22.73048056851462,
+          "FL": 66.26476983160101,
+          "MT": 24.857739202850762
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 22.944,
+        "FL": 63.68535580531836,
+        "MT": 24.354737827209735
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 23.02914285714286,
+        "FL": 63.253900481605136,
+        "MT": 24.358314606308188
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_08_arch.tif",
+      "width": 800,
+      "height": 600,
+      "file_sha256": "2243024c7fd0d0b0c4daad1bc2d3755491c969e247317998c10439e6934af38d",
+      "decoded_grayscale_sha256": "6174f8622da8a050eb755306f16f2c516a963b11b77976961db4ce744b06a7b5",
+      "dhash_256_hex": "0000641963c37fc16fc172036cc6788068c079c06b40614078407e0840180000",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_09_arch.tif",
+      "scale_pixels_per_cm": 94,
+      "scale_pixels_per_mm": 9.4,
+      "raters": {
+        "1": {
+          "PA": 14.9,
+          "FL": 48.5531914893617,
+          "MT": 15.9574468085106
+        },
+        "2": {
+          "PA": 16.5,
+          "FL": 46.40425532,
+          "MT": 15.95744681
+        },
+        "3": {
+          "PA": 13.667,
+          "FL": 60.1845744680851,
+          "MT": 15.4478723404255
+        },
+        "4": {
+          "PA": 17.549,
+          "FL": 63.61702127659575,
+          "MT": 15.425531914893618
+        },
+        "5": {
+          "PA": 15.32,
+          "FL": 62.515425531914886,
+          "MT": 15.34964539007092
+        },
+        "6": {
+          "PA": 14.516333333333334,
+          "FL": 63.570957446808514,
+          "MT": 15.197943262411348
+        },
+        "7": {
+          "PA": 14.166666666666666,
+          "FL": 49.840425531914896,
+          "MT": 15.148936170212766
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 12.191,
+          "FL": 66.85989362,
+          "MT": 15.25670213
+        },
+        "DLTrack": {
+          "PA": 16.15255747476289,
+          "FL": 57.77504140206749,
+          "MT": 16.420831294994233
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 15.216500000000002,
+        "FL": 55.361737588794334,
+        "MT": 15.522529551075637
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 15.231285714285717,
+        "FL": 56.38369300924012,
+        "MT": 15.497831813789249
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_09_arch.tif",
+      "width": 800,
+      "height": 652,
+      "file_sha256": "5c88bb6662f332c703fe42def213b708ac2543ba575a8b1298e4f73619fefa67",
+      "decoded_grayscale_sha256": "783e3637466751c7db4c6e0ba5d65297dc0da265ddf52e8e003718e4066bcb5e",
+      "dhash_256_hex": "00004060004865496048644876407780764064c06e4066c06a40744075400000",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_10_arch.tif",
+      "scale_pixels_per_cm": 112,
+      "scale_pixels_per_mm": 11.2,
+      "raters": {
+        "1": {
+          "PA": 26.6,
+          "FL": 50.1517857142857,
+          "MT": 20.3571428571429
+        },
+        "2": {
+          "PA": 28.7,
+          "FL": 49.3125,
+          "MT": 20.625
+        },
+        "3": {
+          "PA": 23.793,
+          "FL": 51.8946428571429,
+          "MT": 20.071875
+        },
+        "4": {
+          "PA": 23.998,
+          "FL": 50.625,
+          "MT": 20.089285714285715
+        },
+        "5": {
+          "PA": 22.08,
+          "FL": 50.559821428571425,
+          "MT": 19.823214285714283
+        },
+        "6": {
+          "PA": 23.260333333333335,
+          "FL": 51.59604166666667,
+          "MT": 20.004315476190474
+        },
+        "7": {
+          "PA": 22.3,
+          "FL": 47.11607142857143,
+          "MT": 20.12202380952381
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 22.22,
+          "FL": 53.33910714,
+          "MT": 19.75741071
+        },
+        "DLTrack": {
+          "PA": 22.03323017834462,
+          "FL": 50.88737596141809,
+          "MT": 20.314480363934134
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 24.775222222222222,
+        "FL": 50.11600694444445,
+        "MT": 20.21160714285715
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 24.390190476190476,
+        "FL": 50.179409013605444,
+        "MT": 20.1561224489796
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_10_arch.tif",
+      "width": 800,
+      "height": 600,
+      "file_sha256": "6ad79d63178e51985e138b6c5b2f0a4bc4cd2ba00fc1104fcb3f8fea87f5c35c",
+      "decoded_grayscale_sha256": "76c2b93b7ae2eafe78b47a585c266273713ae36bc4739cea3827b1d999dded77",
+      "dhash_256_hex": "0000c12cd4c355716ae170c36f2a77307e6874d0326038503068227800180000",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_11_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 13.9,
+          "FL": 45.7792207792208,
+          "MT": 12.4675324675325
+        },
+        "2": {
+          "PA": 14,
+          "FL": 47.38961039,
+          "MT": 12.20779221
+        },
+        "3": {
+          "PA": 15.064,
+          "FL": 51.4779220779221,
+          "MT": 12.2657142857143
+        },
+        "4": {
+          "PA": 13.102,
+          "FL": 60.3896103896104,
+          "MT": 12.727272727272727
+        },
+        "5": {
+          "PA": 14.336666666666666,
+          "FL": 49.07357142857143,
+          "MT": 12.18831168831169
+        },
+        "6": {
+          "PA": 15.409666666666666,
+          "FL": 54.20878787878788,
+          "MT": 11.991731601731603
+        },
+        "7": {
+          "PA": 18.233333333333334,
+          "FL": 45.564935064935064,
+          "MT": 12.670995670995673
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 13.03,
+          "FL": 52.04805195,
+          "MT": 12.04337662
+        },
+        "DLTrack": {
+          "PA": 12.87792401682856,
+          "FL": 49.14262736318925,
+          "MT": 12.794918769103028
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 14.951500000000001,
+        "FL": 50.801681096746044,
+        "MT": 12.388506493874466
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 14.863666666666669,
+        "FL": 50.554808287006814,
+        "MT": 12.359907235936927
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_11_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "37f1b9b356bd3908b1523ccf924deba585eecafdf023283075b38e5248a4fcef",
+      "decoded_grayscale_sha256": "0a85bb08e0185ecf93fa1e98a3f298b5b0c884ba20a6c50c2181524d5a446ffa",
+      "dhash_256_hex": "0000eac8bc17b371b6b3f6a839d06eb860b26c32688a670a6cc8651a7318611a",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_12_arch.tif",
+      "scale_pixels_per_cm": 89,
+      "scale_pixels_per_mm": 8.9,
+      "raters": {
+        "1": {
+          "PA": 18.5,
+          "FL": 60.7752808988764,
+          "MT": 16.4044943820225
+        },
+        "2": {
+          "PA": 17.7,
+          "FL": 58.31460674,
+          "MT": 16.40449438
+        },
+        "3": {
+          "PA": 17.23,
+          "FL": 63.3607865168539,
+          "MT": 16.0701123595506
+        },
+        "4": {
+          "PA": 18.573,
+          "FL": 81.68539325842696,
+          "MT": 16.51685393258427
+        },
+        "5": {
+          "PA": 13.840000000000002,
+          "FL": 77.00112359550562,
+          "MT": 16.967790262172283
+        },
+        "6": {
+          "PA": 17.88733333333333,
+          "FL": 71.92205992509363,
+          "MT": 16.18367041198502
+        },
+        "7": {
+          "PA": 17.933333333333334,
+          "FL": 59.336741573033706,
+          "MT": 16.745318352059925
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 14.995,
+          "FL": 73.64235955,
+          "MT": 16.39674157
+        },
+        "DLTrack": {
+          "PA": 19.03359808762225,
+          "FL": 59.20037470388351,
+          "MT": 17.55459376435738
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 17.970611111111115,
+        "FL": 65.89914481871409,
+        "MT": 16.38749063636705
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 17.38052380952381,
+        "FL": 67.48514178682717,
+        "MT": 16.470390582910657
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_12_arch.tif",
+      "width": 800,
+      "height": 600,
+      "file_sha256": "8f3160b529ae9237d66c310f49e7ffe2c864a7efa87c133054afdc059d22506d",
+      "decoded_grayscale_sha256": "f97b2421e5a691b59cc1344bfd67765d5fa3f559827d373c5a89ea1415b2f2d7",
+      "dhash_256_hex": "0000749968a361416b6172837166748067e06c00660076806c80780840180000",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_13_arch.tif",
+      "scale_pixels_per_cm": 89,
+      "scale_pixels_per_mm": 8.9,
+      "raters": {
+        "1": {
+          "PA": 12.4,
+          "FL": 67.0786516853933,
+          "MT": 17.6404494382022
+        },
+        "2": {
+          "PA": 11.6,
+          "FL": 59.76404494,
+          "MT": 17.75280899
+        },
+        "3": {
+          "PA": 16.064,
+          "FL": 68.3912359550562,
+          "MT": 17.7356179775281
+        },
+        "4": {
+          "PA": 13.191,
+          "FL": 76.17977528089888,
+          "MT": 17.865168539325843
+        },
+        "5": {
+          "PA": 12.62,
+          "FL": 71.19494382022472,
+          "MT": 17.559550561797753
+        },
+        "6": {
+          "PA": 12.860666666666667,
+          "FL": 70.92602996254682,
+          "MT": 17.635430711610486
+        },
+        "7": {
+          "PA": 17.400000000000002,
+          "FL": 60.17977528089887,
+          "MT": 17.812734082397004
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 14.407,
+          "FL": 67.59022472,
+          "MT": 17.1688764
+        },
+        "DLTrack": {
+          "PA": 14,
+          "FL": 65.67415730337078,
+          "MT": 18.325842696629213
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 13.91927777777778,
+        "FL": 67.08658551746568,
+        "MT": 17.74036828984394
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 13.733666666666668,
+        "FL": 67.67349384643124,
+        "MT": 17.71453718583734
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_13_arch.tif",
+      "width": 800,
+      "height": 600,
+      "file_sha256": "edf7c3c81b63f1a8d051f8835a643beee43a673930e8e13eeb84a806f7748f61",
+      "decoded_grayscale_sha256": "34e24bcea3d23ef164c0386ae9c9bf77936472f038400322a668b409cb15e5cd",
+      "dhash_256_hex": "000070697cc362016ec174c3766664c06ec06c8074c0614078006e0840180000",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_14_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 22.7,
+          "FL": 55.7402597402597,
+          "MT": 21.1688311688312
+        },
+        "2": {
+          "PA": 25.7,
+          "FL": 52,
+          "MT": 21.42857143
+        },
+        "3": {
+          "PA": 25.502,
+          "FL": 53.6458441558442,
+          "MT": 21.447012987013
+        },
+        "4": {
+          "PA": 24.066,
+          "FL": 53.24675324675325,
+          "MT": 21.818181818181817
+        },
+        "5": {
+          "PA": 22.98,
+          "FL": 55.925324675324674,
+          "MT": 21.07792207792208
+        },
+        "6": {
+          "PA": 20.373,
+          "FL": 56.88103896103896,
+          "MT": 21.140519480519483
+        },
+        "7": {
+          "PA": 24.066666666666666,
+          "FL": 50.59740259740259,
+          "MT": 21.44588744588745
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 22.342,
+          "FL": 57.41532468,
+          "MT": 21.65454545
+        },
+        "DLTrack": {
+          "PA": 22.2,
+          "FL": 54.2987012987013,
+          "MT": 21.728770568307677
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 23.73461111111111,
+        "FL": 53.68521645021645,
+        "MT": 21.40816738840549
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 23.626809523809523,
+        "FL": 54.0052319109462,
+        "MT": 21.36098948690786
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_14_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "d549789fd8a8363a63b89f973b4678f93ee20a28b7907377ef56e0dbb6238c3b",
+      "decoded_grayscale_sha256": "ae08bd22ec38141df98ea06111daa8366f5db4e763507f79f13bf9c93f01341d",
+      "dhash_256_hex": "0001ada8aac788f9998ea46a39227a1a0ae31b2614f61cbe4f4a0cce0c42517a",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_15_arch.tif",
+      "scale_pixels_per_cm": 126,
+      "scale_pixels_per_mm": 12.6,
+      "raters": {
+        "1": {
+          "PA": 15.8,
+          "FL": 59.3492063492063,
+          "MT": 15.952380952381
+        },
+        "2": {
+          "PA": 16,
+          "FL": 60.24603175,
+          "MT": 15.87301587
+        },
+        "3": {
+          "PA": 17.687,
+          "FL": 61.8911904761905,
+          "MT": 16.245873015873
+        },
+        "4": {
+          "PA": 17.029,
+          "FL": 61.19047619047619,
+          "MT": 16.26984126984127
+        },
+        "5": {
+          "PA": 16.709999999999997,
+          "FL": 61.756349206349206,
+          "MT": 15.804497354497354
+        },
+        "6": {
+          "PA": 16.503,
+          "FL": 58.587857142857146,
+          "MT": 15.92687830687831
+        },
+        "7": {
+          "PA": 20.633333333333336,
+          "FL": 53.9404761904762,
+          "MT": 16.306878306878307
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 15.854,
+          "FL": 65.33984127,
+          "MT": 16.30928571
+        },
+        "DLTrack": {
+          "PA": 15.96383652747132,
+          "FL": 65.30272542677933,
+          "MT": 19.257813888038832
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 17.27538888888889,
+        "FL": 59.200873016534395,
+        "MT": 16.095811286975312
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 17.19461904761905,
+        "FL": 59.5659410436508,
+        "MT": 16.054195010907033
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_15_arch.tif",
+      "width": 1234,
+      "height": 688,
+      "file_sha256": "a7eb604223fc0431f00df93708750f7247dc0c98ba0e986c74223cfc733c466d",
+      "decoded_grayscale_sha256": "3e51bb1c987c813c95b397cf22b8062149ebf52e4352d51642ee3acb43309a2f",
+      "dhash_256_hex": "000037d1055718df1b2a1437b417b2c3b3e298c699a6b8a69c4e9d0e99668a26",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_16_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 13.9,
+          "FL": 45.5844155844156,
+          "MT": 12.2077922077922
+        },
+        "2": {
+          "PA": 14.4,
+          "FL": 41.54545455,
+          "MT": 12.20779221
+        },
+        "3": {
+          "PA": 16.796,
+          "FL": 45.5525974025974,
+          "MT": 11.9433766233766
+        },
+        "4": {
+          "PA": 13.977,
+          "FL": 57.142857142857146,
+          "MT": 12.077922077922079
+        },
+        "5": {
+          "PA": 14.235,
+          "FL": 51.148701298701305,
+          "MT": 12.035497835497836
+        },
+        "6": {
+          "PA": 14.825333333333333,
+          "FL": 58.04238095238095,
+          "MT": 11.758528138528138
+        },
+        "7": {
+          "PA": 15.433333333333332,
+          "FL": 47.58441558441558,
+          "MT": 12.363636363636363
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 13.364,
+          "FL": 49.73207792,
+          "MT": 11.77558442
+        },
+        "DLTrack": {
+          "PA": 13.71678510500765,
+          "FL": 48.88657679223896,
+          "MT": 12.824008871057346
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 14.888611111111112,
+        "FL": 49.24202020277778,
+        "MT": 12.093174603542563
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 14.795238095238096,
+        "FL": 49.514403216481135,
+        "MT": 12.084935065250459
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_16_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "4d07b7a717d577286e900c6ed91adf6251cf1c3cff78623399c7d843c24340eb",
+      "decoded_grayscale_sha256": "5896ef90cbfc338ed215ff4ee2ace3e536ae498ca2de6ecebc38997fd9fa8d67",
+      "dhash_256_hex": "0000fa48b817a2f1be21a6a039c06eb260b274226182750260786d3a7318650a",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_17_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 18.1,
+          "FL": 70.3766233766234,
+          "MT": 19.8701298701299
+        },
+        "2": {
+          "PA": 17.1,
+          "FL": 61.77922078,
+          "MT": 20
+        },
+        "3": {
+          "PA": 18.853,
+          "FL": 67.9394805194805,
+          "MT": 20.2223376623377
+        },
+        "4": {
+          "PA": 15.504,
+          "FL": 73.37662337662339,
+          "MT": 20.64935064935065
+        },
+        "5": {
+          "PA": 16.82,
+          "FL": 75.65064935064936,
+          "MT": 19.879653679653682
+        },
+        "6": {
+          "PA": 16.887666666666664,
+          "FL": 72.63528138528139,
+          "MT": 19.941125541125544
+        },
+        "7": {
+          "PA": 17.033333333333335,
+          "FL": 63.383116883116884,
+          "MT": 20.30735930735931
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 14.835,
+          "FL": 77.03441558,
+          "MT": 20.01493506
+        },
+        "DLTrack": {
+          "PA": 15.7,
+          "FL": 69.26387486366896,
+          "MT": 20.046603464446843
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 17.246333333333332,
+        "FL": 68.24839105352092,
+        "MT": 20.165050505050516
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 17.18542857142857,
+        "FL": 69.30585652453927,
+        "MT": 20.124279529993828
+      },
+      "n_raters_available_R1_to_R7": 7,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_17_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "39d2ee76c9cff83323552f5e382cb136fba386bca737177f069ac249233ade73",
+      "decoded_grayscale_sha256": "df12099ea541b9addc4b037d3ad819c7dfd30dd07f4f3d46ac56d4d4b9461518",
+      "dhash_256_hex": "0000b188b00f8bf3bbe2ae32156874da14e31cb20c6e1c3647f01c32143262ba",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_18_arch.tif",
+      "scale_pixels_per_cm": 126,
+      "scale_pixels_per_mm": 12.6,
+      "raters": {
+        "1": {
+          "PA": 17.2,
+          "FL": 68.1984126984127,
+          "MT": 21.6666666666667
+        },
+        "2": {
+          "PA": 21.5,
+          "FL": 63.99206349,
+          "MT": 21.58730159
+        },
+        "3": {
+          "PA": 18.972,
+          "FL": 78.3578571428571,
+          "MT": 21.3216666666667
+        },
+        "4": {
+          "PA": 19.906,
+          "FL": 69.76190476190476,
+          "MT": 21.349206349206348
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 18.834999999999997,
+          "FL": 68.35005291005291,
+          "MT": 21.31177248677249
+        },
+        "7": {
+          "PA": 21.2,
+          "FL": 64.2520238095238,
+          "MT": 21.53174603174603
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 17.693,
+          "FL": 73.95055556,
+          "MT": 21.66007937
+        },
+        "DLTrack": {
+          "PA": 16.4,
+          "FL": 76.90715024479293,
+          "MT": 23.888529496682374
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 19.602166666666665,
+        "FL": 68.81871913545855,
+        "MT": 21.46139329850971
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 19.602166666666665,
+        "FL": 68.81871913545855,
+        "MT": 21.46139329850971
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_18_arch.tif",
+      "width": 1234,
+      "height": 688,
+      "file_sha256": "f0217749159772c264062de14d0427a21600a326a21f073fa93eab78dcbbb743",
+      "decoded_grayscale_sha256": "31ec86ba0a7696186e3b5bbc0672a1006ad1899f42057030d6cae22ba3df6dfc",
+      "dhash_256_hex": "0000331506e30d8f22a62b73b6878d47b016bb46b7a2b886b782b9e2b082b08e",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_19_arch.tif",
+      "scale_pixels_per_cm": 112,
+      "scale_pixels_per_mm": 11.2,
+      "raters": {
+        "1": {
+          "PA": 15.5,
+          "FL": 67.1071428571429,
+          "MT": 20
+        },
+        "2": {
+          "PA": 15.3,
+          "FL": 63.80357143,
+          "MT": 20
+        },
+        "3": {
+          "PA": 15.676,
+          "FL": 72.2459821428571,
+          "MT": 20.015625
+        },
+        "4": {
+          "PA": 15.741,
+          "FL": 75.26785714285714,
+          "MT": 20.089285714285715
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 16.82,
+          "FL": 73.27174107142858,
+          "MT": 19.930654761904762
+        },
+        "7": {
+          "PA": 17.066666666666666,
+          "FL": 60.76339285714285,
+          "MT": 80.13125
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 16.153,
+          "FL": 71.18821429,
+          "MT": 20.03839286
+        },
+        "DLTrack": {
+          "PA": 15.96378526581186,
+          "FL": 72.26831942811911,
+          "MT": 20.113265546188337
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 16.017277777777778,
+        "FL": 68.74328125023808,
+        "MT": 30.027802579365083
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 16.017277777777778,
+        "FL": 68.74328125023808,
+        "MT": 30.027802579365083
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_19_arch.tif",
+      "width": 800,
+      "height": 600,
+      "file_sha256": "03d0bcd7308f618eaee32ac4113065e9b7a9942ec453f07db1077e04b00dbece",
+      "decoded_grayscale_sha256": "5be92816f1dc45c147ee3e2dc330ec47d6fc743df3a907a7ffa664451ae7749c",
+      "dhash_256_hex": "0000841d4ae3e841dfd1fec3fac2de50f870d870dfa0a0a0c260f80880180000",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_20_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 18,
+          "FL": 66.5974025974026,
+          "MT": 22.2077922077922
+        },
+        "2": {
+          "PA": 18.4,
+          "FL": 61.28571429,
+          "MT": 21.68831169
+        },
+        "3": {
+          "PA": 18.37,
+          "FL": 66.9366233766234,
+          "MT": 21.597012987013
+        },
+        "4": {
+          "PA": 17.488,
+          "FL": 69.0909090909091,
+          "MT": 21.948051948051948
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 16.454666666666668,
+          "FL": 70.852987012987,
+          "MT": 21.167705627705622
+        },
+        "7": {
+          "PA": 20.466666666666665,
+          "FL": 56.88064935064935,
+          "MT": 21.411255411255414
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 16.845,
+          "FL": 66.60688312,
+          "MT": 20.8761039
+        },
+        "DLTrack": {
+          "PA": 16.4,
+          "FL": 69.58441558441558,
+          "MT": 23.597402597402596
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 18.196555555555555,
+        "FL": 65.27404761976192,
+        "MT": 21.670021645303034
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 18.196555555555555,
+        "FL": 65.27404761976192,
+        "MT": 21.670021645303034
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_20_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "65156a980cc17fc74f95a7da48a74e25f7f75cd3a85a0fd0eb2a521f86817fb4",
+      "decoded_grayscale_sha256": "b3124d7e2d926c913f3c3000b6571e29a0d0f20978f4a8a7ac8f99e5c9f1a7f5",
+      "dhash_256_hex": "0000988ab00fb3c3951bb1b21ac872425a9a14b8052c695e647a44062a1a2d8a",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_21_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 15.2,
+          "FL": 64.9220779220779,
+          "MT": 16.8831168831169
+        },
+        "2": {
+          "PA": 14.9,
+          "FL": 68.35064935,
+          "MT": 16.36363636
+        },
+        "3": {
+          "PA": 15.791,
+          "FL": 72.7427272727273,
+          "MT": 16.3475324675325
+        },
+        "4": {
+          "PA": 17.67,
+          "FL": 74.8051948051948,
+          "MT": 16.493506493506494
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 16.125333333333334,
+          "FL": 76.5739393939394,
+          "MT": 16.077402597402596
+        },
+        "7": {
+          "PA": 18.5,
+          "FL": 63.92857142857143,
+          "MT": 16.51948051948052
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 16.51,
+          "FL": 64.6338961,
+          "MT": 15.89454545
+        },
+        "DLTrack": {
+          "PA": 15.16704505515203,
+          "FL": 64.74915746144144,
+          "MT": 16.41610337713609
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 16.36438888888889,
+        "FL": 70.22052669541847,
+        "MT": 16.447445886839837
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 16.36438888888889,
+        "FL": 70.22052669541847,
+        "MT": 16.447445886839837
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_21_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "fb4d734979ae7879524944ef7848c2a939408f03360e5f01780c492fb383528e",
+      "decoded_grayscale_sha256": "88fb2e692e5058a1b1a07b9272223e845dc28b7e85082dcf5dae387677c35c8e",
+      "dhash_256_hex": "0000e768ae4f84dfa4cbb28a3b306a8a666278727602713264323c9a6d2279a0",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_22_arch.tif",
+      "scale_pixels_per_cm": 89,
+      "scale_pixels_per_mm": 8.9,
+      "raters": {
+        "1": {
+          "PA": 13.6,
+          "FL": 70.7303370786517,
+          "MT": 20.1123595505618
+        },
+        "2": {
+          "PA": 15.6,
+          "FL": 64.15730337,
+          "MT": 20.11235955
+        },
+        "3": {
+          "PA": 16.815,
+          "FL": 74.5422471910112,
+          "MT": 20.0422471910112
+        },
+        "4": {
+          "PA": 23.388,
+          "FL": 83.48314606741573,
+          "MT": 20.337078651685392
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 17.912666666666667,
+          "FL": 77.08000000000001,
+          "MT": 19.88861423220974
+        },
+        "7": {
+          "PA": 16.866666666666664,
+          "FL": 71.08988764044945,
+          "MT": 20.265917602996257
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 14.943,
+          "FL": 67.74966292,
+          "MT": 19.82224719
+        },
+        "DLTrack": {
+          "PA": 23.02309998680896,
+          "FL": 78.06792881913067,
+          "MT": 20.42899955904499
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 17.363722222222222,
+        "FL": 73.51382022458802,
+        "MT": 20.126429463077397
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 17.363722222222222,
+        "FL": 73.51382022458802,
+        "MT": 20.126429463077397
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_22_arch.tif",
+      "width": 800,
+      "height": 600,
+      "file_sha256": "767a179f4542b3618831d1c3dd3284a7fc1af077ce1e4a3b26a22c60fb64ba7b",
+      "decoded_grayscale_sha256": "9b620bcbe89924791d9fed1e332c808a6bdf93c8997df3c1c9a4155d059b8330",
+      "dhash_256_hex": "000070d97e0375e174c163c37ac6788072407220738060807e007fc840180000",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_23_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 14.1,
+          "FL": 57.012987012987,
+          "MT": 14.9350649350649
+        },
+        "2": {
+          "PA": 17.3,
+          "FL": 47.16883117,
+          "MT": 14.80519481
+        },
+        "3": {
+          "PA": 17.722,
+          "FL": 55.5680519480519,
+          "MT": 14.7405194805195
+        },
+        "4": {
+          "PA": 17.471,
+          "FL": 64.67532467532467,
+          "MT": 14.805194805194805
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 15.942,
+          "FL": 60.64753246753248,
+          "MT": 14.5421645021645
+        },
+        "7": {
+          "PA": 17.099999999999998,
+          "FL": 48.95454545454547,
+          "MT": 14.757575757575756
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 13.176,
+          "FL": 74.67545455,
+          "MT": 14.5674026
+        },
+        "DLTrack": {
+          "PA": 15.5,
+          "FL": 56.87012987012987,
+          "MT": 14.987012987012989
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 16.605833333333333,
+        "FL": 55.67121212140692,
+        "MT": 14.764285715086574
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 16.605833333333333,
+        "FL": 55.67121212140692,
+        "MT": 14.764285715086574
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_23_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "5466832472cd9b99a4e1ba2956fd4315ea6119561daa8a9a31d79d4f93aaa585",
+      "decoded_grayscale_sha256": "a607f228b8d3643d9a8df87b0a633d9665e967b4b9876fe9569d85cfe66e05c3",
+      "dhash_256_hex": "0000e522698a25622c5af46ab7b0bad82cf0e45eaa12ae92a68ac39af09a951a",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_24_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 14.8,
+          "FL": 52.4675324675325,
+          "MT": 15.0649350649351
+        },
+        "2": {
+          "PA": 15.3,
+          "FL": 52.71428571,
+          "MT": 14.80519481
+        },
+        "3": {
+          "PA": 17.406,
+          "FL": 55.4707792207792,
+          "MT": 14.8738961038961
+        },
+        "4": {
+          "PA": 17.542,
+          "FL": 59.09090909090909,
+          "MT": 15.064935064935066
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 15.771333333333336,
+          "FL": 57.464199134199134,
+          "MT": 14.396709956709957
+        },
+        "7": {
+          "PA": 18.766666666666666,
+          "FL": 58.288961038961034,
+          "MT": 14.861471861471863
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 16.285,
+          "FL": 64.13155844,
+          "MT": 14.5374026
+        },
+        "DLTrack": {
+          "PA": 17.38794884451711,
+          "FL": 64.31313210399597,
+          "MT": 14.545593198096364
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 16.597666666666665,
+        "FL": 55.91611111039683,
+        "MT": 14.844523810324683
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 16.597666666666665,
+        "FL": 55.91611111039683,
+        "MT": 14.844523810324683
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_24_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "79d661994cda469a3e051ee113fad0b5ae54019f908fcb9f65e8402b16d33353",
+      "decoded_grayscale_sha256": "2a04a2824245fce89a81690f15a3ff608c384b33b783a4226b3598bf38fb963d",
+      "dhash_256_hex": "0000e5226d0a39b22d52f0328f90b6d80d58e03aaa828e1a873ae21ef19ee31e",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_25_arch.tif",
+      "scale_pixels_per_cm": 89,
+      "scale_pixels_per_mm": 8.9,
+      "raters": {
+        "1": {
+          "PA": 15.9,
+          "FL": 60.7752808988764,
+          "MT": 19.1011235955056
+        },
+        "2": {
+          "PA": 17,
+          "FL": 61.42696629,
+          "MT": 19.1011236
+        },
+        "3": {
+          "PA": 19.339,
+          "FL": 49.5392134831461,
+          "MT": 19.6540449438202
+        },
+        "4": {
+          "PA": 19.237,
+          "FL": 58.764044943820224,
+          "MT": 19.8876404494382
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 16.349999999999998,
+          "FL": 59.72486891385768,
+          "MT": 19.468576779026215
+        },
+        "7": {
+          "PA": 19.333333333333332,
+          "FL": 57.75842696629213,
+          "MT": 20.014981273408242
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 17.959,
+          "FL": 62.26179775,
+          "MT": 19.49955056
+        },
+        "DLTrack": {
+          "PA": 16.96623783263442,
+          "FL": 63.3959557939891,
+          "MT": 19.872283789169774
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 17.859888888888886,
+        "FL": 57.998133582665425,
+        "MT": 19.53791510686641
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 17.859888888888886,
+        "FL": 57.998133582665425,
+        "MT": 19.53791510686641
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_25_arch.tif",
+      "width": 800,
+      "height": 600,
+      "file_sha256": "0082ce1dde8fad32192ba470a6bbde85178b3e445039285bff65afedb1ee9384",
+      "decoded_grayscale_sha256": "59f7382e5705d2e0647a0ed214cf5c128f1b4cdf851f71d54857d2d5ca904123",
+      "dhash_256_hex": "0000648964e37b416b016943744664806940690074c062a07800770840180000",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_26_arch.tif",
+      "scale_pixels_per_cm": 89,
+      "scale_pixels_per_mm": 8.9,
+      "raters": {
+        "1": {
+          "PA": 15.5,
+          "FL": 66.6179775280899,
+          "MT": 23.1460674157303
+        },
+        "2": {
+          "PA": 17.1,
+          "FL": 64.71910112,
+          "MT": 23.14606742
+        },
+        "3": {
+          "PA": 17.691,
+          "FL": 78.8148314606742,
+          "MT": 22.8801123595506
+        },
+        "4": {
+          "PA": 21.88,
+          "FL": 70.67415730337078,
+          "MT": 22.584269662921347
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 19.280666666666665,
+          "FL": 69.9772191011236,
+          "MT": 22.516966292134832
+        },
+        "7": {
+          "PA": 19.033333333333335,
+          "FL": 33.87640449438202,
+          "MT": 22.808988764044944
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 20.845,
+          "FL": 68.29606742,
+          "MT": 22.50786517
+        },
+        "DLTrack": {
+          "PA": 19.6,
+          "FL": 67.20291034471968,
+          "MT": 16.730337078651687
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 18.414166666666663,
+        "FL": 64.11328183460675,
+        "MT": 22.847078652397006
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 18.414166666666663,
+        "FL": 64.11328183460675,
+        "MT": 22.847078652397006
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_26_arch.tif",
+      "width": 800,
+      "height": 600,
+      "file_sha256": "0b4e24f10f36cdab10475deba4496fb6843927dca7f58a98ad52d88e934c386e",
+      "decoded_grayscale_sha256": "87531873602e710da4effcc7263c9aab615892ed3bfa25577cbecc3eb0224153",
+      "dhash_256_hex": "00006c19768377616ea165c373067e4075e079c079006d4069007fe840180000",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_27_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 16,
+          "FL": 63.8051948051948,
+          "MT": 15.974025974026
+        },
+        "2": {
+          "PA": 18.3,
+          "FL": 62.83116883,
+          "MT": 16.36363636
+        },
+        "3": {
+          "PA": 17.988,
+          "FL": 68.3455844155844,
+          "MT": 16.0936363636364
+        },
+        "4": {
+          "PA": 16.872,
+          "FL": 74.02597402597402,
+          "MT": 16.883116883116884
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 16.747666666666664,
+          "FL": 66.50497835497833,
+          "MT": 16.241515151515152
+        },
+        "7": {
+          "PA": 19.866666666666667,
+          "FL": 63.038961038961034,
+          "MT": 17.17316017316017
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 15.946,
+          "FL": 69.78883117,
+          "MT": 15.00246753
+        },
+        "DLTrack": {
+          "PA": 16.10115276081359,
+          "FL": 69.12935278901944,
+          "MT": 16.241671899573284
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 17.629055555555553,
+        "FL": 66.42531024511543,
+        "MT": 16.454848484242433
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 17.629055555555553,
+        "FL": 66.42531024511543,
+        "MT": 16.454848484242433
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_27_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "0704f7a6bc1755f0d7b58c27f794a748795e9cf5800285621a6e52d291014ebc",
+      "decoded_grayscale_sha256": "838cd22d113f9a96b212d2fac61c24ac74ae08ec1569bf2e0143bb0c95e4f95a",
+      "dhash_256_hex": "0000ac18ea69b521ad13a278372029fa0672305634864646784660566406702e",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_28_arch.tif",
+      "scale_pixels_per_cm": 112,
+      "scale_pixels_per_mm": 11.2,
+      "raters": {
+        "1": {
+          "PA": 13.2,
+          "FL": 63.7410714285714,
+          "MT": 17.5
+        },
+        "2": {
+          "PA": 15.5,
+          "FL": 65.16964286,
+          "MT": 17.85714286
+        },
+        "3": {
+          "PA": 14.164,
+          "FL": 70.4022321428571,
+          "MT": 17.5680357142857
+        },
+        "4": {
+          "PA": 14.329,
+          "FL": 67.94642857142857,
+          "MT": 17.767857142857142
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 14.170333333333332,
+          "FL": 65.93366071428571,
+          "MT": 17.708333333333336
+        },
+        "7": {
+          "PA": 17.333333333333332,
+          "FL": 66.29464285714286,
+          "MT": 17.952380952380956
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 15.235,
+          "FL": 67.47375,
+          "MT": 17.39339286
+        },
+        "DLTrack": {
+          "PA": 15.9,
+          "FL": 64.95535714285714,
+          "MT": 17.857142857142858
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 14.782777777777776,
+        "FL": 66.58127976238093,
+        "MT": 17.72562500047619
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 14.782777777777776,
+        "FL": 66.58127976238093,
+        "MT": 17.72562500047619
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_28_arch.tif",
+      "width": 800,
+      "height": 600,
+      "file_sha256": "40c7ce712dea7759a44092dd4bad579cdd7cd84fbb2b942a1707dadb67a0ea3b",
+      "decoded_grayscale_sha256": "83e2338e7650d2161e57bb522a98a26ab131085573c6339436513b7ea8301dc0",
+      "dhash_256_hex": "0000823dead37e91f6c1fa83eab2f6e0fc40e8c0c8a0d0c0a880d00880180000",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_29_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 16.8,
+          "FL": 77.7142857142857,
+          "MT": 20.5194805194805
+        },
+        "2": {
+          "PA": 20.3,
+          "FL": 68.67532468,
+          "MT": 20
+        },
+        "3": {
+          "PA": 21.786,
+          "FL": 73.1801298701299,
+          "MT": 20.5631168831169
+        },
+        "4": {
+          "PA": 22.533,
+          "FL": 82.07792207792208,
+          "MT": 21.68831168831169
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 19.44,
+          "FL": 77.62337662337663,
+          "MT": 20.22722943722944
+        },
+        "7": {
+          "PA": 21.3,
+          "FL": 72.53896103896103,
+          "MT": 21.57142857142857
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 18.1,
+          "FL": 72.77168831,
+          "MT": 18.1238961
+        },
+        "DLTrack": {
+          "PA": 20.41189228809019,
+          "FL": 73.37034031254822,
+          "MT": 19.330980700492468
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 20.359833333333334,
+        "FL": 75.30166666744589,
+        "MT": 20.761594516594517
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 20.359833333333334,
+        "FL": 75.30166666744589,
+        "MT": 20.761594516594517
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_29_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "6584dbee11ac0f54c56332a167325bcaf6ef13ca83e23f26f806af46e1e50892",
+      "decoded_grayscale_sha256": "c4a2a5d3c37dd45f721c5c301a8a8d6c6910a6708b1af1c8ccd9cc0ed6748c6a",
+      "dhash_256_hex": "0000bc2ab11ba99bac7ba0922eb266e20eba21ea1866591612861d961e4e198e",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_30_arch.tif",
+      "scale_pixels_per_cm": 89,
+      "scale_pixels_per_mm": 8.9,
+      "raters": {
+        "1": {
+          "PA": 21.6,
+          "FL": 56.3595505617978,
+          "MT": 20
+        },
+        "2": {
+          "PA": 21,
+          "FL": 56.43820225,
+          "MT": 19.66292135
+        },
+        "3": {
+          "PA": 19.343,
+          "FL": 63.316404494382,
+          "MT": 19.9033707865169
+        },
+        "4": {
+          "PA": 21.034,
+          "FL": 58.651685393258425,
+          "MT": 19.8876404494382
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 19.917333333333332,
+          "FL": 54.422097378277165,
+          "MT": 19.943483146067415
+        },
+        "7": {
+          "PA": 23.433333333333334,
+          "FL": 53.62921348314607,
+          "MT": 20.048689138576776
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 16.858,
+          "FL": 69.60247191,
+          "MT": 19.59831461
+        },
+        "DLTrack": {
+          "PA": 19,
+          "FL": 61.7752808988764,
+          "MT": 20.460674157303373
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 21.05461111111111,
+        "FL": 57.13619226014358,
+        "MT": 19.907684145099882
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 21.05461111111111,
+        "FL": 57.13619226014358,
+        "MT": 19.907684145099882
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_30_arch.tif",
+      "width": 800,
+      "height": 600,
+      "file_sha256": "2191a00b3431e91bf57738805d8fd109cae9460f3168b805469d856492a5b02c",
+      "decoded_grayscale_sha256": "aef02e001dac06cb6ef08f0e4fe4b0956d239a98f80e0c37d63e6073844dbb02",
+      "dhash_256_hex": "0000606971037c817a817883608673006d806e006e4070c07ac0602840180000",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_31_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 15.3,
+          "FL": 57.6233766233766,
+          "MT": 14.5454545454545
+        },
+        "2": {
+          "PA": 15,
+          "FL": 54.87012987,
+          "MT": 14.54545455
+        },
+        "3": {
+          "PA": 16.025,
+          "FL": 60.2616883116883,
+          "MT": 14.3164935064935
+        },
+        "4": {
+          "PA": 13.224,
+          "FL": 62.98701298701299,
+          "MT": 14.675324675324674
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 16.267000000000003,
+          "FL": 59.39277056277056,
+          "MT": 14.334718614718616
+        },
+        "7": {
+          "PA": 16.333333333333332,
+          "FL": 56.15584415584415,
+          "MT": 15.16017316017316
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 12.902,
+          "FL": 68.84974026,
+          "MT": 14.12675325
+        },
+        "DLTrack": {
+          "PA": 14.39811381157588,
+          "FL": 56.275316929434105,
+          "MT": 14.644752698466586
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 15.358222222222222,
+        "FL": 58.548470418448765,
+        "MT": 14.596269842027409
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 15.358222222222222,
+        "FL": 58.548470418448765,
+        "MT": 14.596269842027409
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_31_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "9371bda52f883b9eeb103431979cd5c8aba37944f7fd83dd4e6d9c111fe29c40",
+      "decoded_grayscale_sha256": "fad0843a86bb8987561ab1eb5435dbf479721017e2d15ef5529ab23ed7e66171",
+      "dhash_256_hex": "0000e4a26b822cb2247af41ab9c898782530f23af60aba3aa49890b2d8ba80a6",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_32_arch.tif",
+      "scale_pixels_per_cm": 126,
+      "scale_pixels_per_mm": 12.6,
+      "raters": {
+        "1": {
+          "PA": 15.9,
+          "FL": 56.5238095238095,
+          "MT": 14.7619047619048
+        },
+        "2": {
+          "PA": 14.6,
+          "FL": 57.65079365,
+          "MT": 14.84126984
+        },
+        "3": {
+          "PA": 12.299,
+          "FL": 70.2699206349206,
+          "MT": 14.834126984127
+        },
+        "4": {
+          "PA": 13.82,
+          "FL": 67.14285714285714,
+          "MT": 13.968253968253968
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 15.495,
+          "FL": 61.49928571428571,
+          "MT": 14.863042328042331
+        },
+        "7": {
+          "PA": 16.033333333333335,
+          "FL": 59.051587301587304,
+          "MT": 14.96825396825397
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 14.433,
+          "FL": 62.60650794,
+          "MT": 14.62571429
+        },
+        "DLTrack": {
+          "PA": 13.8,
+          "FL": 63.32539682539682,
+          "MT": 15.69047619047619
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 14.691222222222223,
+        "FL": 62.02304232791004,
+        "MT": 14.706141975097012
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 14.691222222222223,
+        "FL": 62.02304232791004,
+        "MT": 14.706141975097012
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_32_arch.tif",
+      "width": 1074,
+      "height": 688,
+      "file_sha256": "1d2f0b603e0447daeca9b44d08ea014e2af6b97c9e2c1a57b2dd51a413d5ec6b",
+      "decoded_grayscale_sha256": "b950066af7fe1e2acd92cd7cf819c2625f5302f6e7a34b8da2e14a6fc5f12516",
+      "dhash_256_hex": "00000c0d111306af22f601169a4785df852e99a68536997e9f3a8e9a94168a36",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_33_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 13.2,
+          "FL": 47.4805194805195,
+          "MT": 12.7272727272727
+        },
+        "2": {
+          "PA": 14.9,
+          "FL": 46.02597403,
+          "MT": 12.72727273
+        },
+        "3": {
+          "PA": 16.286,
+          "FL": 49.4275324675325,
+          "MT": 12.8181818181818
+        },
+        "4": {
+          "PA": 15.73,
+          "FL": 65.06493506493507,
+          "MT": 12.857142857142858
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 13.735999999999999,
+          "FL": 55.89878787878788,
+          "MT": 12.188181818181816
+        },
+        "7": {
+          "PA": 17.166666666666668,
+          "FL": 52.54545454545455,
+          "MT": 12.831168831168831
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 12.197,
+          "FL": 55.42493506,
+          "MT": 11.76246753
+        },
+        "DLTrack": {
+          "PA": 16,
+          "FL": 44.16883116883117,
+          "MT": 12.792207792207792
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 15.16977777777778,
+        "FL": 52.74053391120492,
+        "MT": 12.691536796991334
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 15.16977777777778,
+        "FL": 52.74053391120492,
+        "MT": 12.691536796991334
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_33_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "88d423beeb898518cc5df4f65a78b82d96adb988081de5c5ddaabd9fb965cf0e",
+      "decoded_grayscale_sha256": "3629afb5492282f2368cea240977569c5b0f1e2c248ffd6f67d825a0a8eafc69",
+      "dhash_256_hex": "0000f268ac17ab99b263b48833c06f6861d270727122749270fa763866d0648a",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_34_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 21.2,
+          "FL": 41.1038961038961,
+          "MT": 16.3636363636364
+        },
+        "2": {
+          "PA": 25.5,
+          "FL": 44.7012987,
+          "MT": 16.49350649
+        },
+        "3": {
+          "PA": 25.514,
+          "FL": 47.377012987013,
+          "MT": 17.1148051948052
+        },
+        "4": {
+          "PA": 24.082,
+          "FL": 51.2987012987013,
+          "MT": 18.18181818181818
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 20.081333333333333,
+          "FL": 48.35610389610388,
+          "MT": 17.175800865800863
+        },
+        "7": {
+          "PA": 23.46666666666667,
+          "FL": 46.59740259740259,
+          "MT": 17.42857142857143
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "DLTrack": {
+          "PA": 20.33217158473619,
+          "FL": 48.999603284439665,
+          "MT": 17.479129792577183
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 23.307333333333332,
+        "FL": 46.57240259718615,
+        "MT": 17.126356420772012
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 23.307333333333332,
+        "FL": 46.57240259718615,
+        "MT": 17.126356420772012
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_34_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "0c32cc9cbdb02dbd37ab619f3b18f3e9c1fd079b9a4041cb42188fa58e278a84",
+      "decoded_grayscale_sha256": "6dd91ce6599ee904c54ac0d7dfe9c8c959d94c62a39afa425d2c24056a26e0e1",
+      "dhash_256_hex": "00008c1ab8c79273b447a74e322a5ea225a811da06e6418a1566152613263d22",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    },
+    {
+      "image_id": "im_35_arch.tif",
+      "scale_pixels_per_cm": 77,
+      "scale_pixels_per_mm": 7.7,
+      "raters": {
+        "1": {
+          "PA": 17.3,
+          "FL": 59.7922077922078,
+          "MT": 17.9220779220779
+        },
+        "2": {
+          "PA": 20.5,
+          "FL": 57.5974026,
+          "MT": 18.05194805
+        },
+        "3": {
+          "PA": 20.384,
+          "FL": 62.5681818181818,
+          "MT": 17.9484415584416
+        },
+        "4": {
+          "PA": 18.883,
+          "FL": 59.48051948051948,
+          "MT": 18.051948051948052
+        },
+        "5": {
+          "PA": null,
+          "FL": null,
+          "MT": null
+        },
+        "6": {
+          "PA": 19.93733333333333,
+          "FL": 61.65242424242423,
+          "MT": 17.49554112554113
+        },
+        "7": {
+          "PA": 18.5,
+          "FL": 59.01948051948053,
+          "MT": 17.91341991341991
+        }
+      },
+      "source_group": "static_unknown_subject",
+      "source_comparators": {
+        "SMA": {
+          "PA": 18.358,
+          "FL": 61.46662338,
+          "MT": 17.46311688
+        },
+        "DLTrack": {
+          "PA": 17.56523255898975,
+          "FL": 59.36897577171799,
+          "MT": 17.904195653842947
+        }
+      },
+      "mean_complete_six_R1_R2_R3_R4_R6_R7": {
+        "PA": 19.25072222222222,
+        "FL": 60.0183694088023,
+        "MT": 17.897229436904766
+      },
+      "n_raters_complete_six_R1_R2_R3_R4_R6_R7": 6,
+      "mean_available_R1_to_R7": {
+        "PA": 19.25072222222222,
+        "FL": 60.0183694088023,
+        "MT": 17.897229436904766
+      },
+      "n_raters_available_R1_to_R7": 6,
+      "image_path": "static/benchmark_dataset_architecture_v0.1.0/im_35_arch.tif",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "5e489468a4d2d51705d7c92fa8dc1222f51d88175301dc7e5432c6b12d1bae85",
+      "decoded_grayscale_sha256": "b9c3f87fca69b305fc0f20b5c48903d71b821758a92ac899961b0b2fd994bd49",
+      "dhash_256_hex": "0000a248bb07aab9b141e2c86d3067e067b8613a741a7502798277c268026cc2",
+      "confirmed_historical_training_overlap": false,
+      "eligible_for_development_evaluation": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+UMUD Supported-Depth Ensemble
+
+Adapted from prvsiyan Kaggle V12 (script version 366298975), using code credited to Mawra Musawwar, watehell, and Rishabh Bafna. Observed-support PA rule follows auriclee.
+
+Changes: bounded-depth evaluation, fail-closed validation, checkpoint/input hashing, cache identity checks, candidate-control export and retained audit data.
+
+Upstream notebook code is Apache-2.0. Model weights are separate licensed inputs: original watehell pair CC BY-NC-SA 4.0; prvsiyan fivefold weights CC BY-NC 4.0. No weights or competition images are included.

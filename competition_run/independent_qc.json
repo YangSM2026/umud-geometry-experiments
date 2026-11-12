@@ -1,0 +1,90 @@
+{
+  "status": "independent_integrity_and_arithmetic_passed",
+  "scope": "Read-only review of finalized competition output; only these new audit report files were written. No model rerun or prediction edits.",
+  "candidate_sha256": "91884e84dd84aa632a226c3938be1fcc1e5147e061c3d26ca75893a76c99bc76",
+  "prior_candidate_sha256": "953344cd42cb9b358a1572faade92f3c11ef2d710578ff1db9827afd338fb403",
+  "build_receipt_sha256": "bca3b0056415207ed6e99e4ba311c25b914486b4fd7294fe846a7ceae6ede12b",
+  "checks": {
+    "rows": 309,
+    "unique_ids": 309,
+    "exact_prior_id_order": true,
+    "finite_and_within_inherited_ranges": true,
+    "independent_decimal_reconstruction_exact_after_3dp_rounding": true,
+    "rows_reconstructed": 309,
+    "maximum_unrounded_reconstruction_difference": 0.000499487448788,
+    "original_output_hashes_verified": 10,
+    "executable_and_protocol_hashes_verified": 6,
+    "input_hashes_verified": 10,
+    "checkpoint_hash_records_match_original_identity": true,
+    "head_weight_audit_rows_verified": 1854,
+    "prior_grouping_texture_validity_flags_unchanged": true,
+    "per_head_mt_unchanged": true,
+    "receipt_counts_and_change_table_reconciled": true
+  },
+  "receipt_resolution": {
+    "status": "closed",
+    "retrieved_kaggle_receipt_sha256": "d6059d60008014ec1fbf9f153385bfa72d524a04838c9f6c2a15b832e1841ff9",
+    "local_finalized_receipt_sha256": "75a8fccba5030373ad25339777fd81f92345bf9df497bcfaff08cf9f6e35795d",
+    "all_json_keys_and_values_identical": true,
+    "difference": "JSON dictionary insertion order only. one_valid_head_images occurs after unchanged_rows in Kaggle receipt and at the end in the local receipt; both contain the same value5. Both files use identical indent/newline formatting.",
+    "retrieved_receipt_matches_build_input_hash": true
+  },
+  "changed_rows": 299,
+  "all_new_heads_failed_count": 10,
+  "all_new_heads_failed_ids": [
+    "IMG_00186.tif",
+    "IMG_00187.tif",
+    "IMG_00188.tif",
+    "IMG_00189.tif",
+    "IMG_00190.tif",
+    "IMG_00253.png",
+    "IMG_00277.png",
+    "IMG_00283.png",
+    "IMG_00300.png",
+    "IMG_00307.png"
+  ],
+  "fallback_triplets_preserve_prior_serialized_values": true,
+  "single_valid_head_count": 3,
+  "single_valid_head_ids": [
+    "IMG_00268.png",
+    "IMG_00293.png",
+    "IMG_00297.png"
+  ],
+  "ranges": {
+    "pa_deg": [
+      8.298,
+      32.297
+    ],
+    "fl_mm": [
+      30.0,
+      152.793
+    ],
+    "mt_mm": [
+      12.401,
+      33.739
+    ]
+  },
+  "inherited_range_boundary_counts": {
+    "pa_deg": 0,
+    "fl_mm": 1,
+    "mt_mm": 0
+  },
+  "mean_absolute_change": {
+    "pa_deg": 0.8504174757281553,
+    "fl_mm": 3.347216828478964,
+    "mt_mm": 0.005673139158576075
+  },
+  "map_manifest": {
+    "rows": 1854,
+    "unique_expected_paths": 1854,
+    "valid_sha256_strings": true,
+    "manifest_hash_matches_receipt": true,
+    "raw_map_bytes_independently_rechecked_locally": false
+  },
+  "limitations": [
+    "Raw competition map files remain in the original Kaggle saved outputs and were not part of this local download; this audit checks the manifest, not those map bytes.",
+    "Single-head outputs have no ensemble disagreement evidence.",
+    "This audit verifies integrity and arithmetic, not predictive accuracy, leaderboard rank, or a competition score."
+  ],
+  "original_results_modified": false
+}

@@ -1,0 +1,4691 @@
+{
+  "source_url": "https://osf.io/p8r2u",
+  "source_workbook_sha256": "6c2e50fc04ce5596024647e181d8c45bceb5efc7388aba7315a37c315f4960d5",
+  "reference_status": "one labelled GM video; training/competition overlap not established",
+  "total_image_frames": 769,
+  "gm_image_frames": 168,
+  "gm_labelled_frames": 167,
+  "directly_manually_annotated_gm_frames": 84,
+  "ta_image_frames_without_workbook_labels": 601,
+  "mt_reference_available": false,
+  "scale_warning": "GM pixels/mm is not supplied in the workbook or README. When present, scale_pixels_per_mm_from_visible_ruler is independently image-calibrated; see dynamic_gm_scale_audit.json and its isotropy assumption.",
+  "provenance_warning": "README says video from Ritsche et al. 2024 UMB; public DLTrack/competition training may share source. Do not claim independent validation without overlap audit.",
+  "rows": [
+    {
+      "image_id": "frame_00000.png",
+      "frame": 0,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 37.21,
+      "pa_deg": 28.01,
+      "fl_rater_sd_mm": 2.68,
+      "pa_rater_sd_deg": 1.86,
+      "fl_raters_mm": [
+        34.13,
+        38.47,
+        39.04
+      ],
+      "pa_raters_deg": [
+        25.99,
+        29.65,
+        28.38
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00000.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "9807287543db252b2595061b836a407f5abde1244f3008be54114f95f1ec1239",
+      "decoded_grayscale_sha256": "61358d80f18eb41caa54a9dfd78d16cab237e9e139bf66f6424e9b50414a1a2a",
+      "dhash_256_hex": "04cae85a1e6262b22c9aa378f648e47064f8a5e08b409f50b5e09e849de89a44"
+    },
+    {
+      "image_id": "frame_00001.png",
+      "frame": 1,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 37.99,
+      "pa_deg": 27.34,
+      "fl_rater_sd_mm": 2.35,
+      "pa_rater_sd_deg": 1.74,
+      "fl_raters_mm": [
+        35.31,
+        38.93,
+        39.72
+      ],
+      "pa_raters_deg": [
+        25.37,
+        28.64,
+        28.02
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00001.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "e86333d4c35a9939efd889b71f577fb91bb5b416de7a6a536ca69edc280e321a",
+      "decoded_grayscale_sha256": "c31a7fd5ce249716b9b54b9b3bbd0a8d84d3fa2c1a45c8930bef9883c96ba04d",
+      "dhash_256_hex": "04cae85a1e6262b22c9aa378f708f47024f8b5f08f409f5096e09d949de89e20"
+    },
+    {
+      "image_id": "frame_00002.png",
+      "frame": 2,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 38.76,
+      "pa_deg": 26.68,
+      "fl_rater_sd_mm": 2.03,
+      "pa_rater_sd_deg": 1.68,
+      "fl_raters_mm": [
+        36.49,
+        39.38,
+        40.41
+      ],
+      "pa_raters_deg": [
+        24.74,
+        27.63,
+        27.66
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00002.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "800a10e178a98afddcd3333022cdd43ea2434970d221bd78f003f3414e12c1d2",
+      "decoded_grayscale_sha256": "4a3344ce3d86a8d981c96cde7e7f26e6a57d2fef672e416dc5516984860b1db5",
+      "dhash_256_hex": "04cae85a1e2262d2249ae378f748f4722cd8b5e08f409f40b660bd009de89e20"
+    },
+    {
+      "image_id": "frame_00003.png",
+      "frame": 3,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 39.54,
+      "pa_deg": 26.31,
+      "fl_rater_sd_mm": 2.12,
+      "pa_rater_sd_deg": 1.65,
+      "fl_raters_mm": [
+        37.2,
+        40.08,
+        41.33
+      ],
+      "pa_raters_deg": [
+        24.43,
+        27.55,
+        26.93
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00003.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "7121f07341ae8923b492e679e52e5f7bbc017fc1c7008e12870a289bc466655d",
+      "decoded_grayscale_sha256": "7862e4932bdf7c8c09a9ad1a6af743127af00a6f030647c610ac97a08ecb0f75",
+      "dhash_256_hex": "04cae85a1e2062b234dae378ff48f4722cd8b7e08b409f50b76099809de89e20"
+    },
+    {
+      "image_id": "frame_00004.png",
+      "frame": 4,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 40.31,
+      "pa_deg": 25.93,
+      "fl_rater_sd_mm": 2.21,
+      "pa_rater_sd_deg": 1.69,
+      "fl_raters_mm": [
+        37.92,
+        40.78,
+        42.25
+      ],
+      "pa_raters_deg": [
+        24.13,
+        27.47,
+        26.2
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00004.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "3e6c8f8a510d31bfcec789eb4e8dce76b6539b0692b8ee4342363dbd2f931367",
+      "decoded_grayscale_sha256": "03d2016f45cfbcd909055be0c1b273fb7d8e90dd917d7b63f5c6ba2d5cb2cf35",
+      "dhash_256_hex": "04cae85a1e2863b23cdaa368ff48f47024d8b7e08f409f48bd60bc309de8baa0"
+    },
+    {
+      "image_id": "frame_00005.png",
+      "frame": 5,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 41.2,
+      "pa_deg": 25.54,
+      "fl_rater_sd_mm": 1.94,
+      "pa_rater_sd_deg": 1.45,
+      "fl_raters_mm": [
+        39.16,
+        41.43,
+        43.01
+      ],
+      "pa_raters_deg": [
+        23.97,
+        26.84,
+        25.82
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00005.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "bcda704430cd55f28328265f523b82ebb15037480b4875a169c8a12165b6dff1",
+      "decoded_grayscale_sha256": "07175e1226854f8cf3c6ce42e0475b3f13ebc713b73a232df1251b4528e6f208",
+      "dhash_256_hex": "04cae85a1e2862b224daebe8ff48f0302cd8b7e08f409f40b760bd409de0ba20"
+    },
+    {
+      "image_id": "frame_00006.png",
+      "frame": 6,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 42.09,
+      "pa_deg": 25.15,
+      "fl_rater_sd_mm": 1.68,
+      "pa_rater_sd_deg": 1.21,
+      "fl_raters_mm": [
+        40.4,
+        42.09,
+        43.76
+      ],
+      "pa_raters_deg": [
+        23.82,
+        26.2,
+        25.44
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00006.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "b416f17fde881f0c6ef1123fa6f04cee9fd0e6ab6d4a291ef48b26b753a7ab5e",
+      "decoded_grayscale_sha256": "417175cf793e8d2e55aef6a82777015f8b0537f32f5ab6802a56e0ab8e6672ad",
+      "dhash_256_hex": "04cae85a1e2266b234daeb68ff48b03024f8b7e08f60bf48b540bc709de8bb20"
+    },
+    {
+      "image_id": "frame_00007.png",
+      "frame": 7,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 42.87,
+      "pa_deg": 24.79,
+      "fl_rater_sd_mm": 1.73,
+      "pa_rater_sd_deg": 1.3,
+      "fl_raters_mm": [
+        41.43,
+        42.39,
+        44.78
+      ],
+      "pa_raters_deg": [
+        23.3,
+        25.71,
+        25.34
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00007.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "ec9f672a75215efb6692695bda164c78897d68a8a94bad16fb8242600114b64a",
+      "decoded_grayscale_sha256": "2c2497319498db7427e2837d5ed8634b8e5b413d696403410b9428d50aea1c0b",
+      "dhash_256_hex": "04cae85a1e6262b226daeb68ff00b8302cf8b7f08f40b660be60bc209de8ba68"
+    },
+    {
+      "image_id": "frame_00008.png",
+      "frame": 8,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 43.65,
+      "pa_deg": 24.42,
+      "fl_rater_sd_mm": 1.87,
+      "pa_rater_sd_deg": 1.41,
+      "fl_raters_mm": [
+        42.45,
+        42.68,
+        45.81
+      ],
+      "pa_raters_deg": [
+        22.79,
+        25.23,
+        25.24
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00008.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "f4cd974ebb1491249b04fb152701fe5ee0ae5fb069c0033612cdf95cb5df58d9",
+      "decoded_grayscale_sha256": "b82e6d20adab603b551d387a4a3e77c002485e1929adc7016aa3a3e1a5d9e02b",
+      "dhash_256_hex": "04cae85a1e6262b226daeb68ff08fa706cf8b6f0af409740b560bca09d68baa0"
+    },
+    {
+      "image_id": "frame_00009.png",
+      "frame": 9,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 44.09,
+      "pa_deg": 24.18,
+      "fl_rater_sd_mm": 1.68,
+      "pa_rater_sd_deg": 1.33,
+      "fl_raters_mm": [
+        43.17,
+        43.07,
+        46.03
+      ],
+      "pa_raters_deg": [
+        22.66,
+        24.78,
+        25.11
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00009.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "39b9be5f136f56a86a29215d54937b9f6c17188b3822e253cf6f8e2e87bb80c6",
+      "decoded_grayscale_sha256": "b1f13ae5c374230aed340ef457b3d9a0547460dbc8df8f89420a025001fa4f9b",
+      "dhash_256_hex": "04cae85a1e6262b226daebe8ff00fa702cf8b7e08f409750b560bc309de89a60"
+    },
+    {
+      "image_id": "frame_00010.png",
+      "frame": 10,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 44.54,
+      "pa_deg": 23.95,
+      "fl_rater_sd_mm": 1.51,
+      "pa_rater_sd_deg": 1.27,
+      "fl_raters_mm": [
+        43.88,
+        43.47,
+        46.26
+      ],
+      "pa_raters_deg": [
+        22.53,
+        24.33,
+        24.99
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00010.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "5ec694a7d97c591b673d4f2e04a5046db91ff303323bfa2e89b83c4d8269908e",
+      "decoded_grayscale_sha256": "31e49f87012a315cc51a0a9ff35acb5e7a69495f0ca099ba2f20c4e659ac5f3d",
+      "dhash_256_hex": "04cae85a1e6262b226dae9e8ff00b2306cf8b6e0afe09708bc40bcc09de0be30"
+    },
+    {
+      "image_id": "frame_00011.png",
+      "frame": 11,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 45.26,
+      "pa_deg": 23.98,
+      "fl_rater_sd_mm": 1.27,
+      "pa_rater_sd_deg": 0.73,
+      "fl_raters_mm": [
+        45.18,
+        44.03,
+        46.57
+      ],
+      "pa_raters_deg": [
+        23.22,
+        24.05,
+        24.68
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00011.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "735106fa64a6e70e5bc8ecd88128cbdabae34a497b7e8897da2de0b53d93e9db",
+      "decoded_grayscale_sha256": "e2df7e641794d71a08b3517e2379ccfcd7ea17166a0bdf4431edcd6258669071",
+      "dhash_256_hex": "04cae85a1e6262b234dae9e8ef08f03064d8b7e0afe09e00bd40ac309ff0b988"
+    },
+    {
+      "image_id": "frame_00012.png",
+      "frame": 12,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 45.98,
+      "pa_deg": 24.01,
+      "fl_rater_sd_mm": 1.21,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        46.48,
+        44.6,
+        46.87
+      ],
+      "pa_raters_deg": [
+        23.9,
+        23.77,
+        24.36
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00012.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "beeb2e0d81221777b9bb193102eaba368aed6d2961b8197a5dd541047a033aec",
+      "decoded_grayscale_sha256": "f93797cb38c3980ca973d9a385905e1d08fce90e89886441c016da7869be2ee6",
+      "dhash_256_hex": "04cae85a1ea262b23ecaa9a8ef08f07024f8b7f0afe0b620bd40bc709df0bc80"
+    },
+    {
+      "image_id": "frame_00013.png",
+      "frame": 13,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 46.32,
+      "pa_deg": 23.88,
+      "fl_rater_sd_mm": 0.98,
+      "pa_rater_sd_deg": 0.28,
+      "fl_raters_mm": [
+        46.85,
+        45.19,
+        46.93
+      ],
+      "pa_raters_deg": [
+        23.79,
+        23.66,
+        24.19
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00013.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "46ffdb9e79c0d8d888fe6bf11be1c49ac6719a6830ff4b851584440ccc9d1e9d",
+      "decoded_grayscale_sha256": "c632a2f7e0243e627c4552b18505d28cf219787e2a5359650d425da5f8f1beca",
+      "dhash_256_hex": "04cae85a1ea262ba3ecae9e8ef88f03026f8b7e8a5609720bc40bc209de0b8b0"
+    },
+    {
+      "image_id": "frame_00014.png",
+      "frame": 14,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 46.67,
+      "pa_deg": 23.75,
+      "fl_rater_sd_mm": 0.78,
+      "pa_rater_sd_deg": 0.24,
+      "fl_raters_mm": [
+        47.23,
+        45.78,
+        46.99
+      ],
+      "pa_raters_deg": [
+        23.68,
+        23.56,
+        24.02
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00014.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "0bb9006fe875fbce7d614717b7b9f2a0be86ac33237e3c787e4f695c3ec11a51",
+      "decoded_grayscale_sha256": "8976d6a8a98d06ba246b645f492b44c7b430c2ecf7bd821c1cf93e1f51ff96cd",
+      "dhash_256_hex": "04cae85a1ea262ba3ccab9e8ef98f03026f8b3f0a7e09720bc60be189fe0bc80"
+    },
+    {
+      "image_id": "frame_00015.png",
+      "frame": 15,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 47.61,
+      "pa_deg": 23.56,
+      "fl_rater_sd_mm": 1.01,
+      "pa_rater_sd_deg": 0.46,
+      "fl_raters_mm": [
+        48.56,
+        46.55,
+        47.72
+      ],
+      "pa_raters_deg": [
+        23.77,
+        23.03,
+        23.89
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00015.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "24c8dcad46220aa05502c432540919b62332a1ca81b863fc742c43877c88457d",
+      "decoded_grayscale_sha256": "d095adb03ddc32ec66b75d2545140fa63c09ea34dd735a5b4a9def069aab8616",
+      "dhash_256_hex": "04cae85a1ea262ba3ccab9a8ef98f03026d8b7f0a5e09720bc40bc209fe0ba00"
+    },
+    {
+      "image_id": "frame_00016.png",
+      "frame": 16,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 48.55,
+      "pa_deg": 23.38,
+      "fl_rater_sd_mm": 1.28,
+      "pa_rater_sd_deg": 0.75,
+      "fl_raters_mm": [
+        49.89,
+        47.32,
+        48.45
+      ],
+      "pa_raters_deg": [
+        23.86,
+        22.51,
+        23.76
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00016.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "ae86eb6377ca4ca693b2e86cd75505bb5bbba10a8f4cf3c5edd73f1529ded58d",
+      "decoded_grayscale_sha256": "0320798177b250ffb995cc0dfdafc2094d8eae945c5637ce1e73f93dc9dff972",
+      "dhash_256_hex": "04cae85a1e2262b23ecab9b8ef98f0302658b6f0a5e0b728bc60bd009d60b920"
+    },
+    {
+      "image_id": "frame_00017.png",
+      "frame": 17,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 50.14,
+      "pa_deg": 22.82,
+      "fl_rater_sd_mm": 1.8,
+      "pa_rater_sd_deg": 0.56,
+      "fl_raters_mm": [
+        51.4,
+        48.08,
+        50.95
+      ],
+      "pa_raters_deg": [
+        23.18,
+        22.17,
+        23.11
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00017.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "3171d5bfba910c10cd711d2e9a902ab9eae9600d2a103f718157cfff6aabfc9e",
+      "decoded_grayscale_sha256": "7905a52e80a9501d43540d2f56954b9db9550362840ab4d5916282e81c207628",
+      "dhash_256_hex": "04cae85a1e2262ba2ecab1f0ef98f0302658b2f0a5e09720bc60bc089fe0bc10"
+    },
+    {
+      "image_id": "frame_00018.png",
+      "frame": 18,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 51.73,
+      "pa_deg": 22.26,
+      "fl_rater_sd_mm": 2.53,
+      "pa_rater_sd_deg": 0.37,
+      "fl_raters_mm": [
+        52.92,
+        48.83,
+        53.45
+      ],
+      "pa_raters_deg": [
+        22.49,
+        21.83,
+        22.45
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00018.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "e205c194cd5db27f841311976b056adf1291766e6a0036be58ceb5a1a805ab9b",
+      "decoded_grayscale_sha256": "1ad1ee871c8b4d1ab16504ded8f55850b5f11cf7056929da18dcae32374cb8dc",
+      "dhash_256_hex": "04cae85a1e7262ba26cab172ef90b0302658a6f8a7e0b728bc60bc009df0bd18"
+    },
+    {
+      "image_id": "frame_00019.png",
+      "frame": 19,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 52.5,
+      "pa_deg": 21.96,
+      "fl_rater_sd_mm": 2.9,
+      "pa_rater_sd_deg": 0.48,
+      "fl_raters_mm": [
+        54.11,
+        49.16,
+        54.24
+      ],
+      "pa_raters_deg": [
+        22.08,
+        21.43,
+        22.37
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00019.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "783c4d399d7a024bdfc5eb4fd6ee9e2791a061e1f95922fdfbd8336ee2ebf64e",
+      "decoded_grayscale_sha256": "fc606e795812a03c5a0c6caa1153898c96a78fe788f6f3388e3b98fb713a7fb3",
+      "dhash_256_hex": "04cae05a1e7262b226cab1b2ef98b0302678b2f0a7e0b638bc40be709ee8bd38"
+    },
+    {
+      "image_id": "frame_00020.png",
+      "frame": 20,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 53.27,
+      "pa_deg": 21.66,
+      "fl_rater_sd_mm": 3.28,
+      "pa_rater_sd_deg": 0.63,
+      "fl_raters_mm": [
+        55.29,
+        49.48,
+        55.04
+      ],
+      "pa_raters_deg": [
+        21.67,
+        21.03,
+        22.29
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00020.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "e9a0b53af3e0a5d086533f75ebedd656abc7f4cf35e25ad8446ec8c1f045c039",
+      "decoded_grayscale_sha256": "7b51484334ea9404e474ab60f0c4a2547978532c3fa3bd1e7404b57090030083",
+      "dhash_256_hex": "04cae85a1e7262ba36eab1b2e788b8106678a6f0a7e0b708bc48bc50bee8bc38"
+    },
+    {
+      "image_id": "frame_00021.png",
+      "frame": 21,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 53.72,
+      "pa_deg": 21.42,
+      "fl_rater_sd_mm": 3.43,
+      "pa_rater_sd_deg": 0.8,
+      "fl_raters_mm": [
+        55.78,
+        49.77,
+        55.62
+      ],
+      "pa_raters_deg": [
+        21.4,
+        20.63,
+        22.22
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00021.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "5345ee076dbb075ab1b28da07a9e212ffb8f5dbaf3f4d271c9105337b51e6e62",
+      "decoded_grayscale_sha256": "303c11bae6ac10ec891b9c90bc6b8634e0c9bcdfc27a083a6e19e28218428cdc",
+      "dhash_256_hex": "04cae05a1e2262b23eeab9b2e6d8b8306678a3f0aff0bea8bc68bc08bef0bc30"
+    },
+    {
+      "image_id": "frame_00022.png",
+      "frame": 22,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 54.17,
+      "pa_deg": 21.17,
+      "fl_rater_sd_mm": 3.57,
+      "pa_rater_sd_deg": 0.97,
+      "fl_raters_mm": [
+        56.26,
+        50.05,
+        56.21
+      ],
+      "pa_raters_deg": [
+        21.13,
+        20.22,
+        22.16
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00022.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "b7f7eff28864583472497010fac9b2b13dd0e5104c8ad35ad6e07e3d87df5a5d",
+      "decoded_grayscale_sha256": "74ee455049f89e3160dd71f6b5b076568eca6c9a46fa1ef26f29c5b1893249ea",
+      "dhash_256_hex": "04cae05a1e2262b236eab9b0e698b8302278a3b8a7f0beb0bc28bc509ef0b8b0"
+    },
+    {
+      "image_id": "frame_00023.png",
+      "frame": 23,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 53.86,
+      "pa_deg": 21.26,
+      "fl_rater_sd_mm": 3.07,
+      "pa_rater_sd_deg": 0.76,
+      "fl_raters_mm": [
+        55.44,
+        50.32,
+        55.83
+      ],
+      "pa_raters_deg": [
+        21.2,
+        20.52,
+        22.05
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00023.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "dec3b9f2f756c1342493f41cbcfa88fe45eca4176966b345df504d9454bbd64c",
+      "decoded_grayscale_sha256": "9faddb27eade6cedcd26da47a8dcd780b05237d4ba332c3167bde72bcd7527e0",
+      "dhash_256_hex": "04cae45a1e2263b236eaf9b0e698b8306278b7f8a7e0bea0bc68bc18bce8ac90"
+    },
+    {
+      "image_id": "frame_00024.png",
+      "frame": 24,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 53.56,
+      "pa_deg": 21.34,
+      "fl_rater_sd_mm": 2.6,
+      "pa_rater_sd_deg": 0.56,
+      "fl_raters_mm": [
+        54.63,
+        50.59,
+        55.44
+      ],
+      "pa_raters_deg": [
+        21.27,
+        20.83,
+        21.93
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00024.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "3917412c7d0261e73d8c01ce8c1ec48f50f702608b5f1f6e63ee93a5eb89be43",
+      "decoded_grayscale_sha256": "7348a4503d16096882a05634baf35c665aacb58db24250fe465a1faf42967af4",
+      "dhash_256_hex": "04cae45a1eb265fa32aab9b0e798b8306658b378afe0b6a0bc68be50bee8ac30"
+    },
+    {
+      "image_id": "frame_00025.png",
+      "frame": 25,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 53.91,
+      "pa_deg": 21.24,
+      "fl_rater_sd_mm": 2.66,
+      "pa_rater_sd_deg": 0.57,
+      "fl_raters_mm": [
+        54.31,
+        51.07,
+        56.35
+      ],
+      "pa_raters_deg": [
+        21.03,
+        20.8,
+        21.88
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00025.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "5426111e738ad66aa0fbc291a6211ba683c1828fc8a0142224007a22e2099209",
+      "decoded_grayscale_sha256": "4ecc9ef73cc8b7acf1309ec1fd44a9228512e1bc67b71a9b5582637314ba941c",
+      "dhash_256_hex": "04cae45a1e3265f232aab9b0e7d8b8306658b378a7e0b6a8bc28b4409f68bcb8"
+    },
+    {
+      "image_id": "frame_00026.png",
+      "frame": 26,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 54.27,
+      "pa_deg": 21.14,
+      "fl_rater_sd_mm": 2.86,
+      "pa_rater_sd_deg": 0.61,
+      "fl_raters_mm": [
+        54,
+        51.55,
+        57.26
+      ],
+      "pa_raters_deg": [
+        20.79,
+        20.78,
+        21.84
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00026.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "6cf2a37b780289185170232d36a9e48bafc0f57417bdfb7f15609ba0967c5d87",
+      "decoded_grayscale_sha256": "2df0a02cc957c6bbef243856a0355a8a5407d0d9e8ada250a668b320012e0fc1",
+      "dhash_256_hex": "04cae45a1e3263f2322ab9b0a6d8f8306258b378a7e0b620bc28bc08bf78bc20"
+    },
+    {
+      "image_id": "frame_00027.png",
+      "frame": 27,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 54.75,
+      "pa_deg": 20.94,
+      "fl_rater_sd_mm": 2.85,
+      "pa_rater_sd_deg": 0.58,
+      "fl_raters_mm": [
+        54.66,
+        51.95,
+        57.64
+      ],
+      "pa_raters_deg": [
+        20.73,
+        20.5,
+        21.6
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00027.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "b862a684e08e7830e7c44ca07932310fd578b668c1fd5953f109447e516e8545",
+      "decoded_grayscale_sha256": "d70973e5bc492955b1f0171f442671d7c734907eb4ba3e7538d0a152fac294d3",
+      "dhash_256_hex": "04cae45a1e2263b272aaf9b0e7c8f8302258b278a7e0b6a8bca8bc58bbe8be28"
+    },
+    {
+      "image_id": "frame_00028.png",
+      "frame": 28,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 55.23,
+      "pa_deg": 20.74,
+      "fl_rater_sd_mm": 2.84,
+      "pa_rater_sd_deg": 0.57,
+      "fl_raters_mm": [
+        55.32,
+        52.35,
+        58.02
+      ],
+      "pa_raters_deg": [
+        20.66,
+        20.22,
+        21.36
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00028.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "4b9c495a9ca1fd4f6a2b57d1731905e670730acbf368c0a54d62772088c9eee7",
+      "decoded_grayscale_sha256": "d2483db0b6fe82f079b0908b9206c7d9efb782348d97247ee99afa34d86471e5",
+      "dhash_256_hex": "04cae45a1e3262ba7aaaa9f0e6c8f8102258b378a7e0be28bca8b448bff8be28"
+    },
+    {
+      "image_id": "frame_00029.png",
+      "frame": 29,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 55.26,
+      "pa_deg": 20.73,
+      "fl_rater_sd_mm": 2.9,
+      "pa_rater_sd_deg": 0.51,
+      "fl_raters_mm": [
+        54.95,
+        52.53,
+        58.3
+      ],
+      "pa_raters_deg": [
+        20.52,
+        20.36,
+        21.32
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00029.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "d720171436b5d34c60827c2e01d8d7962b4d2eadcbc3d2febe8aea45da6a692e",
+      "decoded_grayscale_sha256": "a3a7eb3f55d5a5fd453a455ada5426bbbebc01571f2b051a1e283ebc4ce41323",
+      "dhash_256_hex": "04cae45a1e2262fa7a2aadb8f6c8f8182258b378a7d0b608bc68bc60bff8be28"
+    },
+    {
+      "image_id": "frame_00030.png",
+      "frame": 30,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 55.3,
+      "pa_deg": 20.72,
+      "fl_rater_sd_mm": 3,
+      "pa_rater_sd_deg": 0.49,
+      "fl_raters_mm": [
+        54.58,
+        52.72,
+        58.59
+      ],
+      "pa_raters_deg": [
+        20.38,
+        20.51,
+        21.28
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00030.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "3a083a6cd13a6d409c0e1e712d41900b8b2428ea157f9f799e84884383424954",
+      "decoded_grayscale_sha256": "43a151bd64603a6af39c7ce7f97dc2807a0bcfc6a7c93b420816484b384e782c",
+      "dhash_256_hex": "04cae45a1e2262f27aaaedb0b6c8f8382a58b378a7d0be18bc20bc60bf68be28"
+    },
+    {
+      "image_id": "frame_00031.png",
+      "frame": 31,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 55.24,
+      "pa_deg": 20.73,
+      "fl_rater_sd_mm": 2.91,
+      "pa_rater_sd_deg": 0.48,
+      "fl_raters_mm": [
+        54.58,
+        52.72,
+        58.43
+      ],
+      "pa_raters_deg": [
+        20.4,
+        20.51,
+        21.28
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00031.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "d78abc4de9f7eed2b5d5fbff59911bf069d6ec9d8cead5623e62fea899420b11",
+      "decoded_grayscale_sha256": "bf6097e563c1b1f3a450c6f385ac4adb65a217d27a07cbe5874afac50ba41c72",
+      "dhash_256_hex": "04cae45a1e2263f27222a9b8f6c8f8183258b378a7d0be00bc60b460bf78be28"
+    },
+    {
+      "image_id": "frame_00032.png",
+      "frame": 32,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 55.19,
+      "pa_deg": 20.74,
+      "fl_rater_sd_mm": 2.83,
+      "pa_rater_sd_deg": 0.47,
+      "fl_raters_mm": [
+        54.58,
+        52.72,
+        58.28
+      ],
+      "pa_raters_deg": [
+        20.43,
+        20.51,
+        21.28
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00032.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "e087f4daca35154c1d0ad549702bdd3325854337263411fc728ec4b9c941024c",
+      "decoded_grayscale_sha256": "a953944149854a4da073950cdd96cd3cf1f9bd4ffa3cd09d97928994765ddb85",
+      "dhash_256_hex": "04cae45a1e6261f27222a9baf6c8f8182258b378a7d0be00bc60b440bb68be18"
+    },
+    {
+      "image_id": "frame_00033.png",
+      "frame": 33,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 55.25,
+      "pa_deg": 20.65,
+      "fl_rater_sd_mm": 2.9,
+      "pa_rater_sd_deg": 0.42,
+      "fl_raters_mm": [
+        54.58,
+        52.75,
+        58.42
+      ],
+      "pa_raters_deg": [
+        20.33,
+        20.51,
+        21.12
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00033.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "6b7661985da96424efa5790c5b5d3bdd942371b4beda8a487295c355c4a54a64",
+      "decoded_grayscale_sha256": "6ca0fc9395a5bc861d0cf2bcecfdc4fc43f6bb00df4a23066fd20f6ff285aa48",
+      "dhash_256_hex": "04cae45a1e6262f27222a9baf6c0f8182258b378a7d0be10b820b440bb78be20"
+    },
+    {
+      "image_id": "frame_00034.png",
+      "frame": 34,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 55.3,
+      "pa_deg": 20.57,
+      "fl_rater_sd_mm": 2.96,
+      "pa_rater_sd_deg": 0.37,
+      "fl_raters_mm": [
+        54.58,
+        52.77,
+        58.56
+      ],
+      "pa_raters_deg": [
+        20.23,
+        20.51,
+        20.96
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00034.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "e06c995b2d0d8b5035ddd576a333993f4f830a96e30efc7012212eb64f85497d",
+      "decoded_grayscale_sha256": "19e349990abab8b1695e5db66296a39cbb3ed9838fcef47ba232e074b123cb02",
+      "dhash_256_hex": "04cae45a1e6260f27222b9baf6c8f8182258b378a7c8be88ba20b4209f68be60"
+    },
+    {
+      "image_id": "frame_00035.png",
+      "frame": 35,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 55.68,
+      "pa_deg": 20.45,
+      "fl_rater_sd_mm": 3.07,
+      "pa_rater_sd_deg": 0.27,
+      "fl_raters_mm": [
+        55.02,
+        53,
+        59.04
+      ],
+      "pa_raters_deg": [
+        20.23,
+        20.35,
+        20.75
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00035.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "8cd5713f3edccc1995c42438dfec6adaaaed3c067d6ff6b631e5f2458b37d235",
+      "decoded_grayscale_sha256": "0c91cf17297d77440dfab108d5ceffd884d9f0cb7db31ee93b879e315afa4378",
+      "dhash_256_hex": "04cae45a1e6262fa7222bdbaf2c8f8187258b378a7c8be10b820bd40bf78be28"
+    },
+    {
+      "image_id": "frame_00036.png",
+      "frame": 36,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 56.07,
+      "pa_deg": 20.33,
+      "fl_rater_sd_mm": 3.19,
+      "pa_rater_sd_deg": 0.19,
+      "fl_raters_mm": [
+        55.47,
+        53.22,
+        59.51
+      ],
+      "pa_raters_deg": [
+        20.24,
+        20.19,
+        20.55
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00036.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "7e7f5e8e27bf9411a6484fd6c502c9f6d45a9a13e256939f731379a2c781f5b7",
+      "decoded_grayscale_sha256": "84ad2054f5951c167dc75f99b2ac788ce49cb3741c678f7721a9b8acea3afe3e",
+      "dhash_256_hex": "04cae45a1e22637a7222adbaf2c8f8186258a378a7c8b650b8a0b610bf78be28"
+    },
+    {
+      "image_id": "frame_00037.png",
+      "frame": 37,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 56.28,
+      "pa_deg": 20.31,
+      "fl_rater_sd_mm": 2.86,
+      "pa_rater_sd_deg": 0.15,
+      "fl_raters_mm": [
+        56.03,
+        53.55,
+        59.27
+      ],
+      "pa_raters_deg": [
+        20.2,
+        20.26,
+        20.49
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00037.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "5beb286f4408e3efb94c3989bbf1eaa01144d34a01847337b53a1bfa85d07eab",
+      "decoded_grayscale_sha256": "68f8017a5a5201408bd12fef967793719fc165e20dc9352eaf078d437d2c452e",
+      "dhash_256_hex": "04cae45a1e2262ea7322eca8f2c8f8186218a378a7c8be40bc40b610bff8be00"
+    },
+    {
+      "image_id": "frame_00038.png",
+      "frame": 38,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 56.5,
+      "pa_deg": 20.3,
+      "fl_rater_sd_mm": 2.57,
+      "pa_rater_sd_deg": 0.13,
+      "fl_raters_mm": [
+        56.59,
+        53.88,
+        59.02
+      ],
+      "pa_raters_deg": [
+        20.16,
+        20.32,
+        20.43
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00038.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "137a5d1dcf57e9b630e95ef2ffd2e4c1d7eabef66ec7834077ed820ad18c5388",
+      "decoded_grayscale_sha256": "743a7d66967af9a7ac32d74f0921e8fb5e638c2cf3afb4034c9b05698115ee15",
+      "dhash_256_hex": "04cae45a1e3266aa7222eda8f248f8186218a370afc8be48bc40bc10bfb8ba20"
+    },
+    {
+      "image_id": "frame_00039.png",
+      "frame": 39,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 56.75,
+      "pa_deg": 20.26,
+      "fl_rater_sd_mm": 2.68,
+      "pa_rater_sd_deg": 0.15,
+      "fl_raters_mm": [
+        57.19,
+        53.88,
+        59.19
+      ],
+      "pa_raters_deg": [
+        20.21,
+        20.15,
+        20.43
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00039.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "0f74d6337e5dbe1b691b833ba8804320d6312cc2086a17a52e8fdc31905232f5",
+      "decoded_grayscale_sha256": "a0fb54956800ccf1626b497d6e8cb9adfb5eb7f130002cefa70b67f36f12b9cd",
+      "dhash_256_hex": "04cae45a1e3266aa7222eca8f348f8186218a370a6c8be00bc60be10bde8be28"
+    },
+    {
+      "image_id": "frame_00040.png",
+      "frame": 40,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 57.01,
+      "pa_deg": 20.22,
+      "fl_rater_sd_mm": 2.82,
+      "pa_rater_sd_deg": 0.23,
+      "fl_raters_mm": [
+        57.78,
+        53.88,
+        59.35
+      ],
+      "pa_raters_deg": [
+        20.26,
+        19.97,
+        20.43
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00040.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "8fcd29aa39366b31ee115f7bdd6d8a6a1ea7361a5a30d610366b56dbcc290176",
+      "decoded_grayscale_sha256": "fe17adaf739adfad7ea2e66e8f2ec5469c3bca22eebe43c4bdc6a40eca0cf30c",
+      "dhash_256_hex": "04cae45a1eb266aa7222e8a8f348f8186218a378a6c8b600bc20be30bf68be28"
+    },
+    {
+      "image_id": "frame_00041.png",
+      "frame": 41,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 57.34,
+      "pa_deg": 20.16,
+      "fl_rater_sd_mm": 2.5,
+      "pa_rater_sd_deg": 0.19,
+      "fl_raters_mm": [
+        58.33,
+        54.5,
+        59.19
+      ],
+      "pa_raters_deg": [
+        20.21,
+        19.96,
+        20.32
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00041.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "6ad67fa6545f1f5f49b5b1b7c037d78f86ac0322708eb4c08b3502f8b930493d",
+      "decoded_grayscale_sha256": "bb5f35f756d43e7c3d5b372b982a238c26c3b6651183439246096f26b3eb87db",
+      "dhash_256_hex": "04cae85a1eb264ea7322eca8f348f8186218a378a6d0b680be60b810bfe8be08"
+    },
+    {
+      "image_id": "frame_00042.png",
+      "frame": 42,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 57.67,
+      "pa_deg": 20.11,
+      "fl_rater_sd_mm": 2.22,
+      "pa_rater_sd_deg": 0.14,
+      "fl_raters_mm": [
+        58.88,
+        55.11,
+        59.02
+      ],
+      "pa_raters_deg": [
+        20.16,
+        19.95,
+        20.22
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00042.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "78970ed5aac4a384715bc879c16c080073904daa3ef9ca4ffabff6906c3c3003",
+      "decoded_grayscale_sha256": "d4581d41222863c8f4ed35ebb2e292e7636f25a44d059bb3434d8a72aab9bc8f",
+      "dhash_256_hex": "04cae8da1eb266ea7222eda8f348f8186218ab78a6d0b600bc60ba18bfe8be08"
+    },
+    {
+      "image_id": "frame_00043.png",
+      "frame": 43,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 57.67,
+      "pa_deg": 20.08,
+      "fl_rater_sd_mm": 2.21,
+      "pa_rater_sd_deg": 0.13,
+      "fl_raters_mm": [
+        58.88,
+        55.11,
+        59.01
+      ],
+      "pa_raters_deg": [
+        20.09,
+        19.95,
+        20.22
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00043.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "d1524a70b3a7caaf197a0816be6439034e4444c347a3af33148d959b6048e5fd",
+      "decoded_grayscale_sha256": "6bcbd876b4b51ed41f9b45757192f1b56584b7de2fdac3495c1305b3081df79a",
+      "dhash_256_hex": "04caecda1fa262ea7222eca8f348f8186318ab78b3d0b680be60b8189df8be28"
+    },
+    {
+      "image_id": "frame_00044.png",
+      "frame": 44,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 57.66,
+      "pa_deg": 20.06,
+      "fl_rater_sd_mm": 2.21,
+      "pa_rater_sd_deg": 0.14,
+      "fl_raters_mm": [
+        58.88,
+        55.11,
+        59
+      ],
+      "pa_raters_deg": [
+        20.01,
+        19.95,
+        20.22
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00044.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "28dbffab0fcf6935ef04ae02955bbd4c3c01626acd048b30a529f2470643446d",
+      "decoded_grayscale_sha256": "c12f996bd9d176522bfe2a828457c244ab625162eada32abc203f29e7e7fcf56",
+      "dhash_256_hex": "04caecda1fa262ea7222eca8f348f8186318bb78b3d0be88be60b8209df8be28"
+    },
+    {
+      "image_id": "frame_00045.png",
+      "frame": 45,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 57.77,
+      "pa_deg": 19.95,
+      "fl_rater_sd_mm": 1.94,
+      "pa_rater_sd_deg": 0.24,
+      "fl_raters_mm": [
+        58.79,
+        55.53,
+        59
+      ],
+      "pa_raters_deg": [
+        20.01,
+        19.68,
+        20.15
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00045.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "db31bf8fb69a6a1a81a8b003e293e5305f20d601fbc1994614b415694fb1a71e",
+      "decoded_grayscale_sha256": "cdae95a8e4cc7db1f269ff3a8fa9948485a980bc476e0f170f08693d7c8f4aef",
+      "dhash_256_hex": "04caecda1fa262ca7a62ecb8f348f8186118b378a3d0bec8be60b820bde8be28"
+    },
+    {
+      "image_id": "frame_00046.png",
+      "frame": 46,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 57.89,
+      "pa_deg": 19.84,
+      "fl_rater_sd_mm": 1.68,
+      "pa_rater_sd_deg": 0.36,
+      "fl_raters_mm": [
+        58.7,
+        55.96,
+        59
+      ],
+      "pa_raters_deg": [
+        20.01,
+        19.42,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00046.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "fd29300dc4f3089f2c3bfe521046c4d6b0e804fb3ec484549dbc569d15122e7f",
+      "decoded_grayscale_sha256": "778176eef31f7d61003ce28bcc344a1b8f196db3c7353ade1a4b4490b26a0440",
+      "dhash_256_hex": "04cae8da1fa262da7a62ecb8f348f0186518b378b3d0bec0bc60ba28bde8be28"
+    },
+    {
+      "image_id": "frame_00047.png",
+      "frame": 47,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 57.94,
+      "pa_deg": 19.83,
+      "fl_rater_sd_mm": 1.76,
+      "pa_rater_sd_deg": 0.34,
+      "fl_raters_mm": [
+        58.55,
+        55.96,
+        59.31
+      ],
+      "pa_raters_deg": [
+        19.97,
+        19.44,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00047.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "e691b827836c4d37aa302353d96e99ebc799f9fa4f2d304841475c8aa86703be",
+      "decoded_grayscale_sha256": "0ddce10cfc280aa9ce6e973dfe81af1655ca816206aad326386939cee378d8e7",
+      "dhash_256_hex": "04cae8da1fb262da7a62ecb8fbc8f8186318ab78a7c8bec0bc60ba20bee8be28"
+    },
+    {
+      "image_id": "frame_00048.png",
+      "frame": 48,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 57.99,
+      "pa_deg": 19.82,
+      "fl_rater_sd_mm": 1.86,
+      "pa_rater_sd_deg": 0.32,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.62
+      ],
+      "pa_raters_deg": [
+        19.92,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00048.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "4d5fd2059bf3c31d6c6c3a0a505f85cb5eba7e01f7ca3e78d5a6de9b1150942e",
+      "decoded_grayscale_sha256": "5bf184a5ae6e1114305db0b17584a49415d3ea01c626c8ec3c63afd8db76ce50",
+      "dhash_256_hex": "04cae8da1fa262ca7b72ecd8fb48f8186318ab78a7c8be48be60ba20bcf8be68"
+    },
+    {
+      "image_id": "frame_00049.png",
+      "frame": 49,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 58.02,
+      "pa_deg": 19.82,
+      "fl_rater_sd_mm": 1.89,
+      "pa_rater_sd_deg": 0.32,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.69
+      ],
+      "pa_raters_deg": [
+        19.91,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00049.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "d56b5cceb95c42da232acd02b44f13ab94e8642a4e884f26ee534c5258359e4f",
+      "decoded_grayscale_sha256": "6ace8b2ad5617a4d6f806ccf78dc26c79f6fdf56f8b06a65cca62e8c26f7a269",
+      "dhash_256_hex": "04cae8da1ff262ea7b72ecd8fb48f8186318ab78a7d8b648be60bc60bde8be28"
+    },
+    {
+      "image_id": "frame_00050.png",
+      "frame": 50,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00050.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "49f90270b03d3ba1951ab075f94eb232d94c8d48e8ff0c31daa61dad953b45b7",
+      "decoded_grayscale_sha256": "b07d07eaa6cf0ed395afe84d25128921dbbf1315b8399016720361471ce4b6a1",
+      "dhash_256_hex": "04cae8da1fb262ea7b72e8d8f948f8186318ab78a7d8ae58be60b4209de8be28"
+    },
+    {
+      "image_id": "frame_00051.png",
+      "frame": 51,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00051.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "ed3741af9d7752bc892490b55382d69621af0681453005264c9ff58a914780a3",
+      "decoded_grayscale_sha256": "8424bfb65415ee79fe0b7c7d80a26d67a4eed88f6e8774249647fa91ad29597a",
+      "dhash_256_hex": "04cae89a1fb262ea7a72e8d8f948f8186318ab78e6c8ae50be60b5209df8be28"
+    },
+    {
+      "image_id": "frame_00052.png",
+      "frame": 52,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00052.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "f2d5fd9a3a5992d58c1250d7e3d886661d6cfa95e9773ffa1b4c7d4ff1eb9331",
+      "decoded_grayscale_sha256": "d0ccf352f5e8139be3796ff0ffeeda6d48796c254c8b7398d81c8ac8f63d5db7",
+      "dhash_256_hex": "04caecda1fb262ea7a72e8d8f948f8586318bb78e6c8be50ba40b4609df8be68"
+    },
+    {
+      "image_id": "frame_00053.png",
+      "frame": 53,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00053.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "941e1588885d1b9da449366ee786c799bf5a076c26dc61abac47eee7bc1313d2",
+      "decoded_grayscale_sha256": "203c623bfafd0d31e2a2be719d5e584d679daadbb7340d5d6b9d9f1dad2f28f0",
+      "dhash_256_hex": "04cae8da1fb262ea7a72e8d8f948f8586318ab78e6c8be40be48b6209ff8bc68"
+    },
+    {
+      "image_id": "frame_00054.png",
+      "frame": 54,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00054.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "64b1eead873a41cd868b5bb43bd4db1742f9ec53daa8e6a11f7273c749cc8979",
+      "decoded_grayscale_sha256": "b27971fe69386a1fc0c91d47a64312c6ade5871d0d7e020765fd3443b859a11c",
+      "dhash_256_hex": "04cae8da1fb262ea7b72e8d8f948f8586318ab78e6c8be40ba68b6a09ff8bc68"
+    },
+    {
+      "image_id": "frame_00055.png",
+      "frame": 55,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00055.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "489966648bd2b63ff2f497154f86e3a91eca144544adef344b307a5878802f2d",
+      "decoded_grayscale_sha256": "49cea3ce3054d2c5f97dcf46638c788f8d5fe8d5ba33e3a513f0c6b61b85fe73",
+      "dhash_256_hex": "04caecda1fb262ea7972e8d8f948f8586318ab78e6c8ae40bc68b2889ff8bc68"
+    },
+    {
+      "image_id": "frame_00056.png",
+      "frame": 56,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00056.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "2a907acb98e35e3a56cbc9d2832308dfa906dbbfe9df5e8d0b9028e47817ccd8",
+      "decoded_grayscale_sha256": "289496c52ccddbca8cde04538dcd73f1e361ea04df88ff01cf48534ed4041a68",
+      "dhash_256_hex": "04caec9a1fb262ea7972e8d8f948f8586338bb78a6c8ae40bc60b5089f78bc68"
+    },
+    {
+      "image_id": "frame_00057.png",
+      "frame": 57,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00057.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "c2ae3408fcee6f5415ee09f6d48e033bc3ec042318f222e45d644a268e783a37",
+      "decoded_grayscale_sha256": "460807c3e8d0d4cb2bdd6bb627185abd6d94555ab96420714559169c512f994b",
+      "dhash_256_hex": "04caecda1f3262ea7b72e8d8f948f8586318b378a6c8be40bc60b5089df8bc68"
+    },
+    {
+      "image_id": "frame_00058.png",
+      "frame": 58,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00058.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "0bea3db23f17f34fb9065d6881f1f1b800f556ad2a2c71cd29415dbadc903f07",
+      "decoded_grayscale_sha256": "42822aafd10c86ccc69fd072a2b8558de2c1bbfe07081286ba983c0ca4615def",
+      "dhash_256_hex": "04caecda1fb262ea7b72e8d8f948f8586308b378a7c8be40be60b5009df8bc68"
+    },
+    {
+      "image_id": "frame_00059.png",
+      "frame": 59,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00059.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "b7b16b15a232303bffd50a2bd94a402967ce4cdee74d2da39b9c0176ce681508",
+      "decoded_grayscale_sha256": "bb1540b5b4cd360f85b3c964cb68b24e2656a41d6eb5af0f955fb22ae35bcafc",
+      "dhash_256_hex": "04caec9a1fb262ca7a72ecd8f948f8186308b378e7d0be40be60b620bdf8bc68"
+    },
+    {
+      "image_id": "frame_00060.png",
+      "frame": 60,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00060.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "e59cf2556d3eb85803ff14305900232c0ca3a423be89edf84d97ce1693c3435f",
+      "decoded_grayscale_sha256": "958d00272b1477ebc42df73362976cf018659195b2c275b5df301b22d3bab670",
+      "dhash_256_hex": "04caec9a1f3262ca7a72ecd8fb48f8186328ab78e6d0be40be60b620bde8be48"
+    },
+    {
+      "image_id": "frame_00061.png",
+      "frame": 61,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00061.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "1254491349302a96912c6a2f328c3e3bd4e3c0e16c99ade95061d9623d6caf8c",
+      "decoded_grayscale_sha256": "ec255956c7bfac1e9c78fbd84c7b60030a0aea0868290ccc6ff37935c9ed9bf4",
+      "dhash_256_hex": "04caec9a1fb262ca7a72ecd8fb48f8186328ab78e6c0ae40be60b420bde8be48"
+    },
+    {
+      "image_id": "frame_00062.png",
+      "frame": 62,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00062.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "c0def022fb367a8e466e3da60aa68c83f4ea265535c0ebcd97073666b54c65c2",
+      "decoded_grayscale_sha256": "1f2712c294adc481554822c297ec861f6b4b4936e81e676b17491adb3b391098",
+      "dhash_256_hex": "04caecda1f3262ca7a72ecd8fb48f8186328ab78a6c0ae40be60b420bde8bcc8"
+    },
+    {
+      "image_id": "frame_00063.png",
+      "frame": 63,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00063.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "d0112bf577d3a132a707a3004c2a05fa86f76f4d5e2eedfc1103b3f8920847a3",
+      "decoded_grayscale_sha256": "7731f4ca190a9ff4f842b19ae55f677a6c86470060d1a7a4cb3135a722e4f1b1",
+      "dhash_256_hex": "04cae89a1f3262ca7a72ecd8fb48f8186308ab78a6c0ae48bc60b420bde8bcc0"
+    },
+    {
+      "image_id": "frame_00064.png",
+      "frame": 64,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00064.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "7aa07254858c008160d4a384fd49f907d073060f6353061339566e96670d6f73",
+      "decoded_grayscale_sha256": "9002dcd14eb9dc8518f61542744e8312dd815d9efdd53b62b96e4aefeb131394",
+      "dhash_256_hex": "04caec9a1f3262ca7a72ecd8fb48f8186308ab78a6e0ae48bc60b220bce8bc60"
+    },
+    {
+      "image_id": "frame_00065.png",
+      "frame": 65,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00065.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "05c55fbed31024e8c3da2b484aab8c33fca7d5e00ff4ad1bb0010d0b4d275ab0",
+      "decoded_grayscale_sha256": "30b8aaec80596c75ba4d225965a4e913e6e7b699368e9be87b6c053f4df17cdc",
+      "dhash_256_hex": "04caec9a1f3262ca7a32ecd8fb48f8086308ab78a2c0ae48bc60b220bce8bc60"
+    },
+    {
+      "image_id": "frame_00066.png",
+      "frame": 66,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 58.04,
+      "pa_deg": 19.81,
+      "fl_rater_sd_mm": 1.93,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        58.39,
+        55.96,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00066.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "23202a7bd782a6275b679b1e6a1e126d731b51ffd02ce66d4961480307a0b5b9",
+      "decoded_grayscale_sha256": "3ea9fd6f26a9077aa9a2966e1da61fab8d08fdcf64b12752e88d1cc27af3e32c",
+      "dhash_256_hex": "04caec9a1f3262ca7a32ec98fb48f8186308ab78a3c0ae48be60b2609ce8b860"
+    },
+    {
+      "image_id": "frame_00067.png",
+      "frame": 67,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 57.95,
+      "pa_deg": 19.85,
+      "fl_rater_sd_mm": 2.08,
+      "pa_rater_sd_deg": 0.36,
+      "fl_raters_mm": [
+        58.39,
+        55.68,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.17
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00067.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "34375020f78f12b98bf9bb76c63406e14c4538b203358f2368d6237d9d2948f4",
+      "decoded_grayscale_sha256": "00a6f831073e9abd283fc35a5331e064cfd660b76157e24c0854e3dc0dcb55ce",
+      "dhash_256_hex": "04caec9a1f3262ca7a32ecb8fb48f8186308ab78a7c0ae40bc60ba20bde8bc60"
+    },
+    {
+      "image_id": "frame_00068.png",
+      "frame": 68,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 57.86,
+      "pa_deg": 19.88,
+      "fl_rater_sd_mm": 2.23,
+      "pa_rater_sd_deg": 0.4,
+      "fl_raters_mm": [
+        58.39,
+        55.41,
+        59.77
+      ],
+      "pa_raters_deg": [
+        19.9,
+        19.46,
+        20.27
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00068.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "b628c621fca8cc4ed36e9aff83ac272fb2e11defbaa12276e643bb264a6bc681",
+      "decoded_grayscale_sha256": "562b788a6b521d675671578920ed0ca9791483909b452a66f8c240f20b6ed088",
+      "dhash_256_hex": "04caec9a1f3262ca7a32ecb8fb48f8186318a378a7d0be40b860ba209d68bc20"
+    },
+    {
+      "image_id": "frame_00069.png",
+      "frame": 69,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 57.66,
+      "pa_deg": 19.93,
+      "fl_rater_sd_mm": 2.3,
+      "pa_rater_sd_deg": 0.37,
+      "fl_raters_mm": [
+        57.86,
+        55.27,
+        59.86
+      ],
+      "pa_raters_deg": [
+        19.96,
+        19.55,
+        20.29
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00069.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "c9264363625f4da2937946653fbf81013bd2f30fd3f7e7d6e82fd61e8c7a28ea",
+      "decoded_grayscale_sha256": "f5dc6507fa56e4a645875bab7698196c9be735f0df857765f8e5dbb42dd1e1ec",
+      "dhash_256_hex": "04caec9a1f3262ba7822ecb8f348f8186318a378a3d0be40ba60be289f68bc08"
+    },
+    {
+      "image_id": "frame_00070.png",
+      "frame": 70,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 57.47,
+      "pa_deg": 19.99,
+      "fl_rater_sd_mm": 2.41,
+      "pa_rater_sd_deg": 0.34,
+      "fl_raters_mm": [
+        57.33,
+        55.13,
+        59.95
+      ],
+      "pa_raters_deg": [
+        20.02,
+        19.63,
+        20.32
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00070.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "2dff1b42b7634fb8dad30b09e22721314981a70f35ddc2cddfd212ed988f70b1",
+      "decoded_grayscale_sha256": "18890e3958a32db80c2e73e706edf18d4adedf8f787746e30825226003bb8d6f",
+      "dhash_256_hex": "04caec9a1f3262aa7922ecb8f348f8186218a378a7f0be40ba60ae88bfe8bc60"
+    },
+    {
+      "image_id": "frame_00071.png",
+      "frame": 71,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 57.21,
+      "pa_deg": 20.07,
+      "fl_rater_sd_mm": 2.45,
+      "pa_rater_sd_deg": 0.38,
+      "fl_raters_mm": [
+        56.94,
+        54.91,
+        59.79
+      ],
+      "pa_raters_deg": [
+        20.05,
+        19.7,
+        20.45
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00071.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "9a949f2869d0724769a90ced78aa50af34ed92e9199717fdc4382b917d5a3f29",
+      "decoded_grayscale_sha256": "aec257ac105858b6efe0019fc8325cc2f57152dc285dda586b130cf4c601dd35",
+      "dhash_256_hex": "04caec9a1fa262aa7922ecb8f3c8f0186208a378a6f0be40ba60ae88bee8bc28"
+    },
+    {
+      "image_id": "frame_00072.png",
+      "frame": 72,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 56.96,
+      "pa_deg": 20.14,
+      "fl_rater_sd_mm": 2.5,
+      "pa_rater_sd_deg": 0.42,
+      "fl_raters_mm": [
+        56.56,
+        54.69,
+        59.64
+      ],
+      "pa_raters_deg": [
+        20.07,
+        19.76,
+        20.59
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00072.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "998fbd838ea1f9b7219fb3d115dd3bc982c0203f20195e5111b3c42bcd4eb996",
+      "decoded_grayscale_sha256": "e739963705f1c122bb58e6b5aee6cccfd9c8ce5670571871c7de4f3c790d244a",
+      "dhash_256_hex": "04caec9a1f2262ba7922eca8f348f8186208ab78a6f0ae00bc60ae08bee8bca0"
+    },
+    {
+      "image_id": "frame_00073.png",
+      "frame": 73,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 56.56,
+      "pa_deg": 20.23,
+      "fl_rater_sd_mm": 2.36,
+      "pa_rater_sd_deg": 0.4,
+      "fl_raters_mm": [
+        56.1,
+        54.45,
+        59.11
+      ],
+      "pa_raters_deg": [
+        20.22,
+        19.84,
+        20.64
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00073.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "7d18598cf33a4182d09aa501095e848452f7f35d55186cd6d3430b8fbeed9c37",
+      "decoded_grayscale_sha256": "5f9d9d348b9c5ff5d036276a47519a89c909b08e6c556871350650b4ec42924f",
+      "dhash_256_hex": "04caec9a1fa2629a7922fca8f3c8f8186308ab78a6f0ae00bc60be28b6f8bc60"
+    },
+    {
+      "image_id": "frame_00074.png",
+      "frame": 74,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 56.15,
+      "pa_deg": 20.32,
+      "fl_rater_sd_mm": 2.23,
+      "pa_rater_sd_deg": 0.39,
+      "fl_raters_mm": [
+        55.65,
+        54.21,
+        58.59
+      ],
+      "pa_raters_deg": [
+        20.38,
+        19.91,
+        20.68
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00074.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "61d172adbe8cae161a795e1eae6449a73298e56e723bdd9038ccbb42020b17da",
+      "decoded_grayscale_sha256": "5d3878ddbffcf071f579fbe2b2b951083f64e22b12a63ef659283b03f93d0eab",
+      "dhash_256_hex": "04caec9a1fa2629a7922fca8f348f8186348ab78a7f0be80bc60be289d78bc60"
+    },
+    {
+      "image_id": "frame_00075.png",
+      "frame": 75,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 56,
+      "pa_deg": 20.39,
+      "fl_rater_sd_mm": 2.02,
+      "pa_rater_sd_deg": 0.36,
+      "fl_raters_mm": [
+        55.58,
+        54.22,
+        58.2
+      ],
+      "pa_raters_deg": [
+        20.44,
+        20,
+        20.73
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00075.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "39cf9ca4ece85c365a3b7fe31649be74b267a34b72371702dd0f94e2e6192593",
+      "decoded_grayscale_sha256": "de01ae6316956eb692a9eeda77c9c19e83c875f76ef12863b7c5cef2879dada8",
+      "dhash_256_hex": "04caec9a1f2262ba7a22fca8f3c8f8186248ab78a3f0be88bc60be28bd78bc60"
+    },
+    {
+      "image_id": "frame_00076.png",
+      "frame": 76,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 55.86,
+      "pa_deg": 20.46,
+      "fl_rater_sd_mm": 1.82,
+      "pa_rater_sd_deg": 0.34,
+      "fl_raters_mm": [
+        55.52,
+        54.23,
+        57.82
+      ],
+      "pa_raters_deg": [
+        20.5,
+        20.1,
+        20.78
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00076.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "81ace93eff3a5614309613183a4a049ece34769c1d7861047480b82444321ea0",
+      "decoded_grayscale_sha256": "c24daf019a8151c963a5da480615a98fbcf1213136f3a4d9da7f8c8082a1cb71",
+      "dhash_256_hex": "04caec9a1f2262ba7822fcb8f2c8f8186358ab78e7f0be80ba60be28bff8bc28"
+    },
+    {
+      "image_id": "frame_00077.png",
+      "frame": 77,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 55.48,
+      "pa_deg": 20.56,
+      "fl_rater_sd_mm": 2,
+      "pa_rater_sd_deg": 0.38,
+      "fl_raters_mm": [
+        54.67,
+        54.01,
+        57.75
+      ],
+      "pa_raters_deg": [
+        20.59,
+        20.17,
+        20.92
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00077.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "a851fc3d8e4b5f1c042a092ab96f1d7a262ec5499e8c4a3f2c13d8480dc429ba",
+      "decoded_grayscale_sha256": "802da2c06b3069ef2efd099a128be5b75dc9f1198080a34bbd44cc1fddbbfd7a",
+      "dhash_256_hex": "04caecda1f22629a7862f4b8f2c8f8186358ab78a7f8be88ba60bc089778bce0"
+    },
+    {
+      "image_id": "frame_00078.png",
+      "frame": 78,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 55.1,
+      "pa_deg": 20.66,
+      "fl_rater_sd_mm": 2.24,
+      "pa_rater_sd_deg": 0.41,
+      "fl_raters_mm": [
+        53.82,
+        53.79,
+        57.69
+      ],
+      "pa_raters_deg": [
+        20.68,
+        20.24,
+        21.06
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00078.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "31225855cee06956abdcdba079f04edf898b661670e8814c58cf7435e7517bc2",
+      "decoded_grayscale_sha256": "b546ef8eddadd86a221b4bf57aaf5258e9923ca90de7a33f03faf7ad2e6459c4",
+      "dhash_256_hex": "04caecda1f22629a7962f4b0f2c8f8186258a378a7f8be88ba60bc08b778bce0"
+    },
+    {
+      "image_id": "frame_00079.png",
+      "frame": 79,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 54.89,
+      "pa_deg": 20.71,
+      "fl_rater_sd_mm": 2.56,
+      "pa_rater_sd_deg": 0.34,
+      "fl_raters_mm": [
+        53.37,
+        53.45,
+        57.84
+      ],
+      "pa_raters_deg": [
+        20.65,
+        20.4,
+        21.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00079.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "f85862a751ba4b30c8f7d1654aed018bb479206d1228a9bd7f99f90dc0864a63",
+      "decoded_grayscale_sha256": "560872b8a7f0d5267daa677724d7c7a3431631e4c614c42e3adbe0b596ad2057",
+      "dhash_256_hex": "04caecda1f22669a7c22adb0f2c8f8186258ab78e6e8ae88ba60bd18b7f8bce0"
+    },
+    {
+      "image_id": "frame_00080.png",
+      "frame": 80,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 54.68,
+      "pa_deg": 20.76,
+      "fl_rater_sd_mm": 2.87,
+      "pa_rater_sd_deg": 0.28,
+      "fl_raters_mm": [
+        52.93,
+        53.12,
+        58
+      ],
+      "pa_raters_deg": [
+        20.63,
+        20.57,
+        21.09
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00080.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "a053001fb25db06301df64bf95091b67036e3095e242c65f2f24262c3f1eb256",
+      "decoded_grayscale_sha256": "846ffac3a837da703b35b11240b2b91a37ed6654c8709bfee06c7c9021690830",
+      "dhash_256_hex": "04caecda1fa2669a7a22adb0f6c8f8386258ab78e7c8be88bc60bd08bef8bc60"
+    },
+    {
+      "image_id": "frame_00081.png",
+      "frame": 81,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 54.57,
+      "pa_deg": 20.8,
+      "fl_rater_sd_mm": 2.71,
+      "pa_rater_sd_deg": 0.31,
+      "fl_raters_mm": [
+        52.93,
+        53.08,
+        57.69
+      ],
+      "pa_raters_deg": [
+        20.68,
+        20.57,
+        21.15
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00081.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "d3e6ecf3e6cd23cb9aefd6b24204a03e1e13558055233d28708913e8fb642d5f",
+      "decoded_grayscale_sha256": "a35282a9d28f33b4a7360e2a49e0b01321811999340a0661ca880bfcafc64424",
+      "dhash_256_hex": "04caecda1fa2629a7a6aadb0f6c8f8386258a378e6c8be88bc40bc08bff8bc60"
+    },
+    {
+      "image_id": "frame_00082.png",
+      "frame": 82,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 54.45,
+      "pa_deg": 20.84,
+      "fl_rater_sd_mm": 2.54,
+      "pa_rater_sd_deg": 0.33,
+      "fl_raters_mm": [
+        52.93,
+        53.04,
+        57.38
+      ],
+      "pa_raters_deg": [
+        20.73,
+        20.57,
+        21.21
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00082.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "876d0fecf9f9fd0444cf784b401ea2014765d0df6ff6455b92908c636344e9af",
+      "decoded_grayscale_sha256": "7f3efa95963a6fe984c090a2415bd89e329c345a1a4f6096c17c9cce44804e3a",
+      "dhash_256_hex": "04caecda1fa2629a7a6ab5b0f7c8f8386258b378e6c8be88bc40bc08bff8bca0"
+    },
+    {
+      "image_id": "frame_00083.png",
+      "frame": 83,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 54.27,
+      "pa_deg": 20.99,
+      "fl_rater_sd_mm": 2.53,
+      "pa_rater_sd_deg": 0.29,
+      "fl_raters_mm": [
+        52.72,
+        52.91,
+        57.19
+      ],
+      "pa_raters_deg": [
+        21,
+        20.7,
+        21.29
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00083.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "55f5c60af6a2b82d82d67dc746d26290be92b3ea4e837502f22784bec80f6b14",
+      "decoded_grayscale_sha256": "09d11af06363220a89d33f8d40454c829aa26c429bc371e4cfa9a12cff3fd624",
+      "dhash_256_hex": "04caecda1fa2629a2c6ab5f2f7c8f8186258b378e7d0ae88bc40bc089ef8b820"
+    },
+    {
+      "image_id": "frame_00084.png",
+      "frame": 84,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 54.09,
+      "pa_deg": 21.15,
+      "fl_rater_sd_mm": 2.52,
+      "pa_rater_sd_deg": 0.29,
+      "fl_raters_mm": [
+        52.5,
+        52.77,
+        57
+      ],
+      "pa_raters_deg": [
+        21.27,
+        20.83,
+        21.37
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00084.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "555a0f77230b1c4a32a82496560550453883064a8e000a77aa1d38e185fb75fa",
+      "decoded_grayscale_sha256": "a03feb467840be737f8956380ba09d8833ac00527dbc2edd05045c2f10c8c98b",
+      "dhash_256_hex": "04caecda1fa262ba2e6ab4f2f7c8f8106258b378e7c0be88bce0bc48bdf8b8a0"
+    },
+    {
+      "image_id": "frame_00085.png",
+      "frame": 85,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 53.62,
+      "pa_deg": 21.31,
+      "fl_rater_sd_mm": 2.15,
+      "pa_rater_sd_deg": 0.23,
+      "fl_raters_mm": [
+        52.22,
+        52.53,
+        56.1
+      ],
+      "pa_raters_deg": [
+        21.51,
+        21.06,
+        21.36
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00085.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "aad380d5e6063becb544342a98bc66fbad6f273078db59f6551def4a95e278af",
+      "decoded_grayscale_sha256": "49a952e17e31d54d7867fe30eded600239f4b4adb56c66967bedff7c8e667130",
+      "dhash_256_hex": "04caecda1fa262ba3e6aa5f2b7c8f8306250b378e7c0be88bce8bc60bfe8b8a0"
+    },
+    {
+      "image_id": "frame_00086.png",
+      "frame": 86,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 53.14,
+      "pa_deg": 21.47,
+      "fl_rater_sd_mm": 1.78,
+      "pa_rater_sd_deg": 0.26,
+      "fl_raters_mm": [
+        51.95,
+        52.29,
+        55.19
+      ],
+      "pa_raters_deg": [
+        21.76,
+        21.28,
+        21.36
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00086.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "3df31952ae872da2203e7a5cee5fe31da3acea860904d14192a29bf2803157fc",
+      "decoded_grayscale_sha256": "40ba2e765f9abd6d61292cdda7cf2e8a24c2075b53bd19615538293f145bbdfe",
+      "dhash_256_hex": "04caecda1fa262ba3e6ab5f2e7c8f8306258a670e7c0be88bc68bc60bfe8b8a0"
+    },
+    {
+      "image_id": "frame_00087.png",
+      "frame": 87,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 52.51,
+      "pa_deg": 21.57,
+      "fl_rater_sd_mm": 1.22,
+      "pa_rater_sd_deg": 0.25,
+      "fl_raters_mm": [
+        51.95,
+        51.68,
+        53.91
+      ],
+      "pa_raters_deg": [
+        21.67,
+        21.28,
+        21.75
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00087.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "7a4a44754edbac5471d80690b08cefb918dc06128842f834db73c5a45f0539d5",
+      "decoded_grayscale_sha256": "fb9e4f52bd75ceec0240d9d4cb76cd31cb24ef52f157347796ac62073c98b9ab",
+      "dhash_256_hex": "04caecda1fa262ba3e6ab5f2e748b8306258a670a7e0b688bc48bc68aef8b980"
+    },
+    {
+      "image_id": "frame_00088.png",
+      "frame": 88,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 51.89,
+      "pa_deg": 21.67,
+      "fl_rater_sd_mm": 0.78,
+      "pa_rater_sd_deg": 0.44,
+      "fl_raters_mm": [
+        51.95,
+        51.08,
+        52.63
+      ],
+      "pa_raters_deg": [
+        21.58,
+        21.28,
+        22.14
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00088.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "70bf9db2ad2504631262621a18dfaececabdcb5c8af6498dea0bb510c88fd630",
+      "decoded_grayscale_sha256": "cdc73fd33c3129abf0d3a7d9fe262abeeda4bc6f310a17f7a99f641e7dc875bd",
+      "dhash_256_hex": "04caecda1fa262ba2e6ab5f2e748b8306258a370ade0b608bc48bc20bdf8b460"
+    },
+    {
+      "image_id": "frame_00089.png",
+      "frame": 89,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 51.54,
+      "pa_deg": 21.74,
+      "fl_rater_sd_mm": 1.13,
+      "pa_rater_sd_deg": 0.48,
+      "fl_raters_mm": [
+        51.16,
+        50.66,
+        52.81
+      ],
+      "pa_raters_deg": [
+        21.72,
+        21.28,
+        22.23
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00089.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "bc18e0765bebd1b0c7d7b59452d4473ba3530479a546902e663157b558ad0842",
+      "decoded_grayscale_sha256": "8d91bc4b806725d00381cbffc7c521204893dcf5911f48a1f4ff45b81cd794fe",
+      "dhash_256_hex": "04caec9a5fa262ba3e6ab1f2e748b8306258b2f0a7e0b610bc48bc50bcb0bd80"
+    },
+    {
+      "image_id": "frame_00090.png",
+      "frame": 90,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 51.2,
+      "pa_deg": 21.82,
+      "fl_rater_sd_mm": 1.55,
+      "pa_rater_sd_deg": 0.53,
+      "fl_raters_mm": [
+        50.37,
+        50.24,
+        52.99
+      ],
+      "pa_raters_deg": [
+        21.85,
+        21.27,
+        22.33
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00090.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "6645a99532fe6c46c250a9dffaba061c5c826d79410770a3054665064e5766a7",
+      "decoded_grayscale_sha256": "d7a3b301969cf666dae83f5e668df66c899724be4fb7db2916218ccf8394f6b5",
+      "dhash_256_hex": "04caec9a1fa262ba3e4ab1f2e7c8b8306658b278a7e0ae10bcc0bc50bcf0b8a0"
+    },
+    {
+      "image_id": "frame_00091.png",
+      "frame": 91,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 51.04,
+      "pa_deg": 21.97,
+      "fl_rater_sd_mm": 1.35,
+      "pa_rater_sd_deg": 0.57,
+      "fl_raters_mm": [
+        50.42,
+        50.11,
+        52.58
+      ],
+      "pa_raters_deg": [
+        21.76,
+        21.53,
+        22.61
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00091.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "2d2f6dbc8b5576bb3a0ce755a7834e0f3a3498029370161fb186762ceee27aa8",
+      "decoded_grayscale_sha256": "8f2c9178776277438baa9a48228832617d718e576b60ece37c6156ad9b2a323c",
+      "dhash_256_hex": "04caec9a1fa262ba3c6ab1f2ef88b8306658b7f0a7e0a600bcc0bc40bee0b890"
+    },
+    {
+      "image_id": "frame_00092.png",
+      "frame": 92,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 50.87,
+      "pa_deg": 22.12,
+      "fl_rater_sd_mm": 1.15,
+      "pa_rater_sd_deg": 0.67,
+      "fl_raters_mm": [
+        50.46,
+        49.99,
+        52.17
+      ],
+      "pa_raters_deg": [
+        21.67,
+        21.79,
+        22.89
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00092.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "e88c9f7fa39c9e89cd88d1122038c2540752a8e0bcbca9a0bd03ffaa7688513f",
+      "decoded_grayscale_sha256": "935d9dcafd9e9b2f0329d58696de3279546f1566df2229a27a598ffdb2bdc918",
+      "dhash_256_hex": "04cae49a1fa262ba3c4ab1f2ef88b8306678b770afe0a608bcc0b850bdf0b980"
+    },
+    {
+      "image_id": "frame_00093.png",
+      "frame": 93,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 50.51,
+      "pa_deg": 22.25,
+      "fl_rater_sd_mm": 1.19,
+      "pa_rater_sd_deg": 0.66,
+      "fl_raters_mm": [
+        49.93,
+        49.72,
+        51.88
+      ],
+      "pa_raters_deg": [
+        21.82,
+        21.91,
+        23.01
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00093.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "98a44b736d6ce60f690f4d7ad61cba63322e2010ac5aaf4f7cb3018971519d25",
+      "decoded_grayscale_sha256": "bdb49f1e2af61d515ac786792f8ea2143982b497a542066c08af4b526e5da7ce",
+      "dhash_256_hex": "04cae49a1ea262ba3e4ab1f0ef88b0306678a6f0afc0b708bc40b8509fe0b880"
+    },
+    {
+      "image_id": "frame_00094.png",
+      "frame": 94,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 50.15,
+      "pa_deg": 22.38,
+      "fl_rater_sd_mm": 1.25,
+      "pa_rater_sd_deg": 0.65,
+      "fl_raters_mm": [
+        49.4,
+        49.45,
+        51.59
+      ],
+      "pa_raters_deg": [
+        21.97,
+        22.03,
+        23.13
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00094.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "39433a1612d5ace04ffbcc35d368e95c6593b7ff977815495cf00b1602e4d210",
+      "decoded_grayscale_sha256": "4b89db4c2028b108f773bd9e84104db3e99872a30d41ccfc8250631c2f05f15e",
+      "dhash_256_hex": "04caec9a1ea262b23ecab1f0ef98b03066f8a6f0afc0af00bc60b8289de0bc80"
+    },
+    {
+      "image_id": "frame_00095.png",
+      "frame": 95,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 49.65,
+      "pa_deg": 22.53,
+      "fl_rater_sd_mm": 1.19,
+      "pa_rater_sd_deg": 0.53,
+      "fl_raters_mm": [
+        48.79,
+        49.16,
+        51.01
+      ],
+      "pa_raters_deg": [
+        22.27,
+        22.18,
+        23.14
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00095.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "b955244ea65ce3aa0734dcceff29e7050f43c6db97e5092800c5bbea7d2b1f52",
+      "decoded_grayscale_sha256": "7bb1b3e81ff27952b73396e60bb0d36ec3d1bb81acc6173e386895acffc542a3",
+      "dhash_256_hex": "04caecda5ea262b23ecab1a8ef90b03066f8b6f0afc0af00bc40bc589de0bd40"
+    },
+    {
+      "image_id": "frame_00096.png",
+      "frame": 96,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 49.16,
+      "pa_deg": 22.68,
+      "fl_rater_sd_mm": 1.15,
+      "pa_rater_sd_deg": 0.42,
+      "fl_raters_mm": [
+        48.19,
+        48.87,
+        50.43
+      ],
+      "pa_raters_deg": [
+        22.57,
+        22.33,
+        23.15
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00096.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "35672605817b67577a7a632451e705ce9733ad98c6079c954aba99c0434b1fce",
+      "decoded_grayscale_sha256": "0473eac57ae703c15919d00db748a1741035fe3d8caa0017d6abf9f04f83509c",
+      "dhash_256_hex": "04cae8da7ea262b22ecaf1a8ef18b03066f8a7f0a7e0af00bc40b4109df0bc20"
+    },
+    {
+      "image_id": "frame_00097.png",
+      "frame": 97,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 48.3,
+      "pa_deg": 22.84,
+      "fl_rater_sd_mm": 1.63,
+      "pa_rater_sd_deg": 0.42,
+      "fl_raters_mm": [
+        46.72,
+        48.21,
+        49.97
+      ],
+      "pa_raters_deg": [
+        22.68,
+        22.52,
+        23.31
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00097.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "3fb2a37e2ed419523377269be928abcd389b7762321222b84af3b49e0420a069",
+      "decoded_grayscale_sha256": "7b5e323c4134f8e5d5d3acc6e90e18b46f32bfa7470b87993d3bc6cc09496d88",
+      "dhash_256_hex": "04cae8da7fa262ba3ecab1a8ef18b03066e8a7f0afc0bf00bd40bc089ff0ba80"
+    },
+    {
+      "image_id": "frame_00098.png",
+      "frame": 98,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 47.44,
+      "pa_deg": 22.99,
+      "fl_rater_sd_mm": 2.13,
+      "pa_rater_sd_deg": 0.42,
+      "fl_raters_mm": [
+        45.25,
+        47.55,
+        49.51
+      ],
+      "pa_raters_deg": [
+        22.78,
+        22.71,
+        23.47
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00098.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "b7223adb2785d363e2b89ec1a3e9513c0f9e15f353d62a6f12c0a9cf5ae96ed7",
+      "decoded_grayscale_sha256": "904934ad0281e6a175f6345e800179b06561ba4c1df5eaa70dc8187570ca4630",
+      "dhash_256_hex": "04cae8da7fa262ba2ccab9a8ef18b03066f8b7f0afc0bf20bc40bcb09df0bc80"
+    },
+    {
+      "image_id": "frame_00099.png",
+      "frame": 99,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 46.91,
+      "pa_deg": 23.3,
+      "fl_rater_sd_mm": 2.09,
+      "pa_rater_sd_deg": 0.45,
+      "fl_raters_mm": [
+        44.98,
+        46.63,
+        49.13
+      ],
+      "pa_raters_deg": [
+        22.87,
+        23.27,
+        23.77
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00099.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "44d58d2d1607c232db6dccbd64509b4c6e5157893eadb6b295ee5eb66052ccd3",
+      "decoded_grayscale_sha256": "a420f24f3a8c530f45d986b83fb99e56c546068f3009ec64d391be423df40832",
+      "dhash_256_hex": "04cae89a7ea262ba2ecaa9a8eb18b27066e8b7f0afc0bf40bd40b488ad70bc80"
+    },
+    {
+      "image_id": "frame_00100.png",
+      "frame": 100,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 46.39,
+      "pa_deg": 23.62,
+      "fl_rater_sd_mm": 2.1,
+      "pa_rater_sd_deg": 0.58,
+      "fl_raters_mm": [
+        44.71,
+        45.7,
+        48.75
+      ],
+      "pa_raters_deg": [
+        22.96,
+        23.82,
+        24.07
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00100.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "bfe607095b53edc982b10aeea16e82fb23d04e65103eb14c9826390c6786f7ba",
+      "decoded_grayscale_sha256": "f53f4b990cd2bbba4c82da562f3f8668fcdd1bda2bc5a3b931d43076cd5174e0",
+      "dhash_256_hex": "04cae8da7e2262ba2ccaaba8fb18b47066e8b7f0afd09f48b540bca89df0b820"
+    },
+    {
+      "image_id": "frame_00101.png",
+      "frame": 101,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 45.72,
+      "pa_deg": 23.8,
+      "fl_rater_sd_mm": 1.84,
+      "pa_rater_sd_deg": 0.54,
+      "fl_raters_mm": [
+        44.26,
+        45.1,
+        47.79
+      ],
+      "pa_raters_deg": [
+        23.19,
+        23.96,
+        24.25
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00101.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "288231c8304bef6112484dce9e07792ecb9b5f5028ae530ab88897685da5c973",
+      "decoded_grayscale_sha256": "2bf1d6392b8cb5d8cd6449e602c41066c46a9fe81beda32512a589f2bf1afe4d",
+      "dhash_256_hex": "04cae8da7ea262ba3ecaaba8ff18b63066e8b7f0afd09f48b550b8289de0baa0"
+    },
+    {
+      "image_id": "frame_00102.png",
+      "frame": 102,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 45.05,
+      "pa_deg": 23.98,
+      "fl_rater_sd_mm": 1.59,
+      "pa_rater_sd_deg": 0.51,
+      "fl_raters_mm": [
+        43.81,
+        44.49,
+        46.84
+      ],
+      "pa_raters_deg": [
+        23.42,
+        24.09,
+        24.42
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00102.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "3658250f886d46163eb1d03b486fcc8875c1bc0eab33bb221bfdca571709acad",
+      "decoded_grayscale_sha256": "40dbb94db2985b23bd24ae8ebf219597c100891063c13fb56e3fa525a067163c",
+      "dhash_256_hex": "04cae8da7ea2669a2ccaaaf8ff58b43064f8b7e0afc0bf48b550bd68b5e0ba40"
+    },
+    {
+      "image_id": "frame_00103.png",
+      "frame": 103,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 44.52,
+      "pa_deg": 24.38,
+      "fl_rater_sd_mm": 1.79,
+      "pa_rater_sd_deg": 0.54,
+      "fl_raters_mm": [
+        43.49,
+        43.49,
+        46.58
+      ],
+      "pa_raters_deg": [
+        23.79,
+        24.51,
+        24.85
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00103.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "c14e9d287cd42152ec222f1ff31d6207e8200f9cc4dc4a31330acfebddb58298",
+      "decoded_grayscale_sha256": "ce7a5be4654015bbc8d894543a87440e2db524f923b9d49d5adfe47e1539a645",
+      "dhash_256_hex": "04cae8da7ea266923ecaaaeaff18b43024e8a7e0abc09f58b540b5609de0bb20"
+    },
+    {
+      "image_id": "frame_00104.png",
+      "frame": 104,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 43.99,
+      "pa_deg": 24.79,
+      "fl_rater_sd_mm": 2.05,
+      "pa_rater_sd_deg": 0.58,
+      "fl_raters_mm": [
+        43.17,
+        42.48,
+        46.33
+      ],
+      "pa_raters_deg": [
+        24.15,
+        24.92,
+        25.29
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00104.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "b90dcc41084903fc50642693b03a5b42c8b8bf2b501eccb6db768ad2c48a9637",
+      "decoded_grayscale_sha256": "ed67df4450101b6ceb451417994351e3950074ee108050a73d9689b6633c5d7e",
+      "dhash_256_hex": "04cae8da7e2266b23ccaabeaff18bc7024e8b7e0ab409f48b440b54895a0be20"
+    },
+    {
+      "image_id": "frame_00105.png",
+      "frame": 105,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 43.23,
+      "pa_deg": 25.1,
+      "fl_rater_sd_mm": 2.18,
+      "pa_rater_sd_deg": 0.59,
+      "fl_raters_mm": [
+        42.04,
+        41.89,
+        45.75
+      ],
+      "pa_raters_deg": [
+        24.43,
+        25.31,
+        25.56
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00105.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "1169cec106eabe4fb5c6200d04a94e02ad3980d7aa23ea471d0e2b2085b93f2e",
+      "decoded_grayscale_sha256": "a2d10d3ee67eae87b5468b698dcda802318421285b328852eb9126659752159e",
+      "dhash_256_hex": "04cae8da7e2266923ccaab6af640ac7264e8b5608b408f48bcc0bd489da0ba20"
+    },
+    {
+      "image_id": "frame_00106.png",
+      "frame": 106,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 42.46,
+      "pa_deg": 25.41,
+      "fl_rater_sd_mm": 2.35,
+      "pa_rater_sd_deg": 0.61,
+      "fl_raters_mm": [
+        40.92,
+        41.3,
+        45.16
+      ],
+      "pa_raters_deg": [
+        24.7,
+        25.7,
+        25.82
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00106.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "c1185aaaa1c3405e2054ddb2f5e5595d28aa7e053574014a3c0f08dc2f6e1bcf",
+      "decoded_grayscale_sha256": "ad94223a229198e582c96135539a55009f1deb93fa304a7dfb2770fb7b7dfe98",
+      "dhash_256_hex": "04cae8da7e6266b23c9aa37afe40ac3264e8b5608b408f40b5c0bc649de0b9a0"
+    },
+    {
+      "image_id": "frame_00107.png",
+      "frame": 107,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 41.98,
+      "pa_deg": 25.64,
+      "fl_rater_sd_mm": 2.16,
+      "pa_rater_sd_deg": 0.43,
+      "fl_raters_mm": [
+        40.4,
+        41.11,
+        44.44
+      ],
+      "pa_raters_deg": [
+        25.14,
+        25.9,
+        25.89
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00107.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "fb94c40fe2d2f2964d9d82fd6082c73d00493b54b32fd66552d32a0815aaf05e",
+      "decoded_grayscale_sha256": "d2abb3d3c40ef9d78486edcea7989af53257288e3439dbff02495e105c57e6f3",
+      "dhash_256_hex": "04cae95a7e6066b23c8aa37af620b4706cd8b5608f409650bdc0b8ec9de8ba04"
+    },
+    {
+      "image_id": "frame_00108.png",
+      "frame": 108,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 41.51,
+      "pa_deg": 25.88,
+      "fl_rater_sd_mm": 1.99,
+      "pa_rater_sd_deg": 0.27,
+      "fl_raters_mm": [
+        39.87,
+        40.93,
+        43.73
+      ],
+      "pa_raters_deg": [
+        25.58,
+        26.1,
+        25.95
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00108.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "1bc5b811d85e53a3a23d83cb34716e3091ff0e1c08195943dd82c2d9c3055ed0",
+      "decoded_grayscale_sha256": "d9b061a8457f3978fb04711beadcd57033aded07683249d149625260791d5d97",
+      "dhash_256_hex": "04cae95a7e6062922c8aa37abe50fc7074e8b5608b409658bda0a9289da8ba04"
+    },
+    {
+      "image_id": "frame_00109.png",
+      "frame": 109,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 40.95,
+      "pa_deg": 26.12,
+      "fl_rater_sd_mm": 1.81,
+      "pa_rater_sd_deg": 0.32,
+      "fl_raters_mm": [
+        39.42,
+        40.46,
+        42.95
+      ],
+      "pa_raters_deg": [
+        25.75,
+        26.28,
+        26.34
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00109.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "479002874e641921e4bbe7922b50ba4c9d3804c3fff50f48cf13a02bf86e2257",
+      "decoded_grayscale_sha256": "8efc38650b0a4c71f765c7b6eb070293e5964483c17af9cd13217afff44a9b97",
+      "dhash_256_hex": "04cae95a7e6867922c8aa77ab630fc6064d8b5408fc09748bd80bcc49da8bea4"
+    },
+    {
+      "image_id": "frame_00110.png",
+      "frame": 110,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 40.38,
+      "pa_deg": 26.36,
+      "fl_rater_sd_mm": 1.64,
+      "pa_rater_sd_deg": 0.41,
+      "fl_raters_mm": [
+        38.98,
+        39.98,
+        42.18
+      ],
+      "pa_raters_deg": [
+        25.91,
+        26.45,
+        26.72
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00110.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "96832f34d4cff80473e1a8bc51dde3c73f5ea58c3e75abc99d690da946a4d11c",
+      "decoded_grayscale_sha256": "646948b2b106430c8b57928c3ae7a13bb4e9cdec22d727aaca12f56e2e744fd0",
+      "dhash_256_hex": "04cae85a7e6867b23caab77ab630fc6064d8a7c08fc09748b480bdd499a0b6a4"
+    },
+    {
+      "image_id": "frame_00111.png",
+      "frame": 111,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 39.63,
+      "pa_deg": 26.84,
+      "fl_rater_sd_mm": 2.1,
+      "pa_rater_sd_deg": 0.64,
+      "fl_raters_mm": [
+        37.63,
+        39.43,
+        41.83
+      ],
+      "pa_raters_deg": [
+        26.16,
+        27.42,
+        26.94
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00111.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "762ba46c9564ab50d68abc5b3561a14cb97ffc4ebdb7ac00e004b6d6e0c6a681",
+      "decoded_grayscale_sha256": "47af9bb83c6bd09af765b86214a0bd198f3c52d2bcce9817c9128c2f6337ebcc",
+      "dhash_256_hex": "04cae85a7e6067b22daab77ab630fc6064c8a7408bc09e58b5c0b9849da89ea4"
+    },
+    {
+      "image_id": "frame_00112.png",
+      "frame": 112,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 38.88,
+      "pa_deg": 27.32,
+      "fl_rater_sd_mm": 2.59,
+      "pa_rater_sd_deg": 1.01,
+      "fl_raters_mm": [
+        36.29,
+        38.88,
+        41.47
+      ],
+      "pa_raters_deg": [
+        26.4,
+        28.39,
+        27.16
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00112.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "1f5ec67b8cc2a371dfa29d897fecfa67a4808f916010e787d7c0efa0bf1c7179",
+      "decoded_grayscale_sha256": "0b43258c48c884bade1c6b3fb309435482f40c422dfbce3dc2cf39e2cc034687",
+      "dhash_256_hex": "04cae95a7e6066b22daab77ab630fc706cd8a5408fc09e58bda0b9849da89e44"
+    },
+    {
+      "image_id": "frame_00113.png",
+      "frame": 113,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 38.67,
+      "pa_deg": 27.37,
+      "fl_rater_sd_mm": 2.23,
+      "pa_rater_sd_deg": 0.95,
+      "fl_raters_mm": [
+        36.68,
+        38.27,
+        41.08
+      ],
+      "pa_raters_deg": [
+        26.44,
+        28.33,
+        27.34
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00113.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "90d2edda60982ca3d25e6b59f4e88a1ee22d6013a6edce91f11bd8286df24724",
+      "decoded_grayscale_sha256": "a2144d2550e9444a5be8afcd5f8f04aff192cd89510ccf3060617bffbe507504",
+      "dhash_256_hex": "04cae9da7e6066d22daab67ab6b0fc706cd8e5508fc09e50bfa4b9849bb89e04"
+    },
+    {
+      "image_id": "frame_00114.png",
+      "frame": 114,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 38.47,
+      "pa_deg": 27.42,
+      "fl_rater_sd_mm": 1.94,
+      "pa_rater_sd_deg": 0.9,
+      "fl_raters_mm": [
+        37.07,
+        37.65,
+        40.68
+      ],
+      "pa_raters_deg": [
+        26.48,
+        28.26,
+        27.52
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00114.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "169fa64fc72581059cb17e4ab08749383f9dde6f72780f462a645201fa5695d9",
+      "decoded_grayscale_sha256": "9384bfa7a44d0e5e5570d2c34233cf107f33aeaea038e2cb569175e3fdf0e85a",
+      "dhash_256_hex": "04cae95a7e6067d22d9ab67ab690fc6069d8e5488bc0be58ba8099c49ba89ea4"
+    },
+    {
+      "image_id": "frame_00115.png",
+      "frame": 115,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 38.03,
+      "pa_deg": 27.59,
+      "fl_rater_sd_mm": 2.21,
+      "pa_rater_sd_deg": 1.16,
+      "fl_raters_mm": [
+        36.04,
+        37.65,
+        40.4
+      ],
+      "pa_raters_deg": [
+        26.46,
+        28.79,
+        27.52
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00115.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "aa47be8b9bf9b7f66f9a27a7a622b21c2280808f960dc53c99925c0906af3da7",
+      "decoded_grayscale_sha256": "381f35b2d42d76c320fbc896faaa57a2428f0fe5f402ae21db906ee489868c04",
+      "dhash_256_hex": "04cae9da7e6867d22d92b6fab690fc6069c8e5488f80ae50b780bdc49ba896a4"
+    },
+    {
+      "image_id": "frame_00116.png",
+      "frame": 116,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 37.6,
+      "pa_deg": 27.76,
+      "fl_rater_sd_mm": 2.56,
+      "pa_rater_sd_deg": 1.45,
+      "fl_raters_mm": [
+        35.01,
+        37.65,
+        40.13
+      ],
+      "pa_raters_deg": [
+        26.45,
+        29.31,
+        27.52
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00116.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "4a54a34bbf309be0b81a2ecc528a0124fc13a6846d7a349dd4be3f37195d924f",
+      "decoded_grayscale_sha256": "b56a877e2f60f20241d3f9e2de1b27fe26c47c06205f7d60ff0deb45d032d688",
+      "dhash_256_hex": "04cae9da7e6867d22d92b6fab690bce069e8e5488f80ae48b780b9c49ba89ea4"
+    },
+    {
+      "image_id": "frame_00117.png",
+      "frame": 117,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 37.02,
+      "pa_deg": 28.07,
+      "fl_rater_sd_mm": 2.92,
+      "pa_rater_sd_deg": 1.66,
+      "fl_raters_mm": [
+        33.89,
+        37.52,
+        39.66
+      ],
+      "pa_raters_deg": [
+        26.52,
+        29.82,
+        27.88
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00117.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "284dc3ad46a8fe6b9e559e6b0c8025f26bb07d526b72385d882d6b0f3c8eaa72",
+      "decoded_grayscale_sha256": "aa79c681f7ea42c0c39c6ea66a6e0c36518cb10c3d8b564b510cc245246571c0",
+      "dhash_256_hex": "04cae85a7e6867d22992b6fab690bc6069e8e5488f80ae48b784b9cc9ba89ea4"
+    },
+    {
+      "image_id": "frame_00118.png",
+      "frame": 118,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 36.45,
+      "pa_deg": 28.39,
+      "fl_rater_sd_mm": 3.31,
+      "pa_rater_sd_deg": 1.87,
+      "fl_raters_mm": [
+        32.77,
+        37.39,
+        39.19
+      ],
+      "pa_raters_deg": [
+        26.6,
+        30.33,
+        28.24
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00118.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "9e0e270b093c59cef5f356e0313388d7c37b1d731de6b752788cebb6b44ab3bb",
+      "decoded_grayscale_sha256": "ae47c41786cd62a66808c942aeeacdd04c9db3461f511ef8b5b9b52c1edb7770",
+      "dhash_256_hex": "04cae95a7e6865d22992b6f2be90bca069d8e5409f80ae48bd84b9449ba89aa4"
+    },
+    {
+      "image_id": "frame_00119.png",
+      "frame": 119,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 36.36,
+      "pa_deg": 28.46,
+      "fl_rater_sd_mm": 3.23,
+      "pa_rater_sd_deg": 1.83,
+      "fl_raters_mm": [
+        32.77,
+        37.27,
+        39.04
+      ],
+      "pa_raters_deg": [
+        26.67,
+        30.33,
+        28.38
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00119.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "9c9aadc3f922f7983787efa33ab9086c58f364d14f65c2481561eff2041a66fa",
+      "decoded_grayscale_sha256": "110772fa88be420e3efb0a577f6e3902bf917669d757c648b352da1c4a9b8074",
+      "dhash_256_hex": "04cae85a7e6865d22992b6f2b690bc6069d8e7409b808e48b78099c49be89e24"
+    },
+    {
+      "image_id": "frame_00120.png",
+      "frame": 120,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 36.27,
+      "pa_deg": 28.52,
+      "fl_rater_sd_mm": 3.15,
+      "pa_rater_sd_deg": 1.8,
+      "fl_raters_mm": [
+        32.77,
+        37.14,
+        38.89
+      ],
+      "pa_raters_deg": [
+        26.73,
+        30.33,
+        28.51
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00120.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "d67c2fa01cfb16c2f4d6d3b0989bab23403412fa7f97b6cb0ecde1aa6b30cfb6",
+      "decoded_grayscale_sha256": "1dc53f35a44af6ac8466b118d12a40fd66f533f29b46d11cefd186c23b4c06ef",
+      "dhash_256_hex": "04cae9da7e6867d22992b6f2b690b86069d8e7408fc09e58b780996493e89e84"
+    },
+    {
+      "image_id": "frame_00121.png",
+      "frame": 121,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 36.24,
+      "pa_deg": 28.53,
+      "fl_rater_sd_mm": 3.12,
+      "pa_rater_sd_deg": 1.78,
+      "fl_raters_mm": [
+        32.77,
+        37.14,
+        38.81
+      ],
+      "pa_raters_deg": [
+        26.76,
+        30.33,
+        28.51
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00121.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "676b8953b0cc4ba54fc54e2d097f57256d604b00795fb7a265ffca1b18811ca0",
+      "decoded_grayscale_sha256": "635e0f34135941003bc394be74ac7d95cf85ede04b40aaf086d9c611ae09f56e",
+      "dhash_256_hex": "04cae85a7e6865d23992b6f2b690f8606998e7408fc88e50b78899649ba89e8c"
+    },
+    {
+      "image_id": "frame_00122.png",
+      "frame": 122,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 36.22,
+      "pa_deg": 28.54,
+      "fl_rater_sd_mm": 3.09,
+      "pa_rater_sd_deg": 1.77,
+      "fl_raters_mm": [
+        32.77,
+        37.14,
+        38.74
+      ],
+      "pa_raters_deg": [
+        26.79,
+        30.33,
+        28.51
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00122.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "b4b88793194c0d82c983563e2ae8fd839283b1bc891bdc86b30063ecbd7de6c1",
+      "decoded_grayscale_sha256": "cc89ace3683166c797dfda19b2d3ba531a8bbddb93134070496e4b4fd878727c",
+      "dhash_256_hex": "04cae85a7e6867d23992b6f2b690f8606998a7588f889e50bf8099649be8be84"
+    },
+    {
+      "image_id": "frame_00123.png",
+      "frame": 123,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 36.03,
+      "pa_deg": 28.62,
+      "fl_rater_sd_mm": 2.98,
+      "pa_rater_sd_deg": 1.68,
+      "fl_raters_mm": [
+        32.77,
+        36.71,
+        38.61
+      ],
+      "pa_raters_deg": [
+        26.97,
+        30.33,
+        28.56
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00123.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "6d9a6d408873e6f1bbd65367184e1ecda2652bd4923cf415bb54c697da397a93",
+      "decoded_grayscale_sha256": "1b6990a98734fc7e4ec8a1a5ff71c6dcc4b5d911e8781ea35a40188f8fc3918e",
+      "dhash_256_hex": "04cae85a7e6865d22992a6f2be90b86069a8e3488f889e10af80996c9ba89e04"
+    },
+    {
+      "image_id": "frame_00124.png",
+      "frame": 124,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 35.84,
+      "pa_deg": 28.7,
+      "fl_rater_sd_mm": 2.88,
+      "pa_rater_sd_deg": 1.59,
+      "fl_raters_mm": [
+        32.77,
+        36.27,
+        38.48
+      ],
+      "pa_raters_deg": [
+        27.15,
+        30.33,
+        28.61
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00124.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "3dde4e7e6f57816b2d4211d2e90fd7d10ec5feab43060ea009b704f6c43bb79c",
+      "decoded_grayscale_sha256": "3e814188f21b36bdf490e2fa4cd93647dee9cf337aa508b8486ef0a8a263e63b",
+      "dhash_256_hex": "04cae85a7e6865d22992a6f0be90b8606998a7488f889e18ae88bb4c9bb89e26"
+    },
+    {
+      "image_id": "frame_00125.png",
+      "frame": 125,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 35.6,
+      "pa_deg": 28.87,
+      "fl_rater_sd_mm": 2.68,
+      "pa_rater_sd_deg": 1.57,
+      "fl_raters_mm": [
+        32.77,
+        35.96,
+        38.09
+      ],
+      "pa_raters_deg": [
+        27.2,
+        30.33,
+        29.08
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00125.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "e38bb14f40b65a56a5c76d6b7e95bffea28ec29136529aa79ce550f1a023349c",
+      "decoded_grayscale_sha256": "93aeb1105cbe10f5807782afb0fcad34835c1c6e6be5b375ea900c31befba2d9",
+      "dhash_256_hex": "04cae85a7e6865d22992a6f0be90b86069b8a7488f889e10ae88ab4c9bb89e24"
+    },
+    {
+      "image_id": "frame_00126.png",
+      "frame": 126,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 35.37,
+      "pa_deg": 29.05,
+      "fl_rater_sd_mm": 2.48,
+      "pa_rater_sd_deg": 1.6,
+      "fl_raters_mm": [
+        32.77,
+        35.65,
+        37.69
+      ],
+      "pa_raters_deg": [
+        27.26,
+        30.33,
+        29.56
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00126.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "e504396f8b67c582199bef3410f5e8532538402806739fe97b1ff5af4f0f4f3e",
+      "decoded_grayscale_sha256": "cc13cb08cbaaa13fc87e768583ea887a85586cd6953a1ec7ddfa094c929f040d",
+      "dhash_256_hex": "04cae85a7e6865d22992a6f0be90b86069b8a74887889e10b688ab4c93b89e04"
+    },
+    {
+      "image_id": "frame_00127.png",
+      "frame": 127,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 35.37,
+      "pa_deg": 29.05,
+      "fl_rater_sd_mm": 2.48,
+      "pa_rater_sd_deg": 1.6,
+      "fl_raters_mm": [
+        32.77,
+        35.65,
+        37.69
+      ],
+      "pa_raters_deg": [
+        27.26,
+        30.33,
+        29.56
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00127.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "db0b5011239353bef45a5dc5260f20189e1089c35051d150b189c91e574916f1",
+      "decoded_grayscale_sha256": "6af68ea149ecfe2d243ebde8d396b94fc6348e99acd963ca1f599ec010c44810",
+      "dhash_256_hex": "04cae8da7e6865d22992a6f0be90b86069b8a7488f889e18b688ad4c9bb89e0c"
+    },
+    {
+      "image_id": "frame_00128.png",
+      "frame": 128,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 35.37,
+      "pa_deg": 29.05,
+      "fl_rater_sd_mm": 2.48,
+      "pa_rater_sd_deg": 1.6,
+      "fl_raters_mm": [
+        32.77,
+        35.65,
+        37.69
+      ],
+      "pa_raters_deg": [
+        27.26,
+        30.33,
+        29.56
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00128.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "a004dbbdc10986fc6a903c6e389c4fd3b211b21bfd11231f7d1c632337d1f01d",
+      "decoded_grayscale_sha256": "88fc6e16e66fe15d10ad9c0f5f1f129373d8bcbb7874c51a7136e3dfce5bb222",
+      "dhash_256_hex": "04cae8da7e6865d22992a6f0be90b86069b8a7089f889e10b6c0bd849bb89e0c"
+    },
+    {
+      "image_id": "frame_00129.png",
+      "frame": 129,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 35.37,
+      "pa_deg": 29.15,
+      "fl_rater_sd_mm": 2.48,
+      "pa_rater_sd_deg": 1.72,
+      "fl_raters_mm": [
+        32.77,
+        35.65,
+        37.69
+      ],
+      "pa_raters_deg": [
+        27.26,
+        30.63,
+        29.56
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00129.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "dc0f65865b6b83e1797c514e77f8b23c746f7129cf421b1833fd545b36b439e4",
+      "decoded_grayscale_sha256": "f6c104ec419955ce7fae6534bf3ab16e3ea9972a95758cbbc51e592b8cdd17e5",
+      "dhash_256_hex": "04cae9da7e6865d22992a6f0be90b86069b8a3089fc89e18ae84bd449bb89e04"
+    },
+    {
+      "image_id": "frame_00130.png",
+      "frame": 130,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 35.37,
+      "pa_deg": 29.25,
+      "fl_rater_sd_mm": 2.48,
+      "pa_rater_sd_deg": 1.85,
+      "fl_raters_mm": [
+        32.77,
+        35.65,
+        37.69
+      ],
+      "pa_raters_deg": [
+        27.26,
+        30.93,
+        29.56
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00130.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "ea12e828c0d4f3814b97ac79eee0296ef4e32f15202db1bffbeb45718edf3897",
+      "decoded_grayscale_sha256": "a9d4855d5f623da21a7f7af7fa5b39b7d1255b726073b58a578f9774d6b86222",
+      "dhash_256_hex": "04cae9da7e6865d22992a6f2be90b86069b8a7288fc89e08b684bd449bb89e04"
+    },
+    {
+      "image_id": "frame_00131.png",
+      "frame": 131,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 35.37,
+      "pa_deg": 29.25,
+      "fl_rater_sd_mm": 2.48,
+      "pa_rater_sd_deg": 1.85,
+      "fl_raters_mm": [
+        32.77,
+        35.65,
+        37.69
+      ],
+      "pa_raters_deg": [
+        27.26,
+        30.93,
+        29.56
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00131.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "676da0d01baf1ced75eebf6f1871baeff77269eead13249950945551e175bbfc",
+      "decoded_grayscale_sha256": "272464314927a02b658d3de3d550473a785d5a0aae82ce8f296f82c0a00d6e9a",
+      "dhash_256_hex": "04cae9da7e6865d23992b6f2b690f86029b8e7288f889e18bec4bd4499b89e04"
+    },
+    {
+      "image_id": "frame_00132.png",
+      "frame": 132,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 35.37,
+      "pa_deg": 29.25,
+      "fl_rater_sd_mm": 2.48,
+      "pa_rater_sd_deg": 1.85,
+      "fl_raters_mm": [
+        32.77,
+        35.65,
+        37.69
+      ],
+      "pa_raters_deg": [
+        27.26,
+        30.93,
+        29.56
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00132.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "7311627881041c3df6fbfd50969c35e9ef5f3df2918665cfab41b64116ebaa8c",
+      "decoded_grayscale_sha256": "228b2bc8fdf1c0bf35c1e34f706b0f5e501848e4807d44bb0ae3a6a0719e9e1d",
+      "dhash_256_hex": "04cae95a7e6865d23992b6f2be90f86029b8e7288f889e10b680b5a499b89e04"
+    },
+    {
+      "image_id": "frame_00133.png",
+      "frame": 133,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 35.37,
+      "pa_deg": 29.25,
+      "fl_rater_sd_mm": 2.48,
+      "pa_rater_sd_deg": 1.85,
+      "fl_raters_mm": [
+        32.77,
+        35.65,
+        37.69
+      ],
+      "pa_raters_deg": [
+        27.26,
+        30.93,
+        29.56
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00133.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "b9750ba1cda59b887e44db7fdc8b7fe750f3cb6309d936e90af697d8913c828b",
+      "decoded_grayscale_sha256": "eb14dfbeb2aee6e96f8e34494911394ea1e7478c8551ff443b2a1fcc5fa888e2",
+      "dhash_256_hex": "04cae95a7e2865d22992b6f2be90f86029b8a7288f889e18b684b1a499b89e04"
+    },
+    {
+      "image_id": "frame_00134.png",
+      "frame": 134,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 35.37,
+      "pa_deg": 29.25,
+      "fl_rater_sd_mm": 2.48,
+      "pa_rater_sd_deg": 1.85,
+      "fl_raters_mm": [
+        32.77,
+        35.65,
+        37.69
+      ],
+      "pa_raters_deg": [
+        27.26,
+        30.93,
+        29.56
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00134.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "68c55c24258bbd89279b874960c2c33b1af435e3c2f4e88244cfb682e7395a7c",
+      "decoded_grayscale_sha256": "a1c82a18454ec03805c88bbfda62da241c4fd30c7c953d98186692dd5c5d88f3",
+      "dhash_256_hex": "04cae95a7e2865d22992b6f2be90f86039b8a32887889e18b680b9849db89e0c"
+    },
+    {
+      "image_id": "frame_00135.png",
+      "frame": 135,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 35.47,
+      "pa_deg": 29.12,
+      "fl_rater_sd_mm": 2.55,
+      "pa_rater_sd_deg": 1.87,
+      "fl_raters_mm": [
+        32.77,
+        35.79,
+        37.84
+      ],
+      "pa_raters_deg": [
+        27.19,
+        30.93,
+        29.25
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00135.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "8c7dda952e629a1bbb1b4d3ce5065fe49ef1897aefab86f20f06683a494193a0",
+      "decoded_grayscale_sha256": "42eadc52076674148af69327493c78ac8d8e6d7ccdc144e7512e296ca0076ea2",
+      "dhash_256_hex": "04cae95a7e6865d229b2b6f2be90f86039b8a7088f889e18b684bb0499b89604"
+    },
+    {
+      "image_id": "frame_00136.png",
+      "frame": 136,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 35.56,
+      "pa_deg": 29,
+      "fl_rater_sd_mm": 2.63,
+      "pa_rater_sd_deg": 1.9,
+      "fl_raters_mm": [
+        32.77,
+        35.93,
+        37.99
+      ],
+      "pa_raters_deg": [
+        27.12,
+        30.93,
+        28.94
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00136.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "547ed1a02deb214a47bca8752e23539334dc183cd1a5d4290ea30b00443b6904",
+      "decoded_grayscale_sha256": "77ce8d4c9e893b8804ea1c13f9683fd93e6c677b4003875a79e04987749491fc",
+      "dhash_256_hex": "04cae95a7e6867d229b2b6f2be90f86039b8a7088f889e50b6849b0c99e89e24"
+    },
+    {
+      "image_id": "frame_00137.png",
+      "frame": 137,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 35.91,
+      "pa_deg": 28.73,
+      "fl_rater_sd_mm": 2.17,
+      "pa_rater_sd_deg": 1.52,
+      "fl_raters_mm": [
+        33.67,
+        36.08,
+        37.99
+      ],
+      "pa_raters_deg": [
+        27.12,
+        30.14,
+        28.94
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00137.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "8250a1ab77b6b4560df07456df6f00395b542ca01af7fcbe717514c77ec0b934",
+      "decoded_grayscale_sha256": "00e47bbbd545e9da8465b7714c461548a22323c2ec8a491ef61cf70550db7a18",
+      "dhash_256_hex": "04cae95a7e6867d229b2b6f2b690f86039b8a7088f889640b68499249de89e24"
+    },
+    {
+      "image_id": "frame_00138.png",
+      "frame": 138,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 36.27,
+      "pa_deg": 28.47,
+      "fl_rater_sd_mm": 1.71,
+      "pa_rater_sd_deg": 1.18,
+      "fl_raters_mm": [
+        34.57,
+        36.23,
+        37.99
+      ],
+      "pa_raters_deg": [
+        27.12,
+        29.34,
+        28.95
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00138.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "5d2d3a70914411513216ab6da0f55d3943ea9bac1eda7c14b53f23cc832a1efc",
+      "decoded_grayscale_sha256": "4dd84bf473f6800b46b59e46590f9638ef8cb2cc256426ad125d98c8156f15c9",
+      "dhash_256_hex": "04cae95a3e6867d22992b6fab690f86071b8e5488fc896509e80bda49dd89e24"
+    },
+    {
+      "image_id": "frame_00139.png",
+      "frame": 139,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 36.72,
+      "pa_deg": 28.33,
+      "fl_rater_sd_mm": 1.11,
+      "pa_rater_sd_deg": 1.04,
+      "fl_raters_mm": [
+        35.95,
+        36.23,
+        37.99
+      ],
+      "pa_raters_deg": [
+        27.12,
+        28.92,
+        28.95
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00139.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "8bd01f679a775559ba9c12581c08174154d3ee18edc824715e805070e64f38ec",
+      "decoded_grayscale_sha256": "571aaacfd5326caca9b18f389a2be07c0c4d6c8014409422ef71f6904c317069",
+      "dhash_256_hex": "04cae95a7e6867d22992b6fab6d0f86061b8a3088fc09640bf24bd249db89e2c"
+    },
+    {
+      "image_id": "frame_00140.png",
+      "frame": 140,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 37.18,
+      "pa_deg": 28.19,
+      "fl_rater_sd_mm": 0.89,
+      "pa_rater_sd_deg": 0.95,
+      "fl_raters_mm": [
+        37.32,
+        36.23,
+        37.99
+      ],
+      "pa_raters_deg": [
+        27.12,
+        28.5,
+        28.95
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00140.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "706b1dab91ee5f6144e778ecbbe55ea3d1fc1670b59e0866140a552dfa8a6235",
+      "decoded_grayscale_sha256": "42a46d61498c6ce8136127da21fe1a1a9233f5b404f23488d12814a41f5746af",
+      "dhash_256_hex": "04cae95a7e6067d22992b6fab6d0f8702998a3488f409650bf449f849ff89e24"
+    },
+    {
+      "image_id": "frame_00141.png",
+      "frame": 141,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 37.18,
+      "pa_deg": 28.19,
+      "fl_rater_sd_mm": 0.89,
+      "pa_rater_sd_deg": 0.95,
+      "fl_raters_mm": [
+        37.32,
+        36.23,
+        37.99
+      ],
+      "pa_raters_deg": [
+        27.12,
+        28.5,
+        28.95
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00141.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "2eaad467e6db3a1da1a12203890873461b11de5908406d6da23b98031d54e950",
+      "decoded_grayscale_sha256": "5f9e5f2a82a94c3aa23af7b0b1e5c689035be304262dffa981a831c913b84927",
+      "dhash_256_hex": "04cae95a7e6867d22992b6fab6d0f87039b8a5408fc89650bf449d149bb89ea4"
+    },
+    {
+      "image_id": "frame_00142.png",
+      "frame": 142,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 37.18,
+      "pa_deg": 28.19,
+      "fl_rater_sd_mm": 0.89,
+      "pa_rater_sd_deg": 0.95,
+      "fl_raters_mm": [
+        37.32,
+        36.23,
+        37.99
+      ],
+      "pa_raters_deg": [
+        27.12,
+        28.5,
+        28.95
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00142.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "0b51252793d03fb748fcb4ec7d7da7acfd6c1a3bdd383b5a8eb8b7348651ccde",
+      "decoded_grayscale_sha256": "e8252e76a20685d3f31296685512c133d1b265c1eca702e7adce306bd5f4d2a7",
+      "dhash_256_hex": "04cae85a7e6067d229b2b6fab6d0f83029b8a5408fc89618bfa499c49bb89e84"
+    },
+    {
+      "image_id": "frame_00143.png",
+      "frame": 143,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 37.6,
+      "pa_deg": 28.05,
+      "fl_rater_sd_mm": 1.2,
+      "pa_rater_sd_deg": 1.05,
+      "fl_raters_mm": [
+        37.32,
+        36.56,
+        38.91
+      ],
+      "pa_raters_deg": [
+        26.85,
+        28.5,
+        28.8
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00143.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "9b8189683e1960d0beb4d9cf299f5c59d51a9b9466305a1c15016875ed5991ef",
+      "decoded_grayscale_sha256": "0eada70c0d1805c816c9eaa318e043a771711f9860b052ff01e44a6a7464e998",
+      "dhash_256_hex": "04cae95a7e6867d22992b6fab6d0fc3025b8a7508fc89618b6849d849bb89aa4"
+    },
+    {
+      "image_id": "frame_00144.png",
+      "frame": 144,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 38.02,
+      "pa_deg": 27.9,
+      "fl_rater_sd_mm": 1.58,
+      "pa_rater_sd_deg": 1.16,
+      "fl_raters_mm": [
+        37.32,
+        36.9,
+        39.83
+      ],
+      "pa_raters_deg": [
+        26.57,
+        28.5,
+        28.64
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00144.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "68ed17afe750936e3f08b88459bfd38b263526cf1832a599b1aedc933b775044",
+      "decoded_grayscale_sha256": "554f319083c3527cf28810406261958d5d297a09e46e8bee0896be31874f1ec9",
+      "dhash_256_hex": "04cae85a7e6867d22992b6fab6d0fc702da8a5508fc89610b7a0bf849fa89aa4"
+    },
+    {
+      "image_id": "frame_00145.png",
+      "frame": 145,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 38.14,
+      "pa_deg": 27.66,
+      "fl_rater_sd_mm": 1.43,
+      "pa_rater_sd_deg": 1.05,
+      "fl_raters_mm": [
+        37.7,
+        36.98,
+        39.73
+      ],
+      "pa_raters_deg": [
+        26.49,
+        27.96,
+        28.53
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00145.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "4c874d36b58f4782664ea6e7899155294d4ce94e3cff03a60e58eed69b78605e",
+      "decoded_grayscale_sha256": "3069d395df172fe586dffb85c4193e333b70efc0f9e8347fcb7d5a4adada3dbf",
+      "dhash_256_hex": "04cae95a3e6867d23992f67ab6c0fc7071f8a5508b489e08b6849d049be89ea4"
+    },
+    {
+      "image_id": "frame_00146.png",
+      "frame": 146,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 38.26,
+      "pa_deg": 27.42,
+      "fl_rater_sd_mm": 1.3,
+      "pa_rater_sd_deg": 1,
+      "fl_raters_mm": [
+        38.08,
+        37.05,
+        39.63
+      ],
+      "pa_raters_deg": [
+        26.41,
+        27.42,
+        28.42
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00146.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "c252daca7e6b1b6044e4523089ade2c0ef2d5790b66df4886fc0c129102186b0",
+      "decoded_grayscale_sha256": "fef15b25f79d32be1fcbf53b818b731a7f3696bbffcabd2e710d13d5ac9181e9",
+      "dhash_256_hex": "04cae95a3e6863d22992f65ab6c0fc7035f0a5508b409e40bfa49d249fc89e24"
+    },
+    {
+      "image_id": "frame_00147.png",
+      "frame": 147,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 38.3,
+      "pa_deg": 27.48,
+      "fl_rater_sd_mm": 1.48,
+      "pa_rater_sd_deg": 1.09,
+      "fl_raters_mm": [
+        37.9,
+        37.05,
+        39.93
+      ],
+      "pa_raters_deg": [
+        26.29,
+        27.75,
+        28.42
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00147.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "3b5e8ab3210665f3cebb042f02d7fe5d2a1606c192d044b6a799568597dbaf52",
+      "decoded_grayscale_sha256": "479ce374472b7deb397257c9899ba536e26638142b0ef4da37c6e3e495d094db",
+      "dhash_256_hex": "04cae95a3e6867d22992b67ab6c8fc7025b8a7408b408e40b2a49d649dd89e24"
+    },
+    {
+      "image_id": "frame_00148.png",
+      "frame": 148,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 38.34,
+      "pa_deg": 27.55,
+      "fl_rater_sd_mm": 1.68,
+      "pa_rater_sd_deg": 1.21,
+      "fl_raters_mm": [
+        37.72,
+        37.05,
+        40.23
+      ],
+      "pa_raters_deg": [
+        26.17,
+        28.07,
+        28.42
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00148.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "c708916e996c4332ea6d89b1da2afa32e1a1d676b6c0c55e1fb1bd2fb3c0bf2a",
+      "decoded_grayscale_sha256": "30488e81a28b1cee1f7bdba7b8b8e7b3baad44c875458f25680568d3e8351854",
+      "dhash_256_hex": "04cae95a3e2866d22992b67ab6c8fc7025b0a5d09b489f40b6a09d049dd89e04"
+    },
+    {
+      "image_id": "frame_00149.png",
+      "frame": 149,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 38.39,
+      "pa_deg": 27.59,
+      "fl_rater_sd_mm": 2.06,
+      "pa_rater_sd_deg": 1.32,
+      "fl_raters_mm": [
+        37.23,
+        37.18,
+        40.78
+      ],
+      "pa_raters_deg": [
+        26.07,
+        28.42,
+        28.28
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00149.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "feef2ab9a2d5842234c91b86bcbc270f31d0785dd6d13bf457be0084b8a1763e",
+      "decoded_grayscale_sha256": "e98c37631537a8a26c3169ffb9f87b532b5308cc527b973b7ad437eb05167eb9",
+      "dhash_256_hex": "04cae95a3e6266d22892b67ab6c8ec7024a8a5c09b488f50b7c0988c9dd89e04"
+    },
+    {
+      "image_id": "frame_00150.png",
+      "frame": 150,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 38.45,
+      "pa_deg": 27.63,
+      "fl_rater_sd_mm": 2.5,
+      "pa_rater_sd_deg": 1.47,
+      "fl_raters_mm": [
+        36.73,
+        37.3,
+        41.32
+      ],
+      "pa_raters_deg": [
+        25.97,
+        28.78,
+        28.15
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00150.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "82d0c872bd7a94a4c8d60c9369f2d593232c57bbaab0e81d1adbc2758d2024ea",
+      "decoded_grayscale_sha256": "08faebfc06271cf2ccb92688d51a7eb2d3d77cb296a6cd7f53844fb8d4ea0dd4",
+      "dhash_256_hex": "04cae95a3e6266b2299ab77ab6c8ec6264e8a7c08bc89750b7e09c4c9de89e24"
+    },
+    {
+      "image_id": "frame_00151.png",
+      "frame": 151,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 38.48,
+      "pa_deg": 27.54,
+      "fl_rater_sd_mm": 2.72,
+      "pa_rater_sd_deg": 1.36,
+      "fl_raters_mm": [
+        36.44,
+        37.44,
+        41.57
+      ],
+      "pa_raters_deg": [
+        25.99,
+        28.53,
+        28.09
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00151.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "30cf9788e3e1d9afb727531cfd6733387a00b75563450a84fb14e2b6b8b6ee92",
+      "decoded_grayscale_sha256": "2ccede5253e303f06a343df0d56f9301c0d9c1ad4b5cc6cee60dbd6ece875b49",
+      "dhash_256_hex": "04cae85a3e62669239bae67ab688ec6264a8a5c08b489f40b6a49c449de89a2c"
+    },
+    {
+      "image_id": "frame_00152.png",
+      "frame": 152,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 38.51,
+      "pa_deg": 27.44,
+      "fl_rater_sd_mm": 2.94,
+      "pa_rater_sd_deg": 1.25,
+      "fl_raters_mm": [
+        36.15,
+        37.58,
+        41.81
+      ],
+      "pa_raters_deg": [
+        26,
+        28.29,
+        28.02
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00152.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "302f185728fca6604b2bcfc0b711a85ebbbfd70ca4b986ac129f0652025e1f87",
+      "decoded_grayscale_sha256": "c0beac48339e3dc71413cf9af62a2bc0619d5b464c671ca0070dde07aa4f4605",
+      "dhash_256_hex": "04cae95a3e62669239baa67abe88ec6064a8a5408b489f48bea49d549de89a24"
+    },
+    {
+      "image_id": "frame_00153.png",
+      "frame": 153,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 38.61,
+      "pa_deg": 27.29,
+      "fl_rater_sd_mm": 2.95,
+      "pa_rater_sd_deg": 1.19,
+      "fl_raters_mm": [
+        36.15,
+        37.79,
+        41.89
+      ],
+      "pa_raters_deg": [
+        25.98,
+        28.29,
+        27.6
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00153.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "2610b4bfc311250e079c33281bbb3b5b38eb14a93539a073f2b73a2c4597317b",
+      "decoded_grayscale_sha256": "cdfd8fde21f742304983e4364b294c34ba87e469d7a4424b11acc751889ad955",
+      "dhash_256_hex": "04cae95a3e6266d2389aa67abec8e46064a8a5c08f489f58bea09d149de89a24"
+    },
+    {
+      "image_id": "frame_00154.png",
+      "frame": 154,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 38.71,
+      "pa_deg": 27.14,
+      "fl_rater_sd_mm": 2.97,
+      "pa_rater_sd_deg": 1.17,
+      "fl_raters_mm": [
+        36.15,
+        38.01,
+        41.96
+      ],
+      "pa_raters_deg": [
+        25.95,
+        28.29,
+        27.17
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00154.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "76083e214ac675fe6669e8cd17f225f32543daadd7fba16bbdbe205c3087d78f",
+      "decoded_grayscale_sha256": "6d77f80c90ccd9e5ba2204ad55c35e19b5cfdcc0415f2ce5ea33cffdc99ba1e1",
+      "dhash_256_hex": "04cae95a3e6266d2389aa67abe48a47064a8a5c88b409f50bfa09f049da89e24"
+    },
+    {
+      "image_id": "frame_00155.png",
+      "frame": 155,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 38.83,
+      "pa_deg": 27.11,
+      "fl_rater_sd_mm": 2.98,
+      "pa_rater_sd_deg": 1.19,
+      "fl_raters_mm": [
+        36.15,
+        38.3,
+        42.04
+      ],
+      "pa_raters_deg": [
+        25.92,
+        28.29,
+        27.12
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00155.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "836c9039c1828bef249dea546cb49746ee45aa8a7f8ba5b1ed182c381cfa2b86",
+      "decoded_grayscale_sha256": "543faea675a257b1dd5db9e82e66ab2cfa45f05123910b21df34339ba913b5fb",
+      "dhash_256_hex": "04cae95a3e6266d23c9aa67af648e47064a8a5c08b409f48bfa0be849da89e24"
+    },
+    {
+      "image_id": "frame_00156.png",
+      "frame": 156,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 38.95,
+      "pa_deg": 27.08,
+      "fl_rater_sd_mm": 3,
+      "pa_rater_sd_deg": 1.2,
+      "fl_raters_mm": [
+        36.15,
+        38.59,
+        42.11
+      ],
+      "pa_raters_deg": [
+        25.89,
+        28.29,
+        27.07
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00156.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "7e04f32cd617f41398e259ed0f6c76f2dbe37a0fbdc7a1415feba4013a169610",
+      "decoded_grayscale_sha256": "f55f3cde3158a72c96c3fa0014ce63a6602e2539c570b2880128fb471453e26a",
+      "dhash_256_hex": "04cae95a1e6266f23c9aa27af648f4702498a5d08f409f58bfa09ac49de89e24"
+    },
+    {
+      "image_id": "frame_00157.png",
+      "frame": 157,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 39.27,
+      "pa_deg": 26.99,
+      "fl_rater_sd_mm": 2.75,
+      "pa_rater_sd_deg": 1.39,
+      "fl_raters_mm": [
+        36.66,
+        39,
+        42.15
+      ],
+      "pa_raters_deg": [
+        25.66,
+        28.43,
+        26.9
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00157.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "b83ceb72b9b26289af63c31e91eb82696d3f1a7548b853c9f36461065043130a",
+      "decoded_grayscale_sha256": "54d8a7aa7046c516eb4fcfdd5ef62fd532ba5d009160e03832f3b4819f34dc62",
+      "dhash_256_hex": "04cae95a1e6266d23c9aa278f648f47034b0b5d08f409f50bea09b449de89e20"
+    },
+    {
+      "image_id": "frame_00158.png",
+      "frame": 158,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 39.59,
+      "pa_deg": 26.91,
+      "fl_rater_sd_mm": 2.51,
+      "pa_rater_sd_deg": 1.58,
+      "fl_raters_mm": [
+        37.18,
+        39.41,
+        42.18
+      ],
+      "pa_raters_deg": [
+        25.43,
+        28.57,
+        26.72
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00158.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "c6a4431a6daecd54f14a29ce50ad18656eec48229fe527016d2e02ced7458256",
+      "decoded_grayscale_sha256": "559da74baeaea4c508da99262cba49b89e50235cbfa7f67e9cfcc70a70f8f6d9",
+      "dhash_256_hex": "04cae95a1e6262d23c9aa378f648f47034f0b5d09f409f50bee09f449fe89e20"
+    },
+    {
+      "image_id": "frame_00159.png",
+      "frame": 159,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 39.65,
+      "pa_deg": 26.8,
+      "fl_rater_sd_mm": 3.09,
+      "pa_rater_sd_deg": 1.68,
+      "fl_raters_mm": [
+        36.69,
+        39.4,
+        42.86
+      ],
+      "pa_raters_deg": [
+        25.19,
+        28.54,
+        26.66
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00159.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "67e89ddb0dabe0f2df2e1aebefbecc36a2f8329626d047425694964c58af2195",
+      "decoded_grayscale_sha256": "9c859dc84a0b41fba3c915a417787987c0c8af5ff09377d2a019bfd7824f27ce",
+      "dhash_256_hex": "04cae95a1e6262b23c9aa370f748f47024f0b7e08b409f50bee0b9009de89aa0"
+    },
+    {
+      "image_id": "frame_00160.png",
+      "frame": 160,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 39.71,
+      "pa_deg": 26.69,
+      "fl_rater_sd_mm": 3.68,
+      "pa_rater_sd_deg": 1.79,
+      "fl_raters_mm": [
+        36.2,
+        39.39,
+        43.54
+      ],
+      "pa_raters_deg": [
+        24.95,
+        28.52,
+        26.59
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00160.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "f60f301ab87d61b3d0ab45cb8636e532e975c82e6ba7613d7a04e2617f38ddd2",
+      "decoded_grayscale_sha256": "c7c41945c1948f6a50999bc48121631adb2842d1ea949148ed31afac3f65f79c",
+      "dhash_256_hex": "04cae95a1e6262b2349ae278ff48e47024f0b7e08f409e48bee099609de89aa4"
+    },
+    {
+      "image_id": "frame_00161.png",
+      "frame": 161,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 40.57,
+      "pa_deg": 26.12,
+      "fl_rater_sd_mm": 3.22,
+      "pa_rater_sd_deg": 1.59,
+      "fl_raters_mm": [
+        37.83,
+        39.74,
+        44.12
+      ],
+      "pa_raters_deg": [
+        24.66,
+        27.81,
+        25.89
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00161.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "2f8c55a6c5e33396f2b26f0a12ea7a8fd723776d3b1e05613af0d2b0c51b4ada",
+      "decoded_grayscale_sha256": "475e0c329429da81490d985ab71e8dc3d7a527195bba57a1c641dd2149ce944a",
+      "dhash_256_hex": "04cae95a1e6262b2349ae370ff48e47024f0b7e09f409f50b7e0bb609de89ea0"
+    },
+    {
+      "image_id": "frame_00162.png",
+      "frame": 162,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 41.42,
+      "pa_deg": 25.55,
+      "fl_rater_sd_mm": 2.86,
+      "pa_rater_sd_deg": 1.4,
+      "fl_raters_mm": [
+        39.47,
+        40.1,
+        44.7
+      ],
+      "pa_raters_deg": [
+        24.36,
+        27.09,
+        25.19
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00162.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "4295291101b5d5baf69eb89952507da60d7272fd18b043c15d1f9335d586cfa4",
+      "decoded_grayscale_sha256": "d246a66ea358b7abc37c8f6f9ef4a89c18269fec890d8b793f5483278dcfa31f",
+      "dhash_256_hex": "04cae95a1e6262b2349ae370fd48f47024f8b7e08b409f48bfc0bd609de89e20"
+    },
+    {
+      "image_id": "frame_00163.png",
+      "frame": 163,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 41.93,
+      "pa_deg": 25.45,
+      "fl_rater_sd_mm": 2.62,
+      "pa_rater_sd_deg": 1.52,
+      "fl_raters_mm": [
+        40.12,
+        40.74,
+        44.93
+      ],
+      "pa_raters_deg": [
+        24.29,
+        27.17,
+        24.88
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00163.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "c457b366d59ea3e9232406317633891348acfa6a628b6c4f4b1701593786b658",
+      "decoded_grayscale_sha256": "2462e88f203e7d9bd6490274497bb3d93e5b1d20c2c953b2e5f101f49345fc79",
+      "dhash_256_hex": "04cae85a1e6262b2349ae368df48b43024f0b7e08f409f40b560bd609de8be28"
+    },
+    {
+      "image_id": "frame_00164.png",
+      "frame": 164,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 42.44,
+      "pa_deg": 25.35,
+      "fl_rater_sd_mm": 2.38,
+      "pa_rater_sd_deg": 1.66,
+      "fl_raters_mm": [
+        40.78,
+        41.37,
+        45.16
+      ],
+      "pa_raters_deg": [
+        24.22,
+        27.25,
+        24.58
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00164.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "caddf4f5240ab1755e8c04658fea3115357a6f1554d636f37540d04705b413d7",
+      "decoded_grayscale_sha256": "30def3cf610566cf2d62ae033b07ee1a077ea45ec63bf2abff3e42f74b336fc9",
+      "dhash_256_hex": "04cae85a1e6262b2349ae2e8ff68f03024f8b7f0af609e40b740bd609fe09e00"
+    },
+    {
+      "image_id": "frame_00165.png",
+      "frame": 165,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": false,
+      "label_kind": "interpolated_between_even_frames",
+      "fl_mm": 42.93,
+      "pa_deg": 25.07,
+      "fl_rater_sd_mm": 1.97,
+      "pa_rater_sd_deg": 1.55,
+      "fl_raters_mm": [
+        41.58,
+        42.02,
+        45.2
+      ],
+      "pa_raters_deg": [
+        24,
+        26.84,
+        24.35
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00165.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "50a81ae48c20da65afbf4d62217fc10d3265e6c4d9627540030a0a8450f61929",
+      "decoded_grayscale_sha256": "8502eddfe02d6d2153b7c0beab668bc24b40daefe4ab2e4515c2364063f9d45e",
+      "dhash_256_hex": "04cae85a1e6262b224daeae8ff68b07024f8b7e08f40b768b740bd289de09e00"
+    },
+    {
+      "image_id": "frame_00166.png",
+      "frame": 166,
+      "source_group": "GM_calf_raise_single_participant_single_video",
+      "directly_manually_annotated": true,
+      "label_kind": "manual",
+      "fl_mm": 43.43,
+      "pa_deg": 24.78,
+      "fl_rater_sd_mm": 1.57,
+      "pa_rater_sd_deg": 1.44,
+      "fl_raters_mm": [
+        42.38,
+        42.67,
+        45.24
+      ],
+      "pa_raters_deg": [
+        23.79,
+        26.43,
+        24.13
+      ],
+      "scale_pixels_per_mm_from_visible_ruler": 7.7542857142857144,
+      "image_path": "dynamic/benchmark_dataset_architecture_GM_dynamic_v0.2.0/frames/frame_00166.png",
+      "width": 660,
+      "height": 556,
+      "file_sha256": "b0d46baf0d784ebbba14dc8a632f80baededfc4f0d1443098c0c740ae3b37381",
+      "decoded_grayscale_sha256": "fcf1b5a8f7c4122afca359b2e408235f89f0b53dc94c8df20b5a3ddd86e7f179",
+      "dhash_256_hex": "04cae95a1e6262b222dae2e8ff48f07024f8a7e08f609f48bb40bcd09de0be60"
+    }
+  ]
+}
